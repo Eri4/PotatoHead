@@ -2,11 +2,13 @@ node_modules
 
 # Output
 .output
+.idea
 .vercel
 .netlify
 .wrangler
 /.svelte-kit
 /build
+/storage
 
 # OS
 .DS_Store
