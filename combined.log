@@ -1,0 +1,1523 @@
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T14:55:56.306Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T14:55:56.309Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T14:55:56.309Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T14:55:57.336Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 57e70611f495229d","timestamp":"2025-04-27T14:55:57.337Z"}
+{"level":"info","message":"Generated content with ID: 110a096caa749b81","timestamp":"2025-04-27T14:56:01.979Z"}
+{"level":"info","message":"Generating speech for content: 110a096caa749b81","timestamp":"2025-04-27T14:56:01.980Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_110a096caa749b81.mp3","timestamp":"2025-04-27T14:56:12.680Z"}
+{"level":"info","message":"Creating video for content: 110a096caa749b81","timestamp":"2025-04-27T14:56:12.680Z"}
+{"level":"info","message":"Generating animation frame sequence for 53 seconds of audio","timestamp":"2025-04-27T14:56:12.681Z"}
+{"level":"info","message":"Generating 1590 frames at 30 FPS","timestamp":"2025-04-27T14:56:13.224Z"}
+{"level":"info","message":"Generated 0/1590 frames","timestamp":"2025-04-27T14:56:13.324Z"}
+{"level":"info","message":"Generated 30/1590 frames","timestamp":"2025-04-27T14:56:15.593Z"}
+{"level":"info","message":"Generated 60/1590 frames","timestamp":"2025-04-27T14:56:17.839Z"}
+{"level":"info","message":"Generated 90/1590 frames","timestamp":"2025-04-27T14:56:20.360Z"}
+{"level":"info","message":"Generated 120/1590 frames","timestamp":"2025-04-27T14:56:23.019Z"}
+{"level":"info","message":"Generated 150/1590 frames","timestamp":"2025-04-27T14:56:25.318Z"}
+{"level":"info","message":"Generated 180/1590 frames","timestamp":"2025-04-27T14:56:27.522Z"}
+{"level":"info","message":"Generated 210/1590 frames","timestamp":"2025-04-27T14:56:29.724Z"}
+{"level":"info","message":"Generated 240/1590 frames","timestamp":"2025-04-27T14:56:32.955Z"}
+{"level":"info","message":"Generated 270/1590 frames","timestamp":"2025-04-27T14:56:35.567Z"}
+{"level":"info","message":"Generated 300/1590 frames","timestamp":"2025-04-27T14:56:37.904Z"}
+{"level":"info","message":"Generated 330/1590 frames","timestamp":"2025-04-27T14:56:40.079Z"}
+{"level":"info","message":"Generated 360/1590 frames","timestamp":"2025-04-27T14:56:42.216Z"}
+{"level":"info","message":"Generated 390/1590 frames","timestamp":"2025-04-27T14:56:44.441Z"}
+{"level":"info","message":"Generated 420/1590 frames","timestamp":"2025-04-27T14:56:46.569Z"}
+{"level":"info","message":"Generated 450/1590 frames","timestamp":"2025-04-27T14:56:48.779Z"}
+{"level":"info","message":"Generated 480/1590 frames","timestamp":"2025-04-27T14:56:51.069Z"}
+{"level":"info","message":"Generated 510/1590 frames","timestamp":"2025-04-27T14:56:53.208Z"}
+{"level":"info","message":"Generated 540/1590 frames","timestamp":"2025-04-27T14:56:55.348Z"}
+{"level":"info","message":"Generated 570/1590 frames","timestamp":"2025-04-27T14:56:57.500Z"}
+{"level":"info","message":"Generated 600/1590 frames","timestamp":"2025-04-27T14:56:59.614Z"}
+{"level":"info","message":"Generated 630/1590 frames","timestamp":"2025-04-27T14:57:02.015Z"}
+{"level":"info","message":"Generated 660/1590 frames","timestamp":"2025-04-27T14:57:04.253Z"}
+{"level":"info","message":"Generated 690/1590 frames","timestamp":"2025-04-27T14:57:06.407Z"}
+{"level":"info","message":"Generated 720/1590 frames","timestamp":"2025-04-27T14:57:08.626Z"}
+{"level":"info","message":"Generated 750/1590 frames","timestamp":"2025-04-27T14:57:10.856Z"}
+{"level":"info","message":"Generated 780/1590 frames","timestamp":"2025-04-27T14:57:13.005Z"}
+{"level":"info","message":"Generated 810/1590 frames","timestamp":"2025-04-27T14:57:15.195Z"}
+{"level":"info","message":"Generated 840/1590 frames","timestamp":"2025-04-27T14:57:17.420Z"}
+{"level":"info","message":"Generated 870/1590 frames","timestamp":"2025-04-27T14:57:19.643Z"}
+{"level":"info","message":"Generated 900/1590 frames","timestamp":"2025-04-27T14:57:21.815Z"}
+{"level":"info","message":"Generated 930/1590 frames","timestamp":"2025-04-27T14:57:23.924Z"}
+{"level":"info","message":"Generated 960/1590 frames","timestamp":"2025-04-27T14:57:26.077Z"}
+{"level":"info","message":"Generated 990/1590 frames","timestamp":"2025-04-27T14:57:28.188Z"}
+{"level":"info","message":"Generated 1020/1590 frames","timestamp":"2025-04-27T14:57:30.352Z"}
+{"level":"info","message":"Generated 1050/1590 frames","timestamp":"2025-04-27T14:57:32.513Z"}
+{"level":"info","message":"Generated 1080/1590 frames","timestamp":"2025-04-27T14:57:34.645Z"}
+{"level":"info","message":"Generated 1110/1590 frames","timestamp":"2025-04-27T14:57:36.885Z"}
+{"level":"info","message":"Generated 1140/1590 frames","timestamp":"2025-04-27T14:57:39.073Z"}
+{"level":"info","message":"Generated 1170/1590 frames","timestamp":"2025-04-27T14:57:41.193Z"}
+{"level":"info","message":"Generated 1200/1590 frames","timestamp":"2025-04-27T14:57:43.301Z"}
+{"level":"info","message":"Generated 1230/1590 frames","timestamp":"2025-04-27T14:57:45.442Z"}
+{"level":"info","message":"Generated 1260/1590 frames","timestamp":"2025-04-27T14:57:47.677Z"}
+{"level":"info","message":"Generated 1290/1590 frames","timestamp":"2025-04-27T14:57:49.798Z"}
+{"level":"info","message":"Generated 1320/1590 frames","timestamp":"2025-04-27T14:57:51.999Z"}
+{"level":"info","message":"Generated 1350/1590 frames","timestamp":"2025-04-27T14:57:54.127Z"}
+{"level":"info","message":"Generated 1380/1590 frames","timestamp":"2025-04-27T14:57:56.266Z"}
+{"level":"info","message":"Generated 1410/1590 frames","timestamp":"2025-04-27T14:57:58.495Z"}
+{"level":"info","message":"Generated 1440/1590 frames","timestamp":"2025-04-27T14:58:00.696Z"}
+{"level":"info","message":"Generated 1470/1590 frames","timestamp":"2025-04-27T14:58:02.838Z"}
+{"level":"info","message":"Generated 1500/1590 frames","timestamp":"2025-04-27T14:58:04.970Z"}
+{"level":"info","message":"Generated 1530/1590 frames","timestamp":"2025-04-27T14:58:07.091Z"}
+{"level":"info","message":"Generated 1560/1590 frames","timestamp":"2025-04-27T14:58:09.263Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T14:58:11.297Z"}
+{"level":"error","message":"FFmpeg process error: Error: spawn ffmpeg ENOENT","timestamp":"2025-04-27T14:58:11.302Z"}
+{"level":"error","message":"Failed to create video for content: Error: FFmpeg process error: Error: spawn ffmpeg ENOENT","timestamp":"2025-04-27T14:58:11.303Z"}
+{"level":"error","message":"Failed to process news item 57e70611f495229d: Error: Failed to create video for content: Error: FFmpeg process error: Error: spawn ffmpeg ENOENT","timestamp":"2025-04-27T14:58:11.303Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 89e4ff1c4c127403","timestamp":"2025-04-27T14:58:11.303Z"}
+{"level":"error","message":"FFmpeg process exited with code -4058","timestamp":"2025-04-27T14:58:11.308Z"}
+{"level":"error","message":"FFmpeg logs: ","timestamp":"2025-04-27T14:58:11.308Z"}
+{"level":"info","message":"Generated content with ID: bc80e8ec7207e065","timestamp":"2025-04-27T14:58:14.075Z"}
+{"level":"info","message":"Generating speech for content: bc80e8ec7207e065","timestamp":"2025-04-27T14:58:14.076Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T15:31:36.011Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T15:31:36.013Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T15:31:36.014Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T15:31:36.534Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 2393eecc5a5e198a","timestamp":"2025-04-27T15:31:36.536Z"}
+{"level":"info","message":"Generated content with ID: bc150d307725db8a","timestamp":"2025-04-27T15:31:40.297Z"}
+{"level":"info","message":"Generating speech for content: bc150d307725db8a","timestamp":"2025-04-27T15:31:40.298Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_bc150d307725db8a.mp3","timestamp":"2025-04-27T15:31:48.804Z"}
+{"level":"info","message":"Creating video for content: bc150d307725db8a","timestamp":"2025-04-27T15:31:48.805Z"}
+{"level":"info","message":"Generating animation frame sequence for 44 seconds of audio","timestamp":"2025-04-27T15:31:48.805Z"}
+{"level":"info","message":"Generating 1320 frames at 30 FPS","timestamp":"2025-04-27T15:31:49.845Z"}
+{"level":"info","message":"Generated 0/1320 frames","timestamp":"2025-04-27T15:31:49.970Z"}
+{"level":"info","message":"Generated 30/1320 frames","timestamp":"2025-04-27T15:31:52.176Z"}
+{"level":"info","message":"Generated 60/1320 frames","timestamp":"2025-04-27T15:31:54.283Z"}
+{"level":"info","message":"Generated 90/1320 frames","timestamp":"2025-04-27T15:31:56.398Z"}
+{"level":"info","message":"Generated 120/1320 frames","timestamp":"2025-04-27T15:31:58.530Z"}
+{"level":"info","message":"Generated 150/1320 frames","timestamp":"2025-04-27T15:32:00.626Z"}
+{"level":"info","message":"Generated 180/1320 frames","timestamp":"2025-04-27T15:32:02.805Z"}
+{"level":"info","message":"Generated 210/1320 frames","timestamp":"2025-04-27T15:32:04.966Z"}
+{"level":"info","message":"Generated 240/1320 frames","timestamp":"2025-04-27T15:32:07.366Z"}
+{"level":"info","message":"Generated 270/1320 frames","timestamp":"2025-04-27T15:32:09.715Z"}
+{"level":"info","message":"Generated 300/1320 frames","timestamp":"2025-04-27T15:32:12.094Z"}
+{"level":"info","message":"Generated 330/1320 frames","timestamp":"2025-04-27T15:32:14.419Z"}
+{"level":"info","message":"Generated 360/1320 frames","timestamp":"2025-04-27T15:32:17.461Z"}
+{"level":"info","message":"Generated 390/1320 frames","timestamp":"2025-04-27T15:32:19.823Z"}
+{"level":"info","message":"Generated 420/1320 frames","timestamp":"2025-04-27T15:32:22.276Z"}
+{"level":"info","message":"Generated 450/1320 frames","timestamp":"2025-04-27T15:32:24.759Z"}
+{"level":"info","message":"Generated 480/1320 frames","timestamp":"2025-04-27T15:32:27.021Z"}
+{"level":"info","message":"Generated 510/1320 frames","timestamp":"2025-04-27T15:32:29.394Z"}
+{"level":"info","message":"Generated 540/1320 frames","timestamp":"2025-04-27T15:32:31.652Z"}
+{"level":"info","message":"Generated 570/1320 frames","timestamp":"2025-04-27T15:32:33.958Z"}
+{"level":"info","message":"Generated 600/1320 frames","timestamp":"2025-04-27T15:32:36.130Z"}
+{"level":"info","message":"Generated 630/1320 frames","timestamp":"2025-04-27T15:32:38.328Z"}
+{"level":"info","message":"Generated 660/1320 frames","timestamp":"2025-04-27T15:32:40.528Z"}
+{"level":"info","message":"Generated 690/1320 frames","timestamp":"2025-04-27T15:32:42.683Z"}
+{"level":"info","message":"Generated 720/1320 frames","timestamp":"2025-04-27T15:32:44.883Z"}
+{"level":"info","message":"Generated 750/1320 frames","timestamp":"2025-04-27T15:32:47.104Z"}
+{"level":"info","message":"Generated 780/1320 frames","timestamp":"2025-04-27T15:32:49.700Z"}
+{"level":"info","message":"Generated 810/1320 frames","timestamp":"2025-04-27T15:32:52.485Z"}
+{"level":"info","message":"Generated 840/1320 frames","timestamp":"2025-04-27T15:32:54.986Z"}
+{"level":"info","message":"Generated 870/1320 frames","timestamp":"2025-04-27T15:32:57.580Z"}
+{"level":"info","message":"Generated 900/1320 frames","timestamp":"2025-04-27T15:32:59.872Z"}
+{"level":"info","message":"Generated 930/1320 frames","timestamp":"2025-04-27T15:33:02.051Z"}
+{"level":"info","message":"Generated 960/1320 frames","timestamp":"2025-04-27T15:33:04.243Z"}
+{"level":"info","message":"Generated 990/1320 frames","timestamp":"2025-04-27T15:33:06.439Z"}
+{"level":"info","message":"Generated 1020/1320 frames","timestamp":"2025-04-27T15:33:08.692Z"}
+{"level":"info","message":"Generated 1050/1320 frames","timestamp":"2025-04-27T15:33:10.931Z"}
+{"level":"info","message":"Generated 1080/1320 frames","timestamp":"2025-04-27T15:33:13.949Z"}
+{"level":"info","message":"Generated 1110/1320 frames","timestamp":"2025-04-27T15:33:16.223Z"}
+{"level":"info","message":"Generated 1140/1320 frames","timestamp":"2025-04-27T15:33:18.463Z"}
+{"level":"info","message":"Generated 1170/1320 frames","timestamp":"2025-04-27T15:33:20.951Z"}
+{"level":"info","message":"Generated 1200/1320 frames","timestamp":"2025-04-27T15:33:23.163Z"}
+{"level":"info","message":"Generated 1230/1320 frames","timestamp":"2025-04-27T15:33:25.379Z"}
+{"level":"info","message":"Generated 1260/1320 frames","timestamp":"2025-04-27T15:33:27.669Z"}
+{"level":"info","message":"Generated 1290/1320 frames","timestamp":"2025-04-27T15:33:30.246Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T15:33:32.397Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_015799db34e546b1.mp4","timestamp":"2025-04-27T15:33:40.994Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_015799db34e546b1.mp4","timestamp":"2025-04-27T15:33:40.994Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T15:33:40.995Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_015799db34e546b1.mp4","timestamp":"2025-04-27T15:33:40.995Z"}
+{"level":"info","message":"Generating sarcastic content for news item: a3d56b4733a34624","timestamp":"2025-04-27T15:33:40.995Z"}
+{"level":"info","message":"Generated content with ID: 1fd6d2b9ffa869e5","timestamp":"2025-04-27T15:33:44.831Z"}
+{"level":"info","message":"Generating speech for content: 1fd6d2b9ffa869e5","timestamp":"2025-04-27T15:33:44.832Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_1fd6d2b9ffa869e5.mp3","timestamp":"2025-04-27T15:33:53.419Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T15:46:44.628Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T15:46:44.631Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T15:46:44.631Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T15:46:45.445Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 83c361f7b4ca9a71","timestamp":"2025-04-27T15:46:45.446Z"}
+{"level":"info","message":"Generated content with ID: b652ea1b53e12b6a","timestamp":"2025-04-27T15:46:48.667Z"}
+{"level":"info","message":"Generating speech for content: b652ea1b53e12b6a","timestamp":"2025-04-27T15:46:48.668Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_b652ea1b53e12b6a.mp3","timestamp":"2025-04-27T15:46:58.730Z"}
+{"level":"info","message":"Creating video for content: b652ea1b53e12b6a","timestamp":"2025-04-27T15:46:58.730Z"}
+{"level":"info","message":"Generating animation frame sequence for 53 seconds of audio","timestamp":"2025-04-27T15:46:58.731Z"}
+{"level":"info","message":"Generating 1590 frames at 30 FPS","timestamp":"2025-04-27T15:46:59.685Z"}
+{"level":"info","message":"Generated 0/1590 frames","timestamp":"2025-04-27T15:46:59.803Z"}
+{"level":"info","message":"Generated 30/1590 frames","timestamp":"2025-04-27T15:47:02.271Z"}
+{"level":"info","message":"Generated 60/1590 frames","timestamp":"2025-04-27T15:47:04.784Z"}
+{"level":"info","message":"Generated 90/1590 frames","timestamp":"2025-04-27T15:47:07.090Z"}
+{"level":"info","message":"Generated 120/1590 frames","timestamp":"2025-04-27T15:47:09.600Z"}
+{"level":"info","message":"Generated 150/1590 frames","timestamp":"2025-04-27T15:47:12.224Z"}
+{"level":"info","message":"Generated 180/1590 frames","timestamp":"2025-04-27T15:47:14.532Z"}
+{"level":"info","message":"Generated 210/1590 frames","timestamp":"2025-04-27T15:47:16.874Z"}
+{"level":"info","message":"Generated 240/1590 frames","timestamp":"2025-04-27T15:47:19.281Z"}
+{"level":"info","message":"Generated 270/1590 frames","timestamp":"2025-04-27T15:47:21.683Z"}
+{"level":"info","message":"Generated 300/1590 frames","timestamp":"2025-04-27T15:47:23.986Z"}
+{"level":"info","message":"Generated 330/1590 frames","timestamp":"2025-04-27T15:47:27.092Z"}
+{"level":"info","message":"Generated 360/1590 frames","timestamp":"2025-04-27T15:47:29.659Z"}
+{"level":"info","message":"Generated 390/1590 frames","timestamp":"2025-04-27T15:47:32.395Z"}
+{"level":"info","message":"Generated 420/1590 frames","timestamp":"2025-04-27T15:47:34.891Z"}
+{"level":"info","message":"Generated 450/1590 frames","timestamp":"2025-04-27T15:47:37.323Z"}
+{"level":"info","message":"Generated 480/1590 frames","timestamp":"2025-04-27T15:47:39.744Z"}
+{"level":"info","message":"Generated 510/1590 frames","timestamp":"2025-04-27T15:47:42.264Z"}
+{"level":"info","message":"Generated 540/1590 frames","timestamp":"2025-04-27T15:47:44.709Z"}
+{"level":"info","message":"Generated 570/1590 frames","timestamp":"2025-04-27T15:47:47.655Z"}
+{"level":"info","message":"Generated 600/1590 frames","timestamp":"2025-04-27T15:47:49.994Z"}
+{"level":"info","message":"Generated 630/1590 frames","timestamp":"2025-04-27T15:47:52.498Z"}
+{"level":"info","message":"Generated 660/1590 frames","timestamp":"2025-04-27T15:47:54.965Z"}
+{"level":"info","message":"Generated 690/1590 frames","timestamp":"2025-04-27T15:47:57.434Z"}
+{"level":"info","message":"Generated 720/1590 frames","timestamp":"2025-04-27T15:47:59.949Z"}
+{"level":"info","message":"Generated 750/1590 frames","timestamp":"2025-04-27T15:48:02.752Z"}
+{"level":"info","message":"Generated 780/1590 frames","timestamp":"2025-04-27T15:48:05.229Z"}
+{"level":"info","message":"Generated 810/1590 frames","timestamp":"2025-04-27T15:48:07.879Z"}
+{"level":"info","message":"Generated 840/1590 frames","timestamp":"2025-04-27T15:48:10.398Z"}
+{"level":"info","message":"Generated 870/1590 frames","timestamp":"2025-04-27T15:48:12.884Z"}
+{"level":"info","message":"Generated 900/1590 frames","timestamp":"2025-04-27T15:48:15.615Z"}
+{"level":"info","message":"Generated 930/1590 frames","timestamp":"2025-04-27T15:48:18.760Z"}
+{"level":"info","message":"Generated 960/1590 frames","timestamp":"2025-04-27T15:48:21.682Z"}
+{"level":"info","message":"Generated 990/1590 frames","timestamp":"2025-04-27T15:48:24.961Z"}
+{"level":"info","message":"Generated 1020/1590 frames","timestamp":"2025-04-27T15:48:27.500Z"}
+{"level":"info","message":"Generated 1050/1590 frames","timestamp":"2025-04-27T15:48:29.997Z"}
+{"level":"info","message":"Generated 1080/1590 frames","timestamp":"2025-04-27T15:48:32.722Z"}
+{"level":"info","message":"Generated 1110/1590 frames","timestamp":"2025-04-27T15:48:35.383Z"}
+{"level":"info","message":"Generated 1140/1590 frames","timestamp":"2025-04-27T15:48:38.473Z"}
+{"level":"info","message":"Generated 1170/1590 frames","timestamp":"2025-04-27T15:48:41.764Z"}
+{"level":"info","message":"Generated 1200/1590 frames","timestamp":"2025-04-27T15:48:44.826Z"}
+{"level":"info","message":"Generated 1230/1590 frames","timestamp":"2025-04-27T15:48:47.336Z"}
+{"level":"info","message":"Generated 1260/1590 frames","timestamp":"2025-04-27T15:48:50.084Z"}
+{"level":"info","message":"Generated 1290/1590 frames","timestamp":"2025-04-27T15:48:52.308Z"}
+{"level":"info","message":"Generated 1320/1590 frames","timestamp":"2025-04-27T15:48:54.526Z"}
+{"level":"info","message":"Generated 1350/1590 frames","timestamp":"2025-04-27T15:48:56.803Z"}
+{"level":"info","message":"Generated 1380/1590 frames","timestamp":"2025-04-27T15:48:59.086Z"}
+{"level":"info","message":"Generated 1410/1590 frames","timestamp":"2025-04-27T15:49:01.795Z"}
+{"level":"info","message":"Generated 1440/1590 frames","timestamp":"2025-04-27T15:49:04.056Z"}
+{"level":"info","message":"Generated 1470/1590 frames","timestamp":"2025-04-27T15:49:06.317Z"}
+{"level":"info","message":"Generated 1500/1590 frames","timestamp":"2025-04-27T15:49:08.510Z"}
+{"level":"info","message":"Generated 1530/1590 frames","timestamp":"2025-04-27T15:49:10.969Z"}
+{"level":"info","message":"Generated 1560/1590 frames","timestamp":"2025-04-27T15:49:13.398Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T15:49:15.762Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_807963cd9c8a0ece.mp4","timestamp":"2025-04-27T15:49:26.409Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_807963cd9c8a0ece.mp4","timestamp":"2025-04-27T15:49:26.410Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T15:49:26.410Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_807963cd9c8a0ece.mp4","timestamp":"2025-04-27T15:49:26.410Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 5b432b424ae5d729","timestamp":"2025-04-27T15:49:26.411Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T15:49:44.795Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T15:49:44.798Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T15:49:44.799Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T15:49:45.202Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 8bc3d10f883ee57c","timestamp":"2025-04-27T15:49:45.204Z"}
+{"level":"info","message":"Generated content with ID: 553734b5d041e84f","timestamp":"2025-04-27T15:49:52.481Z"}
+{"level":"info","message":"Generating speech for content: 553734b5d041e84f","timestamp":"2025-04-27T15:49:52.481Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_553734b5d041e84f.mp3","timestamp":"2025-04-27T15:50:00.632Z"}
+{"level":"info","message":"Creating video for content: 553734b5d041e84f","timestamp":"2025-04-27T15:50:00.633Z"}
+{"level":"info","message":"Generating animation frame sequence for 44 seconds of audio","timestamp":"2025-04-27T15:50:00.633Z"}
+{"level":"info","message":"Generating 1320 frames at 30 FPS","timestamp":"2025-04-27T15:50:01.701Z"}
+{"level":"info","message":"Generated 0/1320 frames","timestamp":"2025-04-27T15:50:01.812Z"}
+{"level":"info","message":"Generated 30/1320 frames","timestamp":"2025-04-27T15:50:04.432Z"}
+{"level":"info","message":"Generated 60/1320 frames","timestamp":"2025-04-27T15:50:07.149Z"}
+{"level":"info","message":"Generated 90/1320 frames","timestamp":"2025-04-27T15:50:09.700Z"}
+{"level":"info","message":"Generated 120/1320 frames","timestamp":"2025-04-27T15:50:12.197Z"}
+{"level":"info","message":"Generated 150/1320 frames","timestamp":"2025-04-27T15:50:15.092Z"}
+{"level":"info","message":"Generated 180/1320 frames","timestamp":"2025-04-27T15:50:18.018Z"}
+{"level":"info","message":"Generated 210/1320 frames","timestamp":"2025-04-27T15:50:20.468Z"}
+{"level":"info","message":"Generated 240/1320 frames","timestamp":"2025-04-27T15:50:23.032Z"}
+{"level":"info","message":"Generated 270/1320 frames","timestamp":"2025-04-27T15:50:25.547Z"}
+{"level":"info","message":"Generated 300/1320 frames","timestamp":"2025-04-27T15:50:27.931Z"}
+{"level":"info","message":"Generated 330/1320 frames","timestamp":"2025-04-27T15:50:30.158Z"}
+{"level":"info","message":"Generated 360/1320 frames","timestamp":"2025-04-27T15:50:32.656Z"}
+{"level":"info","message":"Generated 390/1320 frames","timestamp":"2025-04-27T15:50:35.076Z"}
+{"level":"info","message":"Generated 420/1320 frames","timestamp":"2025-04-27T15:50:37.336Z"}
+{"level":"info","message":"Generated 450/1320 frames","timestamp":"2025-04-27T15:50:39.918Z"}
+{"level":"info","message":"Generated 480/1320 frames","timestamp":"2025-04-27T15:50:42.461Z"}
+{"level":"info","message":"Generated 510/1320 frames","timestamp":"2025-04-27T15:50:44.941Z"}
+{"level":"info","message":"Generated 540/1320 frames","timestamp":"2025-04-27T15:50:47.564Z"}
+{"level":"info","message":"Generated 570/1320 frames","timestamp":"2025-04-27T15:50:50.356Z"}
+{"level":"info","message":"Generated 600/1320 frames","timestamp":"2025-04-27T15:50:52.723Z"}
+{"level":"info","message":"Generated 630/1320 frames","timestamp":"2025-04-27T15:50:55.592Z"}
+{"level":"info","message":"Generated 660/1320 frames","timestamp":"2025-04-27T15:50:58.146Z"}
+{"level":"info","message":"Generated 690/1320 frames","timestamp":"2025-04-27T15:51:00.897Z"}
+{"level":"info","message":"Generated 720/1320 frames","timestamp":"2025-04-27T15:51:04.106Z"}
+{"level":"info","message":"Generated 750/1320 frames","timestamp":"2025-04-27T15:51:07.424Z"}
+{"level":"info","message":"Generated 780/1320 frames","timestamp":"2025-04-27T15:51:10.856Z"}
+{"level":"info","message":"Generated 810/1320 frames","timestamp":"2025-04-27T15:51:13.355Z"}
+{"level":"info","message":"Generated 840/1320 frames","timestamp":"2025-04-27T15:51:15.788Z"}
+{"level":"info","message":"Generated 870/1320 frames","timestamp":"2025-04-27T15:51:18.292Z"}
+{"level":"info","message":"Generated 900/1320 frames","timestamp":"2025-04-27T15:51:21.177Z"}
+{"level":"info","message":"Generated 930/1320 frames","timestamp":"2025-04-27T15:51:23.578Z"}
+{"level":"info","message":"Generated 960/1320 frames","timestamp":"2025-04-27T15:51:25.955Z"}
+{"level":"info","message":"Generated 990/1320 frames","timestamp":"2025-04-27T15:51:28.593Z"}
+{"level":"info","message":"Generated 1020/1320 frames","timestamp":"2025-04-27T15:51:31.003Z"}
+{"level":"info","message":"Generated 1050/1320 frames","timestamp":"2025-04-27T15:51:34.476Z"}
+{"level":"info","message":"Generated 1080/1320 frames","timestamp":"2025-04-27T15:51:36.854Z"}
+{"level":"info","message":"Generated 1110/1320 frames","timestamp":"2025-04-27T15:51:39.570Z"}
+{"level":"info","message":"Generated 1140/1320 frames","timestamp":"2025-04-27T15:51:41.979Z"}
+{"level":"info","message":"Generated 1170/1320 frames","timestamp":"2025-04-27T15:51:44.669Z"}
+{"level":"info","message":"Generated 1200/1320 frames","timestamp":"2025-04-27T15:51:47.266Z"}
+{"level":"info","message":"Generated 1230/1320 frames","timestamp":"2025-04-27T15:51:50.162Z"}
+{"level":"info","message":"Generated 1260/1320 frames","timestamp":"2025-04-27T15:51:53.020Z"}
+{"level":"info","message":"Generated 1290/1320 frames","timestamp":"2025-04-27T15:51:55.615Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T15:51:58.062Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_776c434f577d02bd.mp4","timestamp":"2025-04-27T15:52:07.807Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_776c434f577d02bd.mp4","timestamp":"2025-04-27T15:52:07.808Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T15:52:07.808Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_776c434f577d02bd.mp4","timestamp":"2025-04-27T15:52:07.808Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 05660de77bf8d0ed","timestamp":"2025-04-27T15:52:07.809Z"}
+{"level":"info","message":"Generated content with ID: a2e6399a85778831","timestamp":"2025-04-27T15:52:11.372Z"}
+{"level":"info","message":"Generating speech for content: a2e6399a85778831","timestamp":"2025-04-27T15:52:11.373Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_a2e6399a85778831.mp3","timestamp":"2025-04-27T15:52:19.577Z"}
+{"level":"info","message":"Creating video for content: a2e6399a85778831","timestamp":"2025-04-27T15:52:19.578Z"}
+{"level":"info","message":"Generating animation frame sequence for 46 seconds of audio","timestamp":"2025-04-27T15:52:19.578Z"}
+{"level":"info","message":"Generating 1380 frames at 30 FPS","timestamp":"2025-04-27T15:52:19.578Z"}
+{"level":"info","message":"Generated 0/1380 frames","timestamp":"2025-04-27T15:52:19.680Z"}
+{"level":"info","message":"Generated 30/1380 frames","timestamp":"2025-04-27T15:52:22.312Z"}
+{"level":"info","message":"Generated 60/1380 frames","timestamp":"2025-04-27T15:52:25.044Z"}
+{"level":"info","message":"Generated 90/1380 frames","timestamp":"2025-04-27T15:52:28.203Z"}
+{"level":"info","message":"Generated 120/1380 frames","timestamp":"2025-04-27T15:52:31.107Z"}
+{"level":"info","message":"Generated 150/1380 frames","timestamp":"2025-04-27T15:52:33.597Z"}
+{"level":"info","message":"Generated 180/1380 frames","timestamp":"2025-04-27T15:52:36.328Z"}
+{"level":"info","message":"Generated 210/1380 frames","timestamp":"2025-04-27T15:52:39.009Z"}
+{"level":"info","message":"Generated 240/1380 frames","timestamp":"2025-04-27T15:52:42.424Z"}
+{"level":"info","message":"Generated 270/1380 frames","timestamp":"2025-04-27T15:52:44.893Z"}
+{"level":"info","message":"Generated 300/1380 frames","timestamp":"2025-04-27T15:52:47.624Z"}
+{"level":"info","message":"Generated 330/1380 frames","timestamp":"2025-04-27T15:52:50.470Z"}
+{"level":"info","message":"Generated 360/1380 frames","timestamp":"2025-04-27T15:52:52.841Z"}
+{"level":"info","message":"Generated 390/1380 frames","timestamp":"2025-04-27T15:52:55.190Z"}
+{"level":"info","message":"Generated 420/1380 frames","timestamp":"2025-04-27T15:52:57.910Z"}
+{"level":"info","message":"Generated 450/1380 frames","timestamp":"2025-04-27T15:53:00.177Z"}
+{"level":"info","message":"Generated 480/1380 frames","timestamp":"2025-04-27T15:53:02.400Z"}
+{"level":"info","message":"Generated 510/1380 frames","timestamp":"2025-04-27T15:53:06.314Z"}
+{"level":"info","message":"Generated 540/1380 frames","timestamp":"2025-04-27T15:53:14.053Z"}
+{"level":"info","message":"Generated 570/1380 frames","timestamp":"2025-04-27T15:53:20.700Z"}
+{"level":"info","message":"Generated 600/1380 frames","timestamp":"2025-04-27T15:53:28.050Z"}
+{"level":"info","message":"Generated 630/1380 frames","timestamp":"2025-04-27T15:53:34.783Z"}
+{"level":"info","message":"Generated 660/1380 frames","timestamp":"2025-04-27T15:53:40.394Z"}
+{"level":"info","message":"Generated 690/1380 frames","timestamp":"2025-04-27T15:53:43.123Z"}
+{"level":"info","message":"Generated 720/1380 frames","timestamp":"2025-04-27T15:53:45.761Z"}
+{"level":"info","message":"Generated 750/1380 frames","timestamp":"2025-04-27T15:53:48.345Z"}
+{"level":"info","message":"Generated 780/1380 frames","timestamp":"2025-04-27T15:53:50.828Z"}
+{"level":"info","message":"Generated 810/1380 frames","timestamp":"2025-04-27T15:53:53.977Z"}
+{"level":"info","message":"Generated 840/1380 frames","timestamp":"2025-04-27T15:53:56.515Z"}
+{"level":"info","message":"Generated 870/1380 frames","timestamp":"2025-04-27T15:53:59.122Z"}
+{"level":"info","message":"Generated 900/1380 frames","timestamp":"2025-04-27T15:54:02.116Z"}
+{"level":"info","message":"Generated 930/1380 frames","timestamp":"2025-04-27T15:54:05.481Z"}
+{"level":"info","message":"Generated 960/1380 frames","timestamp":"2025-04-27T15:54:11.985Z"}
+{"level":"info","message":"Generated 990/1380 frames","timestamp":"2025-04-27T15:54:18.804Z"}
+{"level":"info","message":"Generated 1020/1380 frames","timestamp":"2025-04-27T15:54:21.526Z"}
+{"level":"info","message":"Generated 1050/1380 frames","timestamp":"2025-04-27T15:54:24.211Z"}
+{"level":"info","message":"Generated 1080/1380 frames","timestamp":"2025-04-27T15:54:26.917Z"}
+{"level":"info","message":"Generated 1110/1380 frames","timestamp":"2025-04-27T15:54:29.531Z"}
+{"level":"info","message":"Generated 1140/1380 frames","timestamp":"2025-04-27T15:54:32.245Z"}
+{"level":"info","message":"Generated 1170/1380 frames","timestamp":"2025-04-27T15:54:35.100Z"}
+{"level":"info","message":"Generated 1200/1380 frames","timestamp":"2025-04-27T15:54:37.731Z"}
+{"level":"info","message":"Generated 1230/1380 frames","timestamp":"2025-04-27T15:54:40.596Z"}
+{"level":"info","message":"Generated 1260/1380 frames","timestamp":"2025-04-27T15:54:43.310Z"}
+{"level":"info","message":"Generated 1290/1380 frames","timestamp":"2025-04-27T15:54:46.131Z"}
+{"level":"info","message":"Generated 1320/1380 frames","timestamp":"2025-04-27T15:54:48.804Z"}
+{"level":"info","message":"Generated 1350/1380 frames","timestamp":"2025-04-27T15:54:51.608Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T15:54:54.449Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_33a010648b7b563b.mp4","timestamp":"2025-04-27T15:55:04.492Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_33a010648b7b563b.mp4","timestamp":"2025-04-27T15:55:04.492Z"}
+{"level":"info","message":"Successfully processed news item: Lana Del Rey Sings About Kissing Morgan Wallen in Stagecoach Set - Variety","timestamp":"2025-04-27T15:55:04.492Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_33a010648b7b563b.mp4","timestamp":"2025-04-27T15:55:04.493Z"}
+{"level":"info","message":"Generating sarcastic content for news item: af0e0d4b238ddda6","timestamp":"2025-04-27T15:55:04.493Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T15:55:19.261Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T15:55:19.265Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T15:55:19.266Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T15:55:19.794Z"}
+{"level":"info","message":"Generating sarcastic content for news item: cbd4d31ed77a2edb","timestamp":"2025-04-27T15:55:19.796Z"}
+{"level":"info","message":"Generated content with ID: 8a653fba871a360f","timestamp":"2025-04-27T15:55:22.885Z"}
+{"level":"info","message":"Generating speech for content: 8a653fba871a360f","timestamp":"2025-04-27T15:55:22.886Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_8a653fba871a360f.mp3","timestamp":"2025-04-27T15:55:32.481Z"}
+{"level":"info","message":"Creating video for content: 8a653fba871a360f","timestamp":"2025-04-27T15:55:32.483Z"}
+{"level":"info","message":"Generating animation frame sequence for 49 seconds of audio","timestamp":"2025-04-27T15:55:32.485Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_8a653fba871a360f.mp3","timestamp":"2025-04-27T15:55:32.487Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T15:55:32.523Z"}
+{"level":"info","message":"Generating 1200 frames at 30 FPS","timestamp":"2025-04-27T15:55:34.451Z"}
+{"level":"info","message":"Generated 0/1200 frames","timestamp":"2025-04-27T15:55:34.721Z"}
+{"level":"info","message":"Generated 30/1200 frames","timestamp":"2025-04-27T15:55:41.513Z"}
+{"level":"info","message":"Generated 60/1200 frames","timestamp":"2025-04-27T15:55:47.960Z"}
+{"level":"info","message":"Generated 90/1200 frames","timestamp":"2025-04-27T15:55:51.603Z"}
+{"level":"info","message":"Generated 120/1200 frames","timestamp":"2025-04-27T15:55:54.500Z"}
+{"level":"info","message":"Generated 150/1200 frames","timestamp":"2025-04-27T15:55:57.367Z"}
+{"level":"info","message":"Generated 180/1200 frames","timestamp":"2025-04-27T15:56:00.578Z"}
+{"level":"info","message":"Generated 210/1200 frames","timestamp":"2025-04-27T15:56:07.478Z"}
+{"level":"info","message":"Generated 240/1200 frames","timestamp":"2025-04-27T15:56:10.103Z"}
+{"level":"info","message":"Generated 270/1200 frames","timestamp":"2025-04-27T15:56:12.910Z"}
+{"level":"info","message":"Generated 300/1200 frames","timestamp":"2025-04-27T15:56:15.706Z"}
+{"level":"info","message":"Generated 330/1200 frames","timestamp":"2025-04-27T15:56:18.244Z"}
+{"level":"info","message":"Generated 360/1200 frames","timestamp":"2025-04-27T15:56:20.819Z"}
+{"level":"info","message":"Generated 390/1200 frames","timestamp":"2025-04-27T15:56:23.424Z"}
+{"level":"info","message":"Generated 420/1200 frames","timestamp":"2025-04-27T15:56:25.980Z"}
+{"level":"info","message":"Generated 450/1200 frames","timestamp":"2025-04-27T15:56:28.591Z"}
+{"level":"info","message":"Generated 480/1200 frames","timestamp":"2025-04-27T15:56:31.177Z"}
+{"level":"info","message":"Generated 510/1200 frames","timestamp":"2025-04-27T15:56:33.896Z"}
+{"level":"info","message":"Generated 540/1200 frames","timestamp":"2025-04-27T15:56:36.464Z"}
+{"level":"info","message":"Generated 570/1200 frames","timestamp":"2025-04-27T15:56:39.056Z"}
+{"level":"info","message":"Generated 600/1200 frames","timestamp":"2025-04-27T15:56:41.617Z"}
+{"level":"info","message":"Generated 630/1200 frames","timestamp":"2025-04-27T15:56:44.261Z"}
+{"level":"info","message":"Generated 660/1200 frames","timestamp":"2025-04-27T15:56:46.822Z"}
+{"level":"info","message":"Generated 690/1200 frames","timestamp":"2025-04-27T15:56:49.667Z"}
+{"level":"info","message":"Generated 720/1200 frames","timestamp":"2025-04-27T15:56:52.187Z"}
+{"level":"info","message":"Generated 750/1200 frames","timestamp":"2025-04-27T15:56:54.835Z"}
+{"level":"info","message":"Generated 780/1200 frames","timestamp":"2025-04-27T15:56:57.425Z"}
+{"level":"info","message":"Generated 810/1200 frames","timestamp":"2025-04-27T15:57:00.006Z"}
+{"level":"info","message":"Generated 840/1200 frames","timestamp":"2025-04-27T15:57:02.621Z"}
+{"level":"info","message":"Generated 870/1200 frames","timestamp":"2025-04-27T15:57:05.478Z"}
+{"level":"info","message":"Generated 900/1200 frames","timestamp":"2025-04-27T15:57:08.042Z"}
+{"level":"info","message":"Generated 930/1200 frames","timestamp":"2025-04-27T15:57:10.735Z"}
+{"level":"info","message":"Generated 960/1200 frames","timestamp":"2025-04-27T15:57:13.402Z"}
+{"level":"info","message":"Generated 990/1200 frames","timestamp":"2025-04-27T15:57:15.984Z"}
+{"level":"info","message":"Generated 1020/1200 frames","timestamp":"2025-04-27T15:57:18.635Z"}
+{"level":"info","message":"Generated 1050/1200 frames","timestamp":"2025-04-27T15:57:21.420Z"}
+{"level":"info","message":"Generated 1080/1200 frames","timestamp":"2025-04-27T15:57:24.030Z"}
+{"level":"info","message":"Generated 1110/1200 frames","timestamp":"2025-04-27T15:57:26.619Z"}
+{"level":"info","message":"Generated 1140/1200 frames","timestamp":"2025-04-27T15:57:29.190Z"}
+{"level":"info","message":"Generated 1170/1200 frames","timestamp":"2025-04-27T15:57:31.855Z"}
+{"level":"info","message":"Completed frame sequence generation: 1200 frames created","timestamp":"2025-04-27T15:57:34.312Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T15:57:34.313Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_fe5eb6dcc72e800b.mp4","timestamp":"2025-04-27T15:57:42.667Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_fe5eb6dcc72e800b.mp4","timestamp":"2025-04-27T15:57:42.668Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T15:57:42.669Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_fe5eb6dcc72e800b.mp4","timestamp":"2025-04-27T15:57:42.669Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 42bacd3ffe831ab9","timestamp":"2025-04-27T15:57:42.669Z"}
+{"level":"info","message":"Generated content with ID: 22ab01c7c109948d","timestamp":"2025-04-27T15:57:46.550Z"}
+{"level":"info","message":"Generating speech for content: 22ab01c7c109948d","timestamp":"2025-04-27T15:57:46.551Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:02:02.201Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:02:02.205Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:02:02.206Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:02:02.734Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 7c4d1214d317303a","timestamp":"2025-04-27T16:02:02.738Z"}
+{"level":"info","message":"Generated content with ID: 6ef9a5709ff568e4","timestamp":"2025-04-27T16:02:06.085Z"}
+{"level":"info","message":"Generating speech for content: 6ef9a5709ff568e4","timestamp":"2025-04-27T16:02:06.087Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_6ef9a5709ff568e4.mp3","timestamp":"2025-04-27T16:02:15.840Z"}
+{"level":"info","message":"Creating video for content: 6ef9a5709ff568e4","timestamp":"2025-04-27T16:02:15.841Z"}
+{"level":"info","message":"Generating animation frame sequence for 53 seconds of audio","timestamp":"2025-04-27T16:02:15.841Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_6ef9a5709ff568e4.mp3","timestamp":"2025-04-27T16:02:15.842Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:02:15.868Z"}
+{"level":"info","message":"Generating 1290 frames at 30 FPS","timestamp":"2025-04-27T16:02:16.257Z"}
+{"level":"info","message":"Generated 0/1290 frames","timestamp":"2025-04-27T16:02:16.384Z"}
+{"level":"info","message":"Generated 30/1290 frames","timestamp":"2025-04-27T16:02:19.594Z"}
+{"level":"info","message":"Generated 60/1290 frames","timestamp":"2025-04-27T16:02:22.446Z"}
+{"level":"info","message":"Generated 90/1290 frames","timestamp":"2025-04-27T16:02:25.242Z"}
+{"level":"info","message":"Generated 120/1290 frames","timestamp":"2025-04-27T16:02:27.823Z"}
+{"level":"info","message":"Generated 150/1290 frames","timestamp":"2025-04-27T16:02:30.578Z"}
+{"level":"info","message":"Generated 180/1290 frames","timestamp":"2025-04-27T16:02:33.604Z"}
+{"level":"info","message":"Generated 210/1290 frames","timestamp":"2025-04-27T16:02:36.319Z"}
+{"level":"info","message":"Generated 240/1290 frames","timestamp":"2025-04-27T16:02:39.108Z"}
+{"level":"info","message":"Generated 270/1290 frames","timestamp":"2025-04-27T16:02:41.767Z"}
+{"level":"info","message":"Generated 300/1290 frames","timestamp":"2025-04-27T16:02:44.497Z"}
+{"level":"info","message":"Generated 330/1290 frames","timestamp":"2025-04-27T16:02:47.335Z"}
+{"level":"info","message":"Generated 360/1290 frames","timestamp":"2025-04-27T16:02:50.555Z"}
+{"level":"info","message":"Generated 390/1290 frames","timestamp":"2025-04-27T16:02:53.176Z"}
+{"level":"info","message":"Generated 420/1290 frames","timestamp":"2025-04-27T16:02:55.855Z"}
+{"level":"info","message":"Generated 450/1290 frames","timestamp":"2025-04-27T16:02:58.593Z"}
+{"level":"info","message":"Generated 480/1290 frames","timestamp":"2025-04-27T16:03:01.538Z"}
+{"level":"info","message":"Generated 510/1290 frames","timestamp":"2025-04-27T16:03:04.379Z"}
+{"level":"info","message":"Generated 540/1290 frames","timestamp":"2025-04-27T16:03:07.252Z"}
+{"level":"info","message":"Generated 570/1290 frames","timestamp":"2025-04-27T16:03:10.229Z"}
+{"level":"info","message":"Generated 600/1290 frames","timestamp":"2025-04-27T16:03:12.952Z"}
+{"level":"info","message":"Generated 630/1290 frames","timestamp":"2025-04-27T16:03:15.860Z"}
+{"level":"info","message":"Generated 660/1290 frames","timestamp":"2025-04-27T16:03:18.678Z"}
+{"level":"info","message":"Generated 690/1290 frames","timestamp":"2025-04-27T16:03:21.317Z"}
+{"level":"info","message":"Generated 720/1290 frames","timestamp":"2025-04-27T16:03:24.250Z"}
+{"level":"info","message":"Generated 750/1290 frames","timestamp":"2025-04-27T16:03:27.099Z"}
+{"level":"info","message":"Generated 780/1290 frames","timestamp":"2025-04-27T16:03:29.922Z"}
+{"level":"info","message":"Generated 810/1290 frames","timestamp":"2025-04-27T16:03:32.750Z"}
+{"level":"info","message":"Generated 840/1290 frames","timestamp":"2025-04-27T16:03:35.675Z"}
+{"level":"info","message":"Generated 870/1290 frames","timestamp":"2025-04-27T16:03:38.318Z"}
+{"level":"info","message":"Generated 900/1290 frames","timestamp":"2025-04-27T16:03:41.099Z"}
+{"level":"info","message":"Generated 930/1290 frames","timestamp":"2025-04-27T16:03:43.748Z"}
+{"level":"info","message":"Generated 960/1290 frames","timestamp":"2025-04-27T16:03:46.377Z"}
+{"level":"info","message":"Generated 990/1290 frames","timestamp":"2025-04-27T16:03:48.968Z"}
+{"level":"info","message":"Generated 1020/1290 frames","timestamp":"2025-04-27T16:03:51.542Z"}
+{"level":"info","message":"Generated 1050/1290 frames","timestamp":"2025-04-27T16:03:54.216Z"}
+{"level":"info","message":"Generated 1080/1290 frames","timestamp":"2025-04-27T16:03:56.925Z"}
+{"level":"info","message":"Generated 1110/1290 frames","timestamp":"2025-04-27T16:03:59.604Z"}
+{"level":"info","message":"Generated 1140/1290 frames","timestamp":"2025-04-27T16:04:02.354Z"}
+{"level":"info","message":"Generated 1170/1290 frames","timestamp":"2025-04-27T16:04:04.847Z"}
+{"level":"info","message":"Generated 1200/1290 frames","timestamp":"2025-04-27T16:04:07.463Z"}
+{"level":"info","message":"Generated 1230/1290 frames","timestamp":"2025-04-27T16:04:10.028Z"}
+{"level":"info","message":"Generated 1260/1290 frames","timestamp":"2025-04-27T16:04:12.683Z"}
+{"level":"info","message":"Completed frame sequence generation: 1290 frames created","timestamp":"2025-04-27T16:04:15.421Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:04:15.422Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_e862eeae1b6c03e1.mp4","timestamp":"2025-04-27T16:04:24.904Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_e862eeae1b6c03e1.mp4","timestamp":"2025-04-27T16:04:24.904Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T16:04:24.905Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_e862eeae1b6c03e1.mp4","timestamp":"2025-04-27T16:04:24.905Z"}
+{"level":"info","message":"Generating sarcastic content for news item: e1409dbe774133cd","timestamp":"2025-04-27T16:04:24.905Z"}
+{"level":"info","message":"Generated content with ID: c7139c52dff869eb","timestamp":"2025-04-27T16:04:30.413Z"}
+{"level":"info","message":"Generating speech for content: c7139c52dff869eb","timestamp":"2025-04-27T16:04:30.413Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_c7139c52dff869eb.mp3","timestamp":"2025-04-27T16:04:39.644Z"}
+{"level":"info","message":"Creating video for content: c7139c52dff869eb","timestamp":"2025-04-27T16:04:39.645Z"}
+{"level":"info","message":"Generating animation frame sequence for 43 seconds of audio","timestamp":"2025-04-27T16:04:39.645Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_c7139c52dff869eb.mp3","timestamp":"2025-04-27T16:04:39.645Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:04:39.667Z"}
+{"level":"info","message":"Generating 1110 frames at 30 FPS","timestamp":"2025-04-27T16:04:39.668Z"}
+{"level":"info","message":"Generated 0/1110 frames","timestamp":"2025-04-27T16:04:39.759Z"}
+{"level":"info","message":"Generated 30/1110 frames","timestamp":"2025-04-27T16:04:42.359Z"}
+{"level":"info","message":"Generated 60/1110 frames","timestamp":"2025-04-27T16:04:45.190Z"}
+{"level":"info","message":"Generated 90/1110 frames","timestamp":"2025-04-27T16:04:48.485Z"}
+{"level":"info","message":"Generated 120/1110 frames","timestamp":"2025-04-27T16:04:55.159Z"}
+{"level":"info","message":"Generated 150/1110 frames","timestamp":"2025-04-27T16:05:01.656Z"}
+{"level":"info","message":"Generated 180/1110 frames","timestamp":"2025-04-27T16:05:04.970Z"}
+{"level":"info","message":"Generated 210/1110 frames","timestamp":"2025-04-27T16:05:07.627Z"}
+{"level":"info","message":"Generated 240/1110 frames","timestamp":"2025-04-27T16:05:10.470Z"}
+{"level":"info","message":"Generated 270/1110 frames","timestamp":"2025-04-27T16:05:13.447Z"}
+{"level":"info","message":"Generated 300/1110 frames","timestamp":"2025-04-27T16:05:17.263Z"}
+{"level":"info","message":"Generated 330/1110 frames","timestamp":"2025-04-27T16:05:23.962Z"}
+{"level":"info","message":"Generated 360/1110 frames","timestamp":"2025-04-27T16:05:30.733Z"}
+{"level":"info","message":"Generated 390/1110 frames","timestamp":"2025-04-27T16:05:37.168Z"}
+{"level":"info","message":"Generated 420/1110 frames","timestamp":"2025-04-27T16:05:42.176Z"}
+{"level":"info","message":"Generated 450/1110 frames","timestamp":"2025-04-27T16:05:44.730Z"}
+{"level":"info","message":"Generated 480/1110 frames","timestamp":"2025-04-27T16:05:47.394Z"}
+{"level":"info","message":"Generated 510/1110 frames","timestamp":"2025-04-27T16:05:50.714Z"}
+{"level":"info","message":"Generated 540/1110 frames","timestamp":"2025-04-27T16:05:53.728Z"}
+{"level":"info","message":"Generated 570/1110 frames","timestamp":"2025-04-27T16:06:00.213Z"}
+{"level":"info","message":"Generated 600/1110 frames","timestamp":"2025-04-27T16:06:07.282Z"}
+{"level":"info","message":"Generated 630/1110 frames","timestamp":"2025-04-27T16:06:14.068Z"}
+{"level":"info","message":"Generated 660/1110 frames","timestamp":"2025-04-27T16:06:21.376Z"}
+{"level":"info","message":"Generated 690/1110 frames","timestamp":"2025-04-27T16:06:28.296Z"}
+{"level":"info","message":"Generated 720/1110 frames","timestamp":"2025-04-27T16:06:31.359Z"}
+{"level":"info","message":"Generated 750/1110 frames","timestamp":"2025-04-27T16:06:34.286Z"}
+{"level":"info","message":"Generated 780/1110 frames","timestamp":"2025-04-27T16:06:37.292Z"}
+{"level":"info","message":"Generated 810/1110 frames","timestamp":"2025-04-27T16:06:42.787Z"}
+{"level":"info","message":"Generated 840/1110 frames","timestamp":"2025-04-27T16:06:50.115Z"}
+{"level":"info","message":"Generated 870/1110 frames","timestamp":"2025-04-27T16:06:57.350Z"}
+{"level":"info","message":"Generated 900/1110 frames","timestamp":"2025-04-27T16:07:04.143Z"}
+{"level":"info","message":"Generated 930/1110 frames","timestamp":"2025-04-27T16:07:10.794Z"}
+{"level":"info","message":"Generated 960/1110 frames","timestamp":"2025-04-27T16:07:18.153Z"}
+{"level":"info","message":"Generated 990/1110 frames","timestamp":"2025-04-27T16:07:27.455Z"}
+{"level":"info","message":"Generated 1020/1110 frames","timestamp":"2025-04-27T16:07:34.309Z"}
+{"level":"info","message":"Generated 1050/1110 frames","timestamp":"2025-04-27T16:07:40.944Z"}
+{"level":"info","message":"Generated 1080/1110 frames","timestamp":"2025-04-27T16:07:47.466Z"}
+{"level":"info","message":"Completed frame sequence generation: 1110 frames created","timestamp":"2025-04-27T16:07:53.809Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:07:53.810Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_9d26323f40347ac7.mp4","timestamp":"2025-04-27T16:08:02.995Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_9d26323f40347ac7.mp4","timestamp":"2025-04-27T16:08:02.995Z"}
+{"level":"info","message":"Successfully processed news item: Lana Del Rey Sings About Kissing Morgan Wallen in Stagecoach Set - Variety","timestamp":"2025-04-27T16:08:02.996Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_9d26323f40347ac7.mp4","timestamp":"2025-04-27T16:08:02.996Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 2cf740a094e639c7","timestamp":"2025-04-27T16:08:02.996Z"}
+{"level":"info","message":"Generated content with ID: 19ed9b90bee60e2a","timestamp":"2025-04-27T16:08:06.442Z"}
+{"level":"info","message":"Generating speech for content: 19ed9b90bee60e2a","timestamp":"2025-04-27T16:08:06.443Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_19ed9b90bee60e2a.mp3","timestamp":"2025-04-27T16:08:15.567Z"}
+{"level":"info","message":"Creating video for content: 19ed9b90bee60e2a","timestamp":"2025-04-27T16:08:15.567Z"}
+{"level":"info","message":"Generating animation frame sequence for 47 seconds of audio","timestamp":"2025-04-27T16:08:15.568Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_19ed9b90bee60e2a.mp3","timestamp":"2025-04-27T16:08:15.568Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:08:15.595Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:10:33.302Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:10:33.305Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:10:33.306Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:10:34.260Z"}
+{"level":"info","message":"Generating sarcastic content for news item: fc2fce5af16d152f","timestamp":"2025-04-27T16:10:34.262Z"}
+{"level":"info","message":"Generated content with ID: 91535b37d8e0cb4c","timestamp":"2025-04-27T16:10:46.636Z"}
+{"level":"info","message":"Generating speech for content: 91535b37d8e0cb4c","timestamp":"2025-04-27T16:10:46.637Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_91535b37d8e0cb4c.mp3 with duration: 45s","timestamp":"2025-04-27T16:10:57.131Z"}
+{"level":"info","message":"Creating video for content: 91535b37d8e0cb4c","timestamp":"2025-04-27T16:10:57.132Z"}
+{"level":"info","message":"Generating animation frame sequence for 45 seconds of audio","timestamp":"2025-04-27T16:10:57.133Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_91535b37d8e0cb4c.mp3","timestamp":"2025-04-27T16:10:57.134Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:10:57.157Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:12:19.726Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:12:19.729Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:12:19.730Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:12:20.545Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 73ad6ccdbc5b5c20","timestamp":"2025-04-27T16:12:20.548Z"}
+{"level":"info","message":"Generated content with ID: 627e962810c823dc","timestamp":"2025-04-27T16:12:23.686Z"}
+{"level":"info","message":"Generating speech for content: 627e962810c823dc","timestamp":"2025-04-27T16:12:23.687Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_627e962810c823dc.mp3 with duration: 36s","timestamp":"2025-04-27T16:12:31.615Z"}
+{"level":"info","message":"Creating video for content: 627e962810c823dc","timestamp":"2025-04-27T16:12:31.616Z"}
+{"level":"info","message":"Generating animation frame sequence for 36 seconds of audio","timestamp":"2025-04-27T16:12:31.617Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_627e962810c823dc.mp3","timestamp":"2025-04-27T16:12:31.618Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:12:31.641Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:12:56.680Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:12:56.684Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:12:56.685Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:12:57.516Z"}
+{"level":"info","message":"Generating sarcastic content for news item: c77c27e8b4a738ba","timestamp":"2025-04-27T16:12:57.519Z"}
+{"level":"info","message":"Generated content with ID: 242fac9cbd8a9ea3","timestamp":"2025-04-27T16:13:18.014Z"}
+{"level":"info","message":"Generating speech for content: 242fac9cbd8a9ea3","timestamp":"2025-04-27T16:13:18.016Z"}
+{"level":"info","message":"Got duration from API headers: [object Object]","timestamp":"2025-04-27T16:13:31.456Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_242fac9cbd8a9ea3.mp3 with duration: 42s","timestamp":"2025-04-27T16:13:31.512Z"}
+{"level":"info","message":"Creating video for content: 242fac9cbd8a9ea3","timestamp":"2025-04-27T16:13:31.513Z"}
+{"level":"info","message":"Generating animation frame sequence for 42 seconds of audio","timestamp":"2025-04-27T16:13:31.514Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_242fac9cbd8a9ea3.mp3","timestamp":"2025-04-27T16:13:31.514Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:13:31.543Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:14:52.168Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:14:52.172Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:14:52.173Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:14:52.888Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 6df80a148e088885","timestamp":"2025-04-27T16:14:52.891Z"}
+{"level":"info","message":"Generated content with ID: 6fc85f32d0bd3dfc","timestamp":"2025-04-27T16:14:58.332Z"}
+{"level":"info","message":"Generating speech for content: 6fc85f32d0bd3dfc","timestamp":"2025-04-27T16:14:58.335Z"}
+{"level":"warn","message":"Could not get exact audio duration with ffprobe: Error: Command failed: ffprobe -i \"storage\\audio\\speech_6fc85f32d0bd3dfc.mp3\" -show_entries format=duration -v quiet -of csv=\"p=0\"\n'ffprobe' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n, using estimation","timestamp":"2025-04-27T16:15:09.916Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_6fc85f32d0bd3dfc.mp3 with duration: 49s","timestamp":"2025-04-27T16:15:09.918Z"}
+{"level":"info","message":"Creating video for content: 6fc85f32d0bd3dfc","timestamp":"2025-04-27T16:15:09.918Z"}
+{"level":"info","message":"Generating animation frame sequence for 49 seconds of audio","timestamp":"2025-04-27T16:15:09.920Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_6fc85f32d0bd3dfc.mp3","timestamp":"2025-04-27T16:15:09.921Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:15:09.953Z"}
+{"level":"info","message":"Generating 1470 frames at 30 FPS","timestamp":"2025-04-27T16:15:10.521Z"}
+{"level":"info","message":"Generated 0/1470 frames","timestamp":"2025-04-27T16:15:10.694Z"}
+{"level":"info","message":"Generated 30/1470 frames","timestamp":"2025-04-27T16:15:14.125Z"}
+{"level":"info","message":"Generated 60/1470 frames","timestamp":"2025-04-27T16:15:16.956Z"}
+{"level":"info","message":"Generated 90/1470 frames","timestamp":"2025-04-27T16:15:19.536Z"}
+{"level":"info","message":"Generated 120/1470 frames","timestamp":"2025-04-27T16:15:22.233Z"}
+{"level":"info","message":"Generated 150/1470 frames","timestamp":"2025-04-27T16:15:24.900Z"}
+{"level":"info","message":"Generated 180/1470 frames","timestamp":"2025-04-27T16:15:27.866Z"}
+{"level":"info","message":"Generated 210/1470 frames","timestamp":"2025-04-27T16:15:31.492Z"}
+{"level":"info","message":"Generated 240/1470 frames","timestamp":"2025-04-27T16:15:34.126Z"}
+{"level":"info","message":"Generated 270/1470 frames","timestamp":"2025-04-27T16:15:36.904Z"}
+{"level":"info","message":"Generated 300/1470 frames","timestamp":"2025-04-27T16:15:39.632Z"}
+{"level":"info","message":"Generated 330/1470 frames","timestamp":"2025-04-27T16:15:42.198Z"}
+{"level":"info","message":"Generated 360/1470 frames","timestamp":"2025-04-27T16:15:45.404Z"}
+{"level":"info","message":"Generated 390/1470 frames","timestamp":"2025-04-27T16:15:48.300Z"}
+{"level":"info","message":"Generated 420/1470 frames","timestamp":"2025-04-27T16:15:50.997Z"}
+{"level":"info","message":"Generated 450/1470 frames","timestamp":"2025-04-27T16:15:53.697Z"}
+{"level":"info","message":"Generated 480/1470 frames","timestamp":"2025-04-27T16:15:56.438Z"}
+{"level":"info","message":"Generated 510/1470 frames","timestamp":"2025-04-27T16:15:59.313Z"}
+{"level":"info","message":"Generated 540/1470 frames","timestamp":"2025-04-27T16:16:02.138Z"}
+{"level":"info","message":"Generated 570/1470 frames","timestamp":"2025-04-27T16:16:05.261Z"}
+{"level":"info","message":"Generated 600/1470 frames","timestamp":"2025-04-27T16:16:08.125Z"}
+{"level":"info","message":"Generated 630/1470 frames","timestamp":"2025-04-27T16:16:10.763Z"}
+{"level":"info","message":"Generated 660/1470 frames","timestamp":"2025-04-27T16:16:13.602Z"}
+{"level":"info","message":"Generated 690/1470 frames","timestamp":"2025-04-27T16:16:16.594Z"}
+{"level":"info","message":"Generated 720/1470 frames","timestamp":"2025-04-27T16:16:19.177Z"}
+{"level":"info","message":"Generated 750/1470 frames","timestamp":"2025-04-27T16:16:21.851Z"}
+{"level":"info","message":"Generated 780/1470 frames","timestamp":"2025-04-27T16:16:24.639Z"}
+{"level":"info","message":"Generated 810/1470 frames","timestamp":"2025-04-27T16:16:27.253Z"}
+{"level":"info","message":"Generated 840/1470 frames","timestamp":"2025-04-27T16:16:29.911Z"}
+{"level":"info","message":"Generated 870/1470 frames","timestamp":"2025-04-27T16:16:32.524Z"}
+{"level":"info","message":"Generated 900/1470 frames","timestamp":"2025-04-27T16:16:35.351Z"}
+{"level":"info","message":"Generated 930/1470 frames","timestamp":"2025-04-27T16:16:38.110Z"}
+{"level":"info","message":"Generated 960/1470 frames","timestamp":"2025-04-27T16:16:40.709Z"}
+{"level":"info","message":"Generated 990/1470 frames","timestamp":"2025-04-27T16:16:43.450Z"}
+{"level":"info","message":"Generated 1020/1470 frames","timestamp":"2025-04-27T16:16:46.272Z"}
+{"level":"info","message":"Generated 1050/1470 frames","timestamp":"2025-04-27T16:16:49.250Z"}
+{"level":"info","message":"Generated 1080/1470 frames","timestamp":"2025-04-27T16:16:51.963Z"}
+{"level":"info","message":"Generated 1110/1470 frames","timestamp":"2025-04-27T16:16:54.785Z"}
+{"level":"info","message":"Generated 1140/1470 frames","timestamp":"2025-04-27T16:16:57.512Z"}
+{"level":"info","message":"Generated 1170/1470 frames","timestamp":"2025-04-27T16:17:00.391Z"}
+{"level":"info","message":"Generated 1200/1470 frames","timestamp":"2025-04-27T16:17:03.189Z"}
+{"level":"info","message":"Generated 1230/1470 frames","timestamp":"2025-04-27T16:17:05.851Z"}
+{"level":"info","message":"Generated 1260/1470 frames","timestamp":"2025-04-27T16:17:08.676Z"}
+{"level":"info","message":"Generated 1290/1470 frames","timestamp":"2025-04-27T16:17:11.324Z"}
+{"level":"info","message":"Generated 1320/1470 frames","timestamp":"2025-04-27T16:17:13.807Z"}
+{"level":"info","message":"Generated 1350/1470 frames","timestamp":"2025-04-27T16:17:16.323Z"}
+{"level":"info","message":"Generated 1380/1470 frames","timestamp":"2025-04-27T16:17:19.123Z"}
+{"level":"info","message":"Generated 1410/1470 frames","timestamp":"2025-04-27T16:17:21.874Z"}
+{"level":"info","message":"Generated 1440/1470 frames","timestamp":"2025-04-27T16:17:24.480Z"}
+{"level":"info","message":"Completed frame sequence generation: 1470 frames created","timestamp":"2025-04-27T16:17:27.213Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:17:27.214Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_d198795676f488ed.mp4","timestamp":"2025-04-27T16:17:39.474Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_d198795676f488ed.mp4","timestamp":"2025-04-27T16:17:39.474Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T16:17:39.475Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_d198795676f488ed.mp4","timestamp":"2025-04-27T16:17:39.475Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 0dd242ce652ae661","timestamp":"2025-04-27T16:17:39.476Z"}
+{"level":"info","message":"Generated content with ID: 95e4a254594f9929","timestamp":"2025-04-27T16:17:44.835Z"}
+{"level":"info","message":"Generating speech for content: 95e4a254594f9929","timestamp":"2025-04-27T16:17:44.836Z"}
+{"level":"warn","message":"Could not get exact audio duration with ffprobe: Error: Command failed: ffprobe -i \"storage\\audio\\speech_95e4a254594f9929.mp3\" -show_entries format=duration -v quiet -of csv=\"p=0\"\n'ffprobe' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n, using estimation","timestamp":"2025-04-27T16:17:53.821Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_95e4a254594f9929.mp3 with duration: 40s","timestamp":"2025-04-27T16:17:53.822Z"}
+{"level":"info","message":"Creating video for content: 95e4a254594f9929","timestamp":"2025-04-27T16:17:53.822Z"}
+{"level":"info","message":"Generating animation frame sequence for 40 seconds of audio","timestamp":"2025-04-27T16:17:53.823Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_95e4a254594f9929.mp3","timestamp":"2025-04-27T16:17:53.823Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:17:53.847Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:19:28.138Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:19:28.141Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:19:28.142Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:19:28.979Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 88d33c3084aaad9a","timestamp":"2025-04-27T16:19:28.981Z"}
+{"level":"info","message":"Generated content with ID: a2267608d453f712","timestamp":"2025-04-27T16:19:32.338Z"}
+{"level":"info","message":"Generating speech for content: a2267608d453f712","timestamp":"2025-04-27T16:19:32.340Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_a2267608d453f712.mp3 with duration: 46s","timestamp":"2025-04-27T16:19:42.503Z"}
+{"level":"info","message":"Creating video for content: a2267608d453f712","timestamp":"2025-04-27T16:19:42.504Z"}
+{"level":"info","message":"Generating animation frame sequence for 46 seconds of audio","timestamp":"2025-04-27T16:19:42.505Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_a2267608d453f712.mp3","timestamp":"2025-04-27T16:19:42.506Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:19:42.530Z"}
+{"level":"info","message":"Generating 1350 frames at 30 FPS","timestamp":"2025-04-27T16:19:43.681Z"}
+{"level":"info","message":"Generated 0/1350 frames","timestamp":"2025-04-27T16:19:43.797Z"}
+{"level":"info","message":"Generated 30/1350 frames","timestamp":"2025-04-27T16:19:46.652Z"}
+{"level":"info","message":"Generated 60/1350 frames","timestamp":"2025-04-27T16:19:49.393Z"}
+{"level":"info","message":"Generated 90/1350 frames","timestamp":"2025-04-27T16:19:52.022Z"}
+{"level":"info","message":"Generated 120/1350 frames","timestamp":"2025-04-27T16:19:55.023Z"}
+{"level":"info","message":"Generated 150/1350 frames","timestamp":"2025-04-27T16:19:57.871Z"}
+{"level":"info","message":"Generated 180/1350 frames","timestamp":"2025-04-27T16:20:00.574Z"}
+{"level":"info","message":"Generated 210/1350 frames","timestamp":"2025-04-27T16:20:03.072Z"}
+{"level":"info","message":"Generated 240/1350 frames","timestamp":"2025-04-27T16:20:05.804Z"}
+{"level":"info","message":"Generated 270/1350 frames","timestamp":"2025-04-27T16:20:08.370Z"}
+{"level":"info","message":"Generated 300/1350 frames","timestamp":"2025-04-27T16:20:10.992Z"}
+{"level":"info","message":"Generated 330/1350 frames","timestamp":"2025-04-27T16:20:13.955Z"}
+{"level":"info","message":"Generated 360/1350 frames","timestamp":"2025-04-27T16:20:17.041Z"}
+{"level":"info","message":"Generated 390/1350 frames","timestamp":"2025-04-27T16:20:19.617Z"}
+{"level":"info","message":"Generated 420/1350 frames","timestamp":"2025-04-27T16:20:22.403Z"}
+{"level":"info","message":"Generated 450/1350 frames","timestamp":"2025-04-27T16:20:25.417Z"}
+{"level":"info","message":"Generated 480/1350 frames","timestamp":"2025-04-27T16:20:28.405Z"}
+{"level":"info","message":"Generated 510/1350 frames","timestamp":"2025-04-27T16:20:31.314Z"}
+{"level":"info","message":"Generated 540/1350 frames","timestamp":"2025-04-27T16:20:34.134Z"}
+{"level":"info","message":"Generated 570/1350 frames","timestamp":"2025-04-27T16:20:36.961Z"}
+{"level":"info","message":"Generated 600/1350 frames","timestamp":"2025-04-27T16:20:39.830Z"}
+{"level":"info","message":"Generated 630/1350 frames","timestamp":"2025-04-27T16:20:42.540Z"}
+{"level":"info","message":"Generated 660/1350 frames","timestamp":"2025-04-27T16:20:45.711Z"}
+{"level":"info","message":"Generated 690/1350 frames","timestamp":"2025-04-27T16:20:48.587Z"}
+{"level":"info","message":"Generated 720/1350 frames","timestamp":"2025-04-27T16:20:51.278Z"}
+{"level":"info","message":"Generated 750/1350 frames","timestamp":"2025-04-27T16:20:54.050Z"}
+{"level":"info","message":"Generated 780/1350 frames","timestamp":"2025-04-27T16:20:56.635Z"}
+{"level":"info","message":"Generated 810/1350 frames","timestamp":"2025-04-27T16:20:59.511Z"}
+{"level":"info","message":"Generated 840/1350 frames","timestamp":"2025-04-27T16:21:02.343Z"}
+{"level":"info","message":"Generated 870/1350 frames","timestamp":"2025-04-27T16:21:05.033Z"}
+{"level":"info","message":"Generated 900/1350 frames","timestamp":"2025-04-27T16:21:07.784Z"}
+{"level":"info","message":"Generated 930/1350 frames","timestamp":"2025-04-27T16:21:10.566Z"}
+{"level":"info","message":"Generated 960/1350 frames","timestamp":"2025-04-27T16:21:13.369Z"}
+{"level":"info","message":"Generated 990/1350 frames","timestamp":"2025-04-27T16:21:16.244Z"}
+{"level":"info","message":"Generated 1020/1350 frames","timestamp":"2025-04-27T16:21:18.990Z"}
+{"level":"info","message":"Generated 1050/1350 frames","timestamp":"2025-04-27T16:21:21.518Z"}
+{"level":"info","message":"Generated 1080/1350 frames","timestamp":"2025-04-27T16:21:24.142Z"}
+{"level":"info","message":"Generated 1110/1350 frames","timestamp":"2025-04-27T16:21:26.963Z"}
+{"level":"info","message":"Generated 1140/1350 frames","timestamp":"2025-04-27T16:21:29.835Z"}
+{"level":"info","message":"Generated 1170/1350 frames","timestamp":"2025-04-27T16:21:32.448Z"}
+{"level":"info","message":"Generated 1200/1350 frames","timestamp":"2025-04-27T16:21:35.187Z"}
+{"level":"info","message":"Generated 1230/1350 frames","timestamp":"2025-04-27T16:21:37.750Z"}
+{"level":"info","message":"Generated 1260/1350 frames","timestamp":"2025-04-27T16:21:40.347Z"}
+{"level":"info","message":"Generated 1290/1350 frames","timestamp":"2025-04-27T16:21:43.041Z"}
+{"level":"info","message":"Generated 1320/1350 frames","timestamp":"2025-04-27T16:21:45.974Z"}
+{"level":"info","message":"Completed frame sequence generation: 1350 frames created","timestamp":"2025-04-27T16:21:48.596Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:21:48.597Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_7b4788e94d8718c2.mp4","timestamp":"2025-04-27T16:21:58.100Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_7b4788e94d8718c2.mp4","timestamp":"2025-04-27T16:21:58.101Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T16:21:58.101Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_7b4788e94d8718c2.mp4","timestamp":"2025-04-27T16:21:58.102Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 6b6d38f5d8f2a016","timestamp":"2025-04-27T16:21:58.102Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:27:44.822Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:27:44.825Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:27:44.825Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:27:45.317Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 28de4ccf301a3240","timestamp":"2025-04-27T16:27:45.318Z"}
+{"level":"info","message":"Generated content with ID: 33de494d04769e3a","timestamp":"2025-04-27T16:28:03.061Z"}
+{"level":"info","message":"Generating speech for content: 33de494d04769e3a","timestamp":"2025-04-27T16:28:03.062Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_33de494d04769e3a.mp3 with duration: 38s","timestamp":"2025-04-27T16:28:11.139Z"}
+{"level":"info","message":"Creating video for content: 33de494d04769e3a","timestamp":"2025-04-27T16:28:11.139Z"}
+{"level":"info","message":"Generating animation frame sequence for 38 seconds of audio","timestamp":"2025-04-27T16:28:11.140Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_33de494d04769e3a.mp3","timestamp":"2025-04-27T16:28:11.141Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:28:11.157Z"}
+{"level":"info","message":"Generating 1110 frames at 30 FPS","timestamp":"2025-04-27T16:28:11.930Z"}
+{"level":"info","message":"Generated 0/1110 frames","timestamp":"2025-04-27T16:28:12.044Z"}
+{"level":"info","message":"Generated 30/1110 frames","timestamp":"2025-04-27T16:28:14.278Z"}
+{"level":"info","message":"Generated 60/1110 frames","timestamp":"2025-04-27T16:28:16.488Z"}
+{"level":"info","message":"Generated 90/1110 frames","timestamp":"2025-04-27T16:28:18.629Z"}
+{"level":"info","message":"Generated 120/1110 frames","timestamp":"2025-04-27T16:28:20.765Z"}
+{"level":"info","message":"Generated 150/1110 frames","timestamp":"2025-04-27T16:28:22.920Z"}
+{"level":"info","message":"Generated 180/1110 frames","timestamp":"2025-04-27T16:28:25.077Z"}
+{"level":"info","message":"Generated 210/1110 frames","timestamp":"2025-04-27T16:28:27.363Z"}
+{"level":"info","message":"Generated 240/1110 frames","timestamp":"2025-04-27T16:28:29.518Z"}
+{"level":"info","message":"Generated 270/1110 frames","timestamp":"2025-04-27T16:28:31.662Z"}
+{"level":"info","message":"Generated 300/1110 frames","timestamp":"2025-04-27T16:28:33.809Z"}
+{"level":"info","message":"Generated 330/1110 frames","timestamp":"2025-04-27T16:28:35.955Z"}
+{"level":"info","message":"Generated 360/1110 frames","timestamp":"2025-04-27T16:28:38.099Z"}
+{"level":"info","message":"Generated 390/1110 frames","timestamp":"2025-04-27T16:28:40.344Z"}
+{"level":"info","message":"Generated 420/1110 frames","timestamp":"2025-04-27T16:28:42.487Z"}
+{"level":"info","message":"Generated 450/1110 frames","timestamp":"2025-04-27T16:28:44.625Z"}
+{"level":"info","message":"Generated 480/1110 frames","timestamp":"2025-04-27T16:28:46.777Z"}
+{"level":"info","message":"Generated 510/1110 frames","timestamp":"2025-04-27T16:28:48.920Z"}
+{"level":"info","message":"Generated 540/1110 frames","timestamp":"2025-04-27T16:28:51.050Z"}
+{"level":"info","message":"Generated 570/1110 frames","timestamp":"2025-04-27T16:28:53.181Z"}
+{"level":"info","message":"Generated 600/1110 frames","timestamp":"2025-04-27T16:28:55.473Z"}
+{"level":"info","message":"Generated 630/1110 frames","timestamp":"2025-04-27T16:28:57.637Z"}
+{"level":"info","message":"Generated 660/1110 frames","timestamp":"2025-04-27T16:28:59.795Z"}
+{"level":"info","message":"Generated 690/1110 frames","timestamp":"2025-04-27T16:29:01.961Z"}
+{"level":"info","message":"Generated 720/1110 frames","timestamp":"2025-04-27T16:29:04.132Z"}
+{"level":"info","message":"Generated 750/1110 frames","timestamp":"2025-04-27T16:29:06.277Z"}
+{"level":"info","message":"Generated 780/1110 frames","timestamp":"2025-04-27T16:29:08.535Z"}
+{"level":"info","message":"Generated 810/1110 frames","timestamp":"2025-04-27T16:29:10.681Z"}
+{"level":"info","message":"Generated 840/1110 frames","timestamp":"2025-04-27T16:29:12.856Z"}
+{"level":"info","message":"Generated 870/1110 frames","timestamp":"2025-04-27T16:29:15.026Z"}
+{"level":"info","message":"Generated 900/1110 frames","timestamp":"2025-04-27T16:29:17.175Z"}
+{"level":"info","message":"Generated 930/1110 frames","timestamp":"2025-04-27T16:29:19.314Z"}
+{"level":"info","message":"Generated 960/1110 frames","timestamp":"2025-04-27T16:29:21.562Z"}
+{"level":"info","message":"Generated 990/1110 frames","timestamp":"2025-04-27T16:29:23.727Z"}
+{"level":"info","message":"Generated 1020/1110 frames","timestamp":"2025-04-27T16:29:25.874Z"}
+{"level":"info","message":"Generated 1050/1110 frames","timestamp":"2025-04-27T16:29:28.033Z"}
+{"level":"info","message":"Generated 1080/1110 frames","timestamp":"2025-04-27T16:29:30.184Z"}
+{"level":"info","message":"Completed frame sequence generation: 1110 frames created","timestamp":"2025-04-27T16:29:32.282Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:29:32.283Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_67586512e55b4343.mp4","timestamp":"2025-04-27T16:29:38.770Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_67586512e55b4343.mp4","timestamp":"2025-04-27T16:29:38.770Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T16:29:38.770Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_67586512e55b4343.mp4","timestamp":"2025-04-27T16:29:38.770Z"}
+{"level":"info","message":"Generating sarcastic content for news item: b02c8f0e9be3e992","timestamp":"2025-04-27T16:29:38.770Z"}
+{"level":"info","message":"Generated content with ID: be236b90c145ac21","timestamp":"2025-04-27T16:29:42.474Z"}
+{"level":"info","message":"Generating speech for content: be236b90c145ac21","timestamp":"2025-04-27T16:29:42.475Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_be236b90c145ac21.mp3 with duration: 33s","timestamp":"2025-04-27T16:29:49.623Z"}
+{"level":"info","message":"Creating video for content: be236b90c145ac21","timestamp":"2025-04-27T16:29:49.624Z"}
+{"level":"info","message":"Generating animation frame sequence for 33 seconds of audio","timestamp":"2025-04-27T16:29:49.624Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_be236b90c145ac21.mp3","timestamp":"2025-04-27T16:29:49.624Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:29:49.637Z"}
+{"level":"info","message":"Generating 960 frames at 30 FPS","timestamp":"2025-04-27T16:29:49.638Z"}
+{"level":"info","message":"Generated 0/960 frames","timestamp":"2025-04-27T16:29:49.707Z"}
+{"level":"info","message":"Generated 30/960 frames","timestamp":"2025-04-27T16:29:51.832Z"}
+{"level":"info","message":"Generated 60/960 frames","timestamp":"2025-04-27T16:29:53.999Z"}
+{"level":"info","message":"Generated 90/960 frames","timestamp":"2025-04-27T16:29:56.183Z"}
+{"level":"info","message":"Generated 120/960 frames","timestamp":"2025-04-27T16:29:58.292Z"}
+{"level":"info","message":"Generated 150/960 frames","timestamp":"2025-04-27T16:30:00.524Z"}
+{"level":"info","message":"Generated 180/960 frames","timestamp":"2025-04-27T16:30:02.730Z"}
+{"level":"info","message":"Generated 210/960 frames","timestamp":"2025-04-27T16:30:04.876Z"}
+{"level":"info","message":"Generated 240/960 frames","timestamp":"2025-04-27T16:30:07.008Z"}
+{"level":"info","message":"Generated 270/960 frames","timestamp":"2025-04-27T16:30:09.146Z"}
+{"level":"info","message":"Generated 300/960 frames","timestamp":"2025-04-27T16:30:11.282Z"}
+{"level":"info","message":"Generated 330/960 frames","timestamp":"2025-04-27T16:30:13.527Z"}
+{"level":"info","message":"Generated 360/960 frames","timestamp":"2025-04-27T16:30:15.685Z"}
+{"level":"info","message":"Generated 390/960 frames","timestamp":"2025-04-27T16:30:17.791Z"}
+{"level":"info","message":"Generated 420/960 frames","timestamp":"2025-04-27T16:30:19.924Z"}
+{"level":"info","message":"Generated 450/960 frames","timestamp":"2025-04-27T16:30:22.057Z"}
+{"level":"info","message":"Generated 480/960 frames","timestamp":"2025-04-27T16:30:24.229Z"}
+{"level":"info","message":"Generated 510/960 frames","timestamp":"2025-04-27T16:30:26.331Z"}
+{"level":"info","message":"Generated 540/960 frames","timestamp":"2025-04-27T16:30:28.572Z"}
+{"level":"info","message":"Generated 570/960 frames","timestamp":"2025-04-27T16:30:30.743Z"}
+{"level":"info","message":"Generated 600/960 frames","timestamp":"2025-04-27T16:30:32.908Z"}
+{"level":"info","message":"Generated 630/960 frames","timestamp":"2025-04-27T16:30:35.062Z"}
+{"level":"info","message":"Generated 660/960 frames","timestamp":"2025-04-27T16:30:37.202Z"}
+{"level":"info","message":"Generated 690/960 frames","timestamp":"2025-04-27T16:30:39.358Z"}
+{"level":"info","message":"Generated 720/960 frames","timestamp":"2025-04-27T16:30:41.610Z"}
+{"level":"info","message":"Generated 750/960 frames","timestamp":"2025-04-27T16:30:43.737Z"}
+{"level":"info","message":"Generated 780/960 frames","timestamp":"2025-04-27T16:30:45.892Z"}
+{"level":"info","message":"Generated 810/960 frames","timestamp":"2025-04-27T16:30:48.049Z"}
+{"level":"info","message":"Generated 840/960 frames","timestamp":"2025-04-27T16:30:50.176Z"}
+{"level":"info","message":"Generated 870/960 frames","timestamp":"2025-04-27T16:30:52.320Z"}
+{"level":"info","message":"Generated 900/960 frames","timestamp":"2025-04-27T16:30:54.612Z"}
+{"level":"info","message":"Generated 930/960 frames","timestamp":"2025-04-27T16:30:56.749Z"}
+{"level":"info","message":"Completed frame sequence generation: 960 frames created","timestamp":"2025-04-27T16:30:58.835Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:30:58.836Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_fe2ce6ddbf006360.mp4","timestamp":"2025-04-27T16:31:04.572Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_fe2ce6ddbf006360.mp4","timestamp":"2025-04-27T16:31:04.572Z"}
+{"level":"info","message":"Successfully processed news item: Lana Del Rey Sings About Kissing Morgan Wallen in Stagecoach Set - Variety","timestamp":"2025-04-27T16:31:04.572Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_fe2ce6ddbf006360.mp4","timestamp":"2025-04-27T16:31:04.572Z"}
+{"level":"info","message":"Generating sarcastic content for news item: ae1f6f76fc336de9","timestamp":"2025-04-27T16:31:04.573Z"}
+{"level":"info","message":"Generated content with ID: 67f4c88f879e9d6f","timestamp":"2025-04-27T16:31:07.769Z"}
+{"level":"info","message":"Generating speech for content: 67f4c88f879e9d6f","timestamp":"2025-04-27T16:31:07.769Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_67f4c88f879e9d6f.mp3 with duration: 53s","timestamp":"2025-04-27T16:31:18.657Z"}
+{"level":"info","message":"Creating video for content: 67f4c88f879e9d6f","timestamp":"2025-04-27T16:31:18.658Z"}
+{"level":"info","message":"Generating animation frame sequence for 53 seconds of audio","timestamp":"2025-04-27T16:31:18.658Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_67f4c88f879e9d6f.mp3","timestamp":"2025-04-27T16:31:18.658Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:31:18.671Z"}
+{"level":"info","message":"Generating 1560 frames at 30 FPS","timestamp":"2025-04-27T16:31:18.673Z"}
+{"level":"info","message":"Generated 0/1560 frames","timestamp":"2025-04-27T16:31:18.743Z"}
+{"level":"info","message":"Generated 30/1560 frames","timestamp":"2025-04-27T16:31:21.776Z"}
+{"level":"info","message":"Generated 60/1560 frames","timestamp":"2025-04-27T16:31:24.262Z"}
+{"level":"info","message":"Generated 90/1560 frames","timestamp":"2025-04-27T16:31:26.851Z"}
+{"level":"info","message":"Generated 120/1560 frames","timestamp":"2025-04-27T16:31:29.273Z"}
+{"level":"info","message":"Generated 150/1560 frames","timestamp":"2025-04-27T16:31:31.748Z"}
+{"level":"info","message":"Generated 180/1560 frames","timestamp":"2025-04-27T16:31:34.282Z"}
+{"level":"info","message":"Generated 210/1560 frames","timestamp":"2025-04-27T16:31:36.876Z"}
+{"level":"info","message":"Generated 240/1560 frames","timestamp":"2025-04-27T16:31:39.185Z"}
+{"level":"info","message":"Generated 270/1560 frames","timestamp":"2025-04-27T16:31:41.604Z"}
+{"level":"info","message":"Generated 300/1560 frames","timestamp":"2025-04-27T16:31:44.606Z"}
+{"level":"info","message":"Generated 330/1560 frames","timestamp":"2025-04-27T16:31:47.184Z"}
+{"level":"info","message":"Generated 360/1560 frames","timestamp":"2025-04-27T16:31:49.690Z"}
+{"level":"info","message":"Generated 390/1560 frames","timestamp":"2025-04-27T16:31:52.233Z"}
+{"level":"info","message":"Generated 420/1560 frames","timestamp":"2025-04-27T16:31:54.724Z"}
+{"level":"info","message":"Generated 450/1560 frames","timestamp":"2025-04-27T16:31:57.455Z"}
+{"level":"info","message":"Generated 480/1560 frames","timestamp":"2025-04-27T16:31:59.893Z"}
+{"level":"info","message":"Generated 510/1560 frames","timestamp":"2025-04-27T16:32:02.053Z"}
+{"level":"info","message":"Generated 540/1560 frames","timestamp":"2025-04-27T16:32:04.194Z"}
+{"level":"info","message":"Generated 570/1560 frames","timestamp":"2025-04-27T16:32:06.448Z"}
+{"level":"info","message":"Generated 600/1560 frames","timestamp":"2025-04-27T16:32:08.566Z"}
+{"level":"info","message":"Generated 630/1560 frames","timestamp":"2025-04-27T16:32:10.734Z"}
+{"level":"info","message":"Generated 660/1560 frames","timestamp":"2025-04-27T16:32:12.895Z"}
+{"level":"info","message":"Generated 690/1560 frames","timestamp":"2025-04-27T16:32:15.014Z"}
+{"level":"info","message":"Generated 720/1560 frames","timestamp":"2025-04-27T16:32:17.161Z"}
+{"level":"info","message":"Generated 750/1560 frames","timestamp":"2025-04-27T16:32:19.418Z"}
+{"level":"info","message":"Generated 780/1560 frames","timestamp":"2025-04-27T16:32:21.538Z"}
+{"level":"info","message":"Generated 810/1560 frames","timestamp":"2025-04-27T16:32:23.703Z"}
+{"level":"info","message":"Generated 840/1560 frames","timestamp":"2025-04-27T16:32:25.850Z"}
+{"level":"info","message":"Generated 870/1560 frames","timestamp":"2025-04-27T16:32:28.013Z"}
+{"level":"info","message":"Generated 900/1560 frames","timestamp":"2025-04-27T16:32:30.156Z"}
+{"level":"info","message":"Generated 930/1560 frames","timestamp":"2025-04-27T16:32:32.395Z"}
+{"level":"info","message":"Generated 960/1560 frames","timestamp":"2025-04-27T16:32:34.543Z"}
+{"level":"info","message":"Generated 990/1560 frames","timestamp":"2025-04-27T16:32:36.734Z"}
+{"level":"info","message":"Generated 1020/1560 frames","timestamp":"2025-04-27T16:32:38.885Z"}
+{"level":"info","message":"Generated 1050/1560 frames","timestamp":"2025-04-27T16:32:41.079Z"}
+{"level":"info","message":"Generated 1080/1560 frames","timestamp":"2025-04-27T16:32:43.905Z"}
+{"level":"info","message":"Generated 1110/1560 frames","timestamp":"2025-04-27T16:32:46.210Z"}
+{"level":"info","message":"Generated 1140/1560 frames","timestamp":"2025-04-27T16:32:48.403Z"}
+{"level":"info","message":"Generated 1170/1560 frames","timestamp":"2025-04-27T16:32:50.991Z"}
+{"level":"info","message":"Generated 1200/1560 frames","timestamp":"2025-04-27T16:32:53.560Z"}
+{"level":"info","message":"Generated 1230/1560 frames","timestamp":"2025-04-27T16:32:55.803Z"}
+{"level":"info","message":"Generated 1260/1560 frames","timestamp":"2025-04-27T16:32:58.007Z"}
+{"level":"info","message":"Generated 1290/1560 frames","timestamp":"2025-04-27T16:33:00.247Z"}
+{"level":"info","message":"Generated 1320/1560 frames","timestamp":"2025-04-27T16:33:02.933Z"}
+{"level":"info","message":"Generated 1350/1560 frames","timestamp":"2025-04-27T16:33:05.692Z"}
+{"level":"info","message":"Generated 1380/1560 frames","timestamp":"2025-04-27T16:33:08.112Z"}
+{"level":"info","message":"Generated 1410/1560 frames","timestamp":"2025-04-27T16:33:10.578Z"}
+{"level":"info","message":"Generated 1440/1560 frames","timestamp":"2025-04-27T16:33:13.177Z"}
+{"level":"info","message":"Generated 1470/1560 frames","timestamp":"2025-04-27T16:33:15.699Z"}
+{"level":"info","message":"Generated 1500/1560 frames","timestamp":"2025-04-27T16:33:18.258Z"}
+{"level":"info","message":"Generated 1530/1560 frames","timestamp":"2025-04-27T16:33:21.350Z"}
+{"level":"info","message":"Completed frame sequence generation: 1560 frames created","timestamp":"2025-04-27T16:33:23.716Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:33:23.717Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_bb65afa74a9f7a9b.mp4","timestamp":"2025-04-27T16:33:33.919Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_bb65afa74a9f7a9b.mp4","timestamp":"2025-04-27T16:33:33.919Z"}
+{"level":"info","message":"Successfully processed news item: Horoscope for Saturday, April 26, 2025 - Chicago Sun-Times","timestamp":"2025-04-27T16:33:33.920Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_bb65afa74a9f7a9b.mp4","timestamp":"2025-04-27T16:33:33.920Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 2d261cb0b6238e37","timestamp":"2025-04-27T16:33:33.920Z"}
+{"level":"info","message":"Generated content with ID: 2fc3b62c1cb247a0","timestamp":"2025-04-27T16:33:53.130Z"}
+{"level":"info","message":"Generating speech for content: 2fc3b62c1cb247a0","timestamp":"2025-04-27T16:33:53.131Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_2fc3b62c1cb247a0.mp3 with duration: 42s","timestamp":"2025-04-27T16:34:02.185Z"}
+{"level":"info","message":"Creating video for content: 2fc3b62c1cb247a0","timestamp":"2025-04-27T16:34:02.185Z"}
+{"level":"info","message":"Generating animation frame sequence for 42 seconds of audio","timestamp":"2025-04-27T16:34:02.185Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_2fc3b62c1cb247a0.mp3","timestamp":"2025-04-27T16:34:02.185Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:34:02.199Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:37:14.025Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:37:14.028Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:37:14.029Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:37:14.864Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 7c227f2a334dd7ea","timestamp":"2025-04-27T16:37:14.866Z"}
+{"level":"info","message":"Generated content with ID: 27d85b6fefec171c","timestamp":"2025-04-27T16:37:17.928Z"}
+{"level":"info","message":"Generating speech for content: 27d85b6fefec171c","timestamp":"2025-04-27T16:37:17.929Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_27d85b6fefec171c.mp3 with duration: 41s","timestamp":"2025-04-27T16:37:26.615Z"}
+{"level":"info","message":"Creating video for content: 27d85b6fefec171c","timestamp":"2025-04-27T16:37:26.616Z"}
+{"level":"info","message":"Generating animation frame sequence for 41 seconds of audio","timestamp":"2025-04-27T16:37:26.616Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_27d85b6fefec171c.mp3","timestamp":"2025-04-27T16:37:26.617Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:37:26.631Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:38:20.929Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:38:20.931Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:38:20.932Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:38:21.312Z"}
+{"level":"info","message":"Generating sarcastic content for news item: aaf517fe6546e0c2","timestamp":"2025-04-27T16:38:21.314Z"}
+{"level":"info","message":"Generated content with ID: 2f3112467b771e0d","timestamp":"2025-04-27T16:38:24.157Z"}
+{"level":"info","message":"Generating speech for content: 2f3112467b771e0d","timestamp":"2025-04-27T16:38:24.158Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_2f3112467b771e0d.mp3 with duration: 39s","timestamp":"2025-04-27T16:38:32.415Z"}
+{"level":"info","message":"Creating video for content: 2f3112467b771e0d","timestamp":"2025-04-27T16:38:32.416Z"}
+{"level":"info","message":"Generating animation frame sequence for 39 seconds of audio","timestamp":"2025-04-27T16:38:32.416Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_2f3112467b771e0d.mp3","timestamp":"2025-04-27T16:38:32.417Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:38:32.431Z"}
+{"level":"info","message":"Generating 1140 frames at 30 FPS","timestamp":"2025-04-27T16:38:32.752Z"}
+{"level":"info","message":"Generated 0/1140 frames","timestamp":"2025-04-27T16:38:32.842Z"}
+{"level":"info","message":"Generated 30/1140 frames","timestamp":"2025-04-27T16:38:35.078Z"}
+{"level":"info","message":"Generated 60/1140 frames","timestamp":"2025-04-27T16:38:37.201Z"}
+{"level":"info","message":"Generated 90/1140 frames","timestamp":"2025-04-27T16:38:39.415Z"}
+{"level":"info","message":"Generated 120/1140 frames","timestamp":"2025-04-27T16:38:41.518Z"}
+{"level":"info","message":"Generated 150/1140 frames","timestamp":"2025-04-27T16:38:43.618Z"}
+{"level":"info","message":"Generated 180/1140 frames","timestamp":"2025-04-27T16:38:45.732Z"}
+{"level":"info","message":"Generated 210/1140 frames","timestamp":"2025-04-27T16:38:47.813Z"}
+{"level":"info","message":"Generated 240/1140 frames","timestamp":"2025-04-27T16:38:49.907Z"}
+{"level":"info","message":"Generated 270/1140 frames","timestamp":"2025-04-27T16:38:52.009Z"}
+{"level":"info","message":"Generated 300/1140 frames","timestamp":"2025-04-27T16:38:54.209Z"}
+{"level":"info","message":"Generated 330/1140 frames","timestamp":"2025-04-27T16:38:56.356Z"}
+{"level":"info","message":"Generated 360/1140 frames","timestamp":"2025-04-27T16:38:58.459Z"}
+{"level":"info","message":"Generated 390/1140 frames","timestamp":"2025-04-27T16:39:00.548Z"}
+{"level":"info","message":"Generated 420/1140 frames","timestamp":"2025-04-27T16:39:02.695Z"}
+{"level":"info","message":"Generated 450/1140 frames","timestamp":"2025-04-27T16:39:04.807Z"}
+{"level":"info","message":"Generated 480/1140 frames","timestamp":"2025-04-27T16:39:07.024Z"}
+{"level":"info","message":"Generated 510/1140 frames","timestamp":"2025-04-27T16:39:09.118Z"}
+{"level":"info","message":"Generated 540/1140 frames","timestamp":"2025-04-27T16:39:11.224Z"}
+{"level":"info","message":"Generated 570/1140 frames","timestamp":"2025-04-27T16:39:13.329Z"}
+{"level":"info","message":"Generated 600/1140 frames","timestamp":"2025-04-27T16:39:15.425Z"}
+{"level":"info","message":"Generated 630/1140 frames","timestamp":"2025-04-27T16:39:17.571Z"}
+{"level":"info","message":"Generated 660/1140 frames","timestamp":"2025-04-27T16:39:19.784Z"}
+{"level":"info","message":"Generated 690/1140 frames","timestamp":"2025-04-27T16:39:21.967Z"}
+{"level":"info","message":"Generated 720/1140 frames","timestamp":"2025-04-27T16:39:24.074Z"}
+{"level":"info","message":"Generated 750/1140 frames","timestamp":"2025-04-27T16:39:26.167Z"}
+{"level":"info","message":"Generated 780/1140 frames","timestamp":"2025-04-27T16:39:28.281Z"}
+{"level":"info","message":"Generated 810/1140 frames","timestamp":"2025-04-27T16:39:30.400Z"}
+{"level":"info","message":"Generated 840/1140 frames","timestamp":"2025-04-27T16:39:32.504Z"}
+{"level":"info","message":"Generated 870/1140 frames","timestamp":"2025-04-27T16:39:34.743Z"}
+{"level":"info","message":"Generated 900/1140 frames","timestamp":"2025-04-27T16:39:36.886Z"}
+{"level":"info","message":"Generated 930/1140 frames","timestamp":"2025-04-27T16:39:39.007Z"}
+{"level":"info","message":"Generated 960/1140 frames","timestamp":"2025-04-27T16:39:41.130Z"}
+{"level":"info","message":"Generated 990/1140 frames","timestamp":"2025-04-27T16:39:43.247Z"}
+{"level":"info","message":"Generated 1020/1140 frames","timestamp":"2025-04-27T16:39:45.404Z"}
+{"level":"info","message":"Generated 1050/1140 frames","timestamp":"2025-04-27T16:39:47.546Z"}
+{"level":"info","message":"Generated 1080/1140 frames","timestamp":"2025-04-27T16:39:49.907Z"}
+{"level":"info","message":"Generated 1110/1140 frames","timestamp":"2025-04-27T16:39:52.313Z"}
+{"level":"info","message":"Completed frame sequence generation: 1140 frames created","timestamp":"2025-04-27T16:39:54.374Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:39:54.375Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_1b1de02d5cc131a2.mp4","timestamp":"2025-04-27T16:40:01.640Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_1b1de02d5cc131a2.mp4","timestamp":"2025-04-27T16:40:01.641Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T16:40:01.641Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_1b1de02d5cc131a2.mp4","timestamp":"2025-04-27T16:40:01.641Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 56e9ae925f6c09af","timestamp":"2025-04-27T16:40:01.641Z"}
+{"level":"info","message":"Generated content with ID: 57090648b824f6a5","timestamp":"2025-04-27T16:40:05.407Z"}
+{"level":"info","message":"Generating speech for content: 57090648b824f6a5","timestamp":"2025-04-27T16:40:05.407Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_57090648b824f6a5.mp3 with duration: 37s","timestamp":"2025-04-27T16:40:13.409Z"}
+{"level":"info","message":"Creating video for content: 57090648b824f6a5","timestamp":"2025-04-27T16:40:13.409Z"}
+{"level":"info","message":"Generating animation frame sequence for 37 seconds of audio","timestamp":"2025-04-27T16:40:13.409Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_57090648b824f6a5.mp3","timestamp":"2025-04-27T16:40:13.409Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:40:13.423Z"}
+{"level":"info","message":"Generating 1080 frames at 30 FPS","timestamp":"2025-04-27T16:40:13.424Z"}
+{"level":"info","message":"Generated 0/1080 frames","timestamp":"2025-04-27T16:40:13.499Z"}
+{"level":"info","message":"Generated 30/1080 frames","timestamp":"2025-04-27T16:40:16.117Z"}
+{"level":"info","message":"Generated 60/1080 frames","timestamp":"2025-04-27T16:40:19.032Z"}
+{"level":"info","message":"Generated 90/1080 frames","timestamp":"2025-04-27T16:40:21.483Z"}
+{"level":"info","message":"Generated 120/1080 frames","timestamp":"2025-04-27T16:40:23.902Z"}
+{"level":"info","message":"Generated 150/1080 frames","timestamp":"2025-04-27T16:40:26.303Z"}
+{"level":"info","message":"Generated 180/1080 frames","timestamp":"2025-04-27T16:40:28.821Z"}
+{"level":"info","message":"Generated 210/1080 frames","timestamp":"2025-04-27T16:40:31.210Z"}
+{"level":"info","message":"Generated 240/1080 frames","timestamp":"2025-04-27T16:40:34.074Z"}
+{"level":"info","message":"Generated 270/1080 frames","timestamp":"2025-04-27T16:40:36.610Z"}
+{"level":"info","message":"Generated 300/1080 frames","timestamp":"2025-04-27T16:40:39.486Z"}
+{"level":"info","message":"Generated 330/1080 frames","timestamp":"2025-04-27T16:40:42.191Z"}
+{"level":"info","message":"Generated 360/1080 frames","timestamp":"2025-04-27T16:40:44.757Z"}
+{"level":"info","message":"Generated 390/1080 frames","timestamp":"2025-04-27T16:40:47.431Z"}
+{"level":"info","message":"Generated 420/1080 frames","timestamp":"2025-04-27T16:40:50.159Z"}
+{"level":"info","message":"Generated 450/1080 frames","timestamp":"2025-04-27T16:40:52.996Z"}
+{"level":"info","message":"Generated 480/1080 frames","timestamp":"2025-04-27T16:40:55.569Z"}
+{"level":"info","message":"Generated 510/1080 frames","timestamp":"2025-04-27T16:40:58.316Z"}
+{"level":"info","message":"Generated 540/1080 frames","timestamp":"2025-04-27T16:41:00.739Z"}
+{"level":"info","message":"Generated 570/1080 frames","timestamp":"2025-04-27T16:41:03.061Z"}
+{"level":"info","message":"Generated 600/1080 frames","timestamp":"2025-04-27T16:41:05.524Z"}
+{"level":"info","message":"Generated 630/1080 frames","timestamp":"2025-04-27T16:41:08.460Z"}
+{"level":"info","message":"Generated 660/1080 frames","timestamp":"2025-04-27T16:41:10.852Z"}
+{"level":"info","message":"Generated 690/1080 frames","timestamp":"2025-04-27T16:41:13.271Z"}
+{"level":"info","message":"Generated 720/1080 frames","timestamp":"2025-04-27T16:41:15.659Z"}
+{"level":"info","message":"Generated 750/1080 frames","timestamp":"2025-04-27T16:41:18.021Z"}
+{"level":"info","message":"Generated 780/1080 frames","timestamp":"2025-04-27T16:41:20.573Z"}
+{"level":"info","message":"Generated 810/1080 frames","timestamp":"2025-04-27T16:41:23.608Z"}
+{"level":"info","message":"Generated 840/1080 frames","timestamp":"2025-04-27T16:41:26.057Z"}
+{"level":"info","message":"Generated 870/1080 frames","timestamp":"2025-04-27T16:41:28.722Z"}
+{"level":"info","message":"Generated 900/1080 frames","timestamp":"2025-04-27T16:41:31.336Z"}
+{"level":"info","message":"Generated 930/1080 frames","timestamp":"2025-04-27T16:41:33.852Z"}
+{"level":"info","message":"Generated 960/1080 frames","timestamp":"2025-04-27T16:41:36.576Z"}
+{"level":"info","message":"Generated 990/1080 frames","timestamp":"2025-04-27T16:41:39.255Z"}
+{"level":"info","message":"Generated 1020/1080 frames","timestamp":"2025-04-27T16:41:41.662Z"}
+{"level":"info","message":"Generated 1050/1080 frames","timestamp":"2025-04-27T16:41:44.032Z"}
+{"level":"info","message":"Completed frame sequence generation: 1080 frames created","timestamp":"2025-04-27T16:41:46.395Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:41:46.396Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_cbd4ea8999735353.mp4","timestamp":"2025-04-27T16:41:53.662Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_cbd4ea8999735353.mp4","timestamp":"2025-04-27T16:41:53.663Z"}
+{"level":"info","message":"Successfully processed news item: Lana Del Rey Sings About Kissing Morgan Wallen in Stagecoach Set - Variety","timestamp":"2025-04-27T16:41:53.663Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_cbd4ea8999735353.mp4","timestamp":"2025-04-27T16:41:53.663Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 192969f6a11b5662","timestamp":"2025-04-27T16:41:53.664Z"}
+{"level":"info","message":"Generated content with ID: 98e3f60e54d8820b","timestamp":"2025-04-27T16:42:13.696Z"}
+{"level":"info","message":"Generating speech for content: 98e3f60e54d8820b","timestamp":"2025-04-27T16:42:13.696Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_98e3f60e54d8820b.mp3 with duration: 55s","timestamp":"2025-04-27T16:42:25.256Z"}
+{"level":"info","message":"Creating video for content: 98e3f60e54d8820b","timestamp":"2025-04-27T16:42:25.256Z"}
+{"level":"info","message":"Generating animation frame sequence for 55 seconds of audio","timestamp":"2025-04-27T16:42:25.256Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_98e3f60e54d8820b.mp3","timestamp":"2025-04-27T16:42:25.257Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:42:25.270Z"}
+{"level":"info","message":"Generating 1620 frames at 30 FPS","timestamp":"2025-04-27T16:42:25.272Z"}
+{"level":"info","message":"Generated 0/1620 frames","timestamp":"2025-04-27T16:42:25.340Z"}
+{"level":"info","message":"Generated 30/1620 frames","timestamp":"2025-04-27T16:42:27.793Z"}
+{"level":"info","message":"Generated 60/1620 frames","timestamp":"2025-04-27T16:42:30.238Z"}
+{"level":"info","message":"Generated 90/1620 frames","timestamp":"2025-04-27T16:42:32.684Z"}
+{"level":"info","message":"Generated 120/1620 frames","timestamp":"2025-04-27T16:42:35.223Z"}
+{"level":"info","message":"Generated 150/1620 frames","timestamp":"2025-04-27T16:42:37.795Z"}
+{"level":"info","message":"Generated 180/1620 frames","timestamp":"2025-04-27T16:42:40.119Z"}
+{"level":"info","message":"Generated 210/1620 frames","timestamp":"2025-04-27T16:42:42.526Z"}
+{"level":"info","message":"Generated 240/1620 frames","timestamp":"2025-04-27T16:42:45.099Z"}
+{"level":"info","message":"Generated 270/1620 frames","timestamp":"2025-04-27T16:42:47.544Z"}
+{"level":"info","message":"Generated 300/1620 frames","timestamp":"2025-04-27T16:42:49.800Z"}
+{"level":"info","message":"Generated 330/1620 frames","timestamp":"2025-04-27T16:42:52.434Z"}
+{"level":"info","message":"Generated 360/1620 frames","timestamp":"2025-04-27T16:42:54.892Z"}
+{"level":"info","message":"Generated 390/1620 frames","timestamp":"2025-04-27T16:42:57.275Z"}
+{"level":"info","message":"Generated 420/1620 frames","timestamp":"2025-04-27T16:42:59.619Z"}
+{"level":"info","message":"Generated 450/1620 frames","timestamp":"2025-04-27T16:43:02.038Z"}
+{"level":"info","message":"Generated 480/1620 frames","timestamp":"2025-04-27T16:43:04.442Z"}
+{"level":"info","message":"Generated 510/1620 frames","timestamp":"2025-04-27T16:43:06.759Z"}
+{"level":"info","message":"Generated 540/1620 frames","timestamp":"2025-04-27T16:43:09.437Z"}
+{"level":"info","message":"Generated 570/1620 frames","timestamp":"2025-04-27T16:43:11.844Z"}
+{"level":"info","message":"Generated 600/1620 frames","timestamp":"2025-04-27T16:43:14.208Z"}
+{"level":"info","message":"Generated 630/1620 frames","timestamp":"2025-04-27T16:43:16.519Z"}
+{"level":"info","message":"Generated 660/1620 frames","timestamp":"2025-04-27T16:43:18.842Z"}
+{"level":"info","message":"Generated 690/1620 frames","timestamp":"2025-04-27T16:43:21.382Z"}
+{"level":"info","message":"Generated 720/1620 frames","timestamp":"2025-04-27T16:43:24.042Z"}
+{"level":"info","message":"Generated 750/1620 frames","timestamp":"2025-04-27T16:43:26.379Z"}
+{"level":"info","message":"Generated 780/1620 frames","timestamp":"2025-04-27T16:43:29.088Z"}
+{"level":"info","message":"Generated 810/1620 frames","timestamp":"2025-04-27T16:43:31.373Z"}
+{"level":"info","message":"Generated 840/1620 frames","timestamp":"2025-04-27T16:43:34.004Z"}
+{"level":"info","message":"Generated 870/1620 frames","timestamp":"2025-04-27T16:43:36.774Z"}
+{"level":"info","message":"Generated 900/1620 frames","timestamp":"2025-04-27T16:43:39.766Z"}
+{"level":"info","message":"Generated 930/1620 frames","timestamp":"2025-04-27T16:43:42.620Z"}
+{"level":"info","message":"Generated 960/1620 frames","timestamp":"2025-04-27T16:43:45.250Z"}
+{"level":"info","message":"Generated 990/1620 frames","timestamp":"2025-04-27T16:43:48.144Z"}
+{"level":"info","message":"Generated 1020/1620 frames","timestamp":"2025-04-27T16:43:50.654Z"}
+{"level":"info","message":"Generated 1050/1620 frames","timestamp":"2025-04-27T16:43:53.169Z"}
+{"level":"info","message":"Generated 1080/1620 frames","timestamp":"2025-04-27T16:43:55.850Z"}
+{"level":"info","message":"Generated 1110/1620 frames","timestamp":"2025-04-27T16:43:58.209Z"}
+{"level":"info","message":"Generated 1140/1620 frames","timestamp":"2025-04-27T16:44:00.759Z"}
+{"level":"info","message":"Generated 1170/1620 frames","timestamp":"2025-04-27T16:44:03.459Z"}
+{"level":"info","message":"Generated 1200/1620 frames","timestamp":"2025-04-27T16:44:06.066Z"}
+{"level":"info","message":"Generated 1230/1620 frames","timestamp":"2025-04-27T16:44:08.518Z"}
+{"level":"info","message":"Generated 1260/1620 frames","timestamp":"2025-04-27T16:44:10.945Z"}
+{"level":"info","message":"Generated 1290/1620 frames","timestamp":"2025-04-27T16:44:13.364Z"}
+{"level":"info","message":"Generated 1320/1620 frames","timestamp":"2025-04-27T16:44:15.812Z"}
+{"level":"info","message":"Generated 1350/1620 frames","timestamp":"2025-04-27T16:44:18.726Z"}
+{"level":"info","message":"Generated 1380/1620 frames","timestamp":"2025-04-27T16:44:21.108Z"}
+{"level":"info","message":"Generated 1410/1620 frames","timestamp":"2025-04-27T16:44:23.459Z"}
+{"level":"info","message":"Generated 1440/1620 frames","timestamp":"2025-04-27T16:44:25.777Z"}
+{"level":"info","message":"Generated 1470/1620 frames","timestamp":"2025-04-27T16:44:28.171Z"}
+{"level":"info","message":"Generated 1500/1620 frames","timestamp":"2025-04-27T16:44:30.718Z"}
+{"level":"info","message":"Generated 1530/1620 frames","timestamp":"2025-04-27T16:44:33.370Z"}
+{"level":"info","message":"Generated 1560/1620 frames","timestamp":"2025-04-27T16:44:35.760Z"}
+{"level":"info","message":"Generated 1590/1620 frames","timestamp":"2025-04-27T16:44:38.215Z"}
+{"level":"info","message":"Completed frame sequence generation: 1620 frames created","timestamp":"2025-04-27T16:44:40.776Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:44:40.777Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_7ac7b662598f2861.mp4","timestamp":"2025-04-27T16:44:51.550Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_7ac7b662598f2861.mp4","timestamp":"2025-04-27T16:44:51.551Z"}
+{"level":"info","message":"Successfully processed news item: Horoscope for Saturday, April 26, 2025 - Chicago Sun-Times","timestamp":"2025-04-27T16:44:51.551Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_7ac7b662598f2861.mp4","timestamp":"2025-04-27T16:44:51.551Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 5c7bf7cad13f71ca","timestamp":"2025-04-27T16:44:51.552Z"}
+{"level":"info","message":"Generated content with ID: 2eccbd8fad727675","timestamp":"2025-04-27T16:44:56.878Z"}
+{"level":"info","message":"Generating speech for content: 2eccbd8fad727675","timestamp":"2025-04-27T16:44:56.878Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_2eccbd8fad727675.mp3 with duration: 41s","timestamp":"2025-04-27T16:45:05.303Z"}
+{"level":"info","message":"Creating video for content: 2eccbd8fad727675","timestamp":"2025-04-27T16:45:05.303Z"}
+{"level":"info","message":"Generating animation frame sequence for 41 seconds of audio","timestamp":"2025-04-27T16:45:05.303Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_2eccbd8fad727675.mp3","timestamp":"2025-04-27T16:45:05.303Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:45:05.319Z"}
+{"level":"info","message":"Generating 1200 frames at 30 FPS","timestamp":"2025-04-27T16:45:05.320Z"}
+{"level":"info","message":"Generated 0/1200 frames","timestamp":"2025-04-27T16:45:05.397Z"}
+{"level":"info","message":"Generated 30/1200 frames","timestamp":"2025-04-27T16:45:07.901Z"}
+{"level":"info","message":"Generated 60/1200 frames","timestamp":"2025-04-27T16:45:10.677Z"}
+{"level":"info","message":"Generated 90/1200 frames","timestamp":"2025-04-27T16:45:13.155Z"}
+{"level":"info","message":"Generated 120/1200 frames","timestamp":"2025-04-27T16:45:15.696Z"}
+{"level":"info","message":"Generated 150/1200 frames","timestamp":"2025-04-27T16:45:18.522Z"}
+{"level":"info","message":"Generated 180/1200 frames","timestamp":"2025-04-27T16:45:20.831Z"}
+{"level":"info","message":"Generated 210/1200 frames","timestamp":"2025-04-27T16:45:23.092Z"}
+{"level":"info","message":"Generated 240/1200 frames","timestamp":"2025-04-27T16:45:25.299Z"}
+{"level":"info","message":"Generated 270/1200 frames","timestamp":"2025-04-27T16:45:27.483Z"}
+{"level":"info","message":"Generated 300/1200 frames","timestamp":"2025-04-27T16:45:29.681Z"}
+{"level":"info","message":"Generated 330/1200 frames","timestamp":"2025-04-27T16:45:32.375Z"}
+{"level":"info","message":"Generated 360/1200 frames","timestamp":"2025-04-27T16:45:34.594Z"}
+{"level":"info","message":"Generated 390/1200 frames","timestamp":"2025-04-27T16:45:37.021Z"}
+{"level":"info","message":"Generated 420/1200 frames","timestamp":"2025-04-27T16:45:39.530Z"}
+{"level":"info","message":"Generated 450/1200 frames","timestamp":"2025-04-27T16:45:42.005Z"}
+{"level":"info","message":"Generated 480/1200 frames","timestamp":"2025-04-27T16:45:44.570Z"}
+{"level":"info","message":"Generated 510/1200 frames","timestamp":"2025-04-27T16:45:47.282Z"}
+{"level":"info","message":"Generated 540/1200 frames","timestamp":"2025-04-27T16:45:49.725Z"}
+{"level":"info","message":"Generated 570/1200 frames","timestamp":"2025-04-27T16:45:52.190Z"}
+{"level":"info","message":"Generated 600/1200 frames","timestamp":"2025-04-27T16:45:54.776Z"}
+{"level":"info","message":"Generated 630/1200 frames","timestamp":"2025-04-27T16:45:57.103Z"}
+{"level":"info","message":"Generated 660/1200 frames","timestamp":"2025-04-27T16:45:59.637Z"}
+{"level":"info","message":"Generated 690/1200 frames","timestamp":"2025-04-27T16:46:02.330Z"}
+{"level":"info","message":"Generated 720/1200 frames","timestamp":"2025-04-27T16:46:04.883Z"}
+{"level":"info","message":"Generated 750/1200 frames","timestamp":"2025-04-27T16:46:07.467Z"}
+{"level":"info","message":"Generated 780/1200 frames","timestamp":"2025-04-27T16:46:09.969Z"}
+{"level":"info","message":"Generated 810/1200 frames","timestamp":"2025-04-27T16:46:12.315Z"}
+{"level":"info","message":"Generated 840/1200 frames","timestamp":"2025-04-27T16:46:14.755Z"}
+{"level":"info","message":"Generated 870/1200 frames","timestamp":"2025-04-27T16:46:17.187Z"}
+{"level":"info","message":"Generated 900/1200 frames","timestamp":"2025-04-27T16:46:19.642Z"}
+{"level":"info","message":"Generated 930/1200 frames","timestamp":"2025-04-27T16:46:22.064Z"}
+{"level":"info","message":"Generated 960/1200 frames","timestamp":"2025-04-27T16:46:24.809Z"}
+{"level":"info","message":"Generated 990/1200 frames","timestamp":"2025-04-27T16:46:27.371Z"}
+{"level":"info","message":"Generated 1020/1200 frames","timestamp":"2025-04-27T16:46:29.793Z"}
+{"level":"info","message":"Generated 1050/1200 frames","timestamp":"2025-04-27T16:46:32.157Z"}
+{"level":"info","message":"Generated 1080/1200 frames","timestamp":"2025-04-27T16:46:34.639Z"}
+{"level":"info","message":"Generated 1110/1200 frames","timestamp":"2025-04-27T16:46:37.062Z"}
+{"level":"info","message":"Generated 1140/1200 frames","timestamp":"2025-04-27T16:46:39.847Z"}
+{"level":"info","message":"Generated 1170/1200 frames","timestamp":"2025-04-27T16:46:42.314Z"}
+{"level":"info","message":"Completed frame sequence generation: 1200 frames created","timestamp":"2025-04-27T16:46:44.701Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:46:44.701Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_e9ba6599a1929a21.mp4","timestamp":"2025-04-27T16:46:53.553Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_e9ba6599a1929a21.mp4","timestamp":"2025-04-27T16:46:53.554Z"}
+{"level":"info","message":"Successfully processed news item: The end of the Vietnam War was also a turning point for protest songs - AP News","timestamp":"2025-04-27T16:46:53.554Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_e9ba6599a1929a21.mp4","timestamp":"2025-04-27T16:46:53.554Z"}
+{"level":"info","message":"Generating sarcastic content for news item: bcbc3ed0a6355222","timestamp":"2025-04-27T16:46:53.554Z"}
+{"level":"info","message":"Generated content with ID: d0a00181b3116f3c","timestamp":"2025-04-27T16:47:00.158Z"}
+{"level":"info","message":"Generating speech for content: d0a00181b3116f3c","timestamp":"2025-04-27T16:47:00.158Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_d0a00181b3116f3c.mp3 with duration: 31s","timestamp":"2025-04-27T16:47:07.187Z"}
+{"level":"info","message":"Creating video for content: d0a00181b3116f3c","timestamp":"2025-04-27T16:47:07.188Z"}
+{"level":"info","message":"Generating animation frame sequence for 31 seconds of audio","timestamp":"2025-04-27T16:47:07.188Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_d0a00181b3116f3c.mp3","timestamp":"2025-04-27T16:47:07.188Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T16:47:07.218Z"}
+{"level":"info","message":"Generating 930 frames at 30 FPS","timestamp":"2025-04-27T16:47:07.221Z"}
+{"level":"info","message":"Generated 0/930 frames","timestamp":"2025-04-27T16:47:07.344Z"}
+{"level":"info","message":"Generated 30/930 frames","timestamp":"2025-04-27T16:47:10.046Z"}
+{"level":"info","message":"Generated 60/930 frames","timestamp":"2025-04-27T16:47:12.507Z"}
+{"level":"info","message":"Generated 90/930 frames","timestamp":"2025-04-27T16:47:14.997Z"}
+{"level":"info","message":"Generated 120/930 frames","timestamp":"2025-04-27T16:47:17.390Z"}
+{"level":"info","message":"Generated 150/930 frames","timestamp":"2025-04-27T16:47:20.203Z"}
+{"level":"info","message":"Generated 180/930 frames","timestamp":"2025-04-27T16:47:23.248Z"}
+{"level":"info","message":"Generated 210/930 frames","timestamp":"2025-04-27T16:47:25.703Z"}
+{"level":"info","message":"Generated 240/930 frames","timestamp":"2025-04-27T16:47:28.434Z"}
+{"level":"info","message":"Generated 270/930 frames","timestamp":"2025-04-27T16:47:31.216Z"}
+{"level":"info","message":"Generated 300/930 frames","timestamp":"2025-04-27T16:47:33.883Z"}
+{"level":"info","message":"Generated 330/930 frames","timestamp":"2025-04-27T16:47:36.387Z"}
+{"level":"info","message":"Generated 360/930 frames","timestamp":"2025-04-27T16:47:39.108Z"}
+{"level":"info","message":"Generated 390/930 frames","timestamp":"2025-04-27T16:47:41.603Z"}
+{"level":"info","message":"Generated 420/930 frames","timestamp":"2025-04-27T16:47:44.262Z"}
+{"level":"info","message":"Generated 450/930 frames","timestamp":"2025-04-27T16:47:46.725Z"}
+{"level":"info","message":"Generated 480/930 frames","timestamp":"2025-04-27T16:47:49.194Z"}
+{"level":"info","message":"Generated 510/930 frames","timestamp":"2025-04-27T16:47:51.685Z"}
+{"level":"info","message":"Generated 540/930 frames","timestamp":"2025-04-27T16:47:54.657Z"}
+{"level":"info","message":"Generated 570/930 frames","timestamp":"2025-04-27T16:47:57.129Z"}
+{"level":"info","message":"Generated 600/930 frames","timestamp":"2025-04-27T16:47:59.534Z"}
+{"level":"info","message":"Generated 630/930 frames","timestamp":"2025-04-27T16:48:01.951Z"}
+{"level":"info","message":"Generated 660/930 frames","timestamp":"2025-04-27T16:48:04.368Z"}
+{"level":"info","message":"Generated 690/930 frames","timestamp":"2025-04-27T16:48:06.788Z"}
+{"level":"info","message":"Generated 720/930 frames","timestamp":"2025-04-27T16:48:09.603Z"}
+{"level":"info","message":"Generated 750/930 frames","timestamp":"2025-04-27T16:48:12.072Z"}
+{"level":"info","message":"Generated 780/930 frames","timestamp":"2025-04-27T16:48:14.470Z"}
+{"level":"info","message":"Generated 810/930 frames","timestamp":"2025-04-27T16:48:16.938Z"}
+{"level":"info","message":"Generated 840/930 frames","timestamp":"2025-04-27T16:48:19.384Z"}
+{"level":"info","message":"Generated 870/930 frames","timestamp":"2025-04-27T16:48:22.009Z"}
+{"level":"info","message":"Generated 900/930 frames","timestamp":"2025-04-27T16:48:24.681Z"}
+{"level":"info","message":"Completed frame sequence generation: 930 frames created","timestamp":"2025-04-27T16:48:27.026Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T16:48:27.027Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_89a799c9065765d1.mp4","timestamp":"2025-04-27T16:48:33.728Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_89a799c9065765d1.mp4","timestamp":"2025-04-27T16:48:33.728Z"}
+{"level":"info","message":"Successfully processed news item: ‘Real Time’: Bill Maher Continues Denouncing Nazi Comparisons: “A Hard Word To Use With Nuance” - Deadline","timestamp":"2025-04-27T16:48:33.729Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_89a799c9065765d1.mp4","timestamp":"2025-04-27T16:48:33.731Z"}
+{"level":"info","message":"News processing cycle completed","timestamp":"2025-04-27T16:48:33.732Z"}
+{"level":"info","message":"Setting up news fetch interval: 900000ms","timestamp":"2025-04-27T16:48:33.733Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T16:59:58.420Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T16:59:58.422Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T16:59:58.423Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T16:59:58.954Z"}
+{"level":"info","message":"Generating sarcastic content for news item: c2943cf0ca7d7255","timestamp":"2025-04-27T16:59:58.956Z"}
+{"level":"info","message":"Generated content with ID: 6d400e41789e4587","timestamp":"2025-04-27T17:00:12.230Z"}
+{"level":"info","message":"Generating speech for content: 6d400e41789e4587","timestamp":"2025-04-27T17:00:12.231Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_6d400e41789e4587.mp3 with duration: 48s","timestamp":"2025-04-27T17:00:22.920Z"}
+{"level":"info","message":"Creating video for content: 6d400e41789e4587","timestamp":"2025-04-27T17:00:22.920Z"}
+{"level":"info","message":"Generating animation frame sequence for 48 seconds of audio","timestamp":"2025-04-27T17:00:22.921Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_6d400e41789e4587.mp3","timestamp":"2025-04-27T17:00:22.921Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T17:00:22.936Z"}
+{"level":"info","message":"Generating 1410 frames at 30 FPS","timestamp":"2025-04-27T17:00:23.834Z"}
+{"level":"info","message":"Generated 0/1410 frames","timestamp":"2025-04-27T17:00:23.914Z"}
+{"level":"info","message":"Generated 30/1410 frames","timestamp":"2025-04-27T17:00:26.136Z"}
+{"level":"info","message":"Generated 60/1410 frames","timestamp":"2025-04-27T17:00:28.359Z"}
+{"level":"info","message":"Generated 90/1410 frames","timestamp":"2025-04-27T17:00:30.509Z"}
+{"level":"info","message":"Generated 120/1410 frames","timestamp":"2025-04-27T17:00:32.614Z"}
+{"level":"info","message":"Generated 150/1410 frames","timestamp":"2025-04-27T17:00:34.808Z"}
+{"level":"info","message":"Generated 180/1410 frames","timestamp":"2025-04-27T17:00:36.982Z"}
+{"level":"info","message":"Generated 210/1410 frames","timestamp":"2025-04-27T17:00:39.392Z"}
+{"level":"info","message":"Generated 240/1410 frames","timestamp":"2025-04-27T17:00:41.712Z"}
+{"level":"info","message":"Generated 270/1410 frames","timestamp":"2025-04-27T17:00:44.247Z"}
+{"level":"info","message":"Generated 300/1410 frames","timestamp":"2025-04-27T17:00:46.502Z"}
+{"level":"info","message":"Generated 330/1410 frames","timestamp":"2025-04-27T17:00:48.633Z"}
+{"level":"info","message":"Generated 360/1410 frames","timestamp":"2025-04-27T17:00:50.710Z"}
+{"level":"info","message":"Generated 390/1410 frames","timestamp":"2025-04-27T17:00:52.817Z"}
+{"level":"info","message":"Generated 420/1410 frames","timestamp":"2025-04-27T17:00:54.905Z"}
+{"level":"info","message":"Generated 450/1410 frames","timestamp":"2025-04-27T17:00:57.022Z"}
+{"level":"info","message":"Generated 480/1410 frames","timestamp":"2025-04-27T17:00:59.142Z"}
+{"level":"info","message":"Generated 510/1410 frames","timestamp":"2025-04-27T17:01:01.251Z"}
+{"level":"info","message":"Generated 540/1410 frames","timestamp":"2025-04-27T17:01:03.330Z"}
+{"level":"info","message":"Generated 570/1410 frames","timestamp":"2025-04-27T17:01:05.447Z"}
+{"level":"info","message":"Generated 600/1410 frames","timestamp":"2025-04-27T17:01:07.546Z"}
+{"level":"info","message":"Generated 630/1410 frames","timestamp":"2025-04-27T17:01:09.725Z"}
+{"level":"info","message":"Generated 660/1410 frames","timestamp":"2025-04-27T17:01:11.861Z"}
+{"level":"info","message":"Generated 690/1410 frames","timestamp":"2025-04-27T17:01:13.993Z"}
+{"level":"info","message":"Generated 720/1410 frames","timestamp":"2025-04-27T17:01:16.124Z"}
+{"level":"info","message":"Generated 750/1410 frames","timestamp":"2025-04-27T17:01:18.217Z"}
+{"level":"info","message":"Generated 780/1410 frames","timestamp":"2025-04-27T17:01:20.374Z"}
+{"level":"info","message":"Generated 810/1410 frames","timestamp":"2025-04-27T17:01:22.514Z"}
+{"level":"info","message":"Generated 840/1410 frames","timestamp":"2025-04-27T17:01:24.614Z"}
+{"level":"info","message":"Generated 870/1410 frames","timestamp":"2025-04-27T17:01:26.719Z"}
+{"level":"info","message":"Generated 900/1410 frames","timestamp":"2025-04-27T17:01:28.812Z"}
+{"level":"info","message":"Generated 930/1410 frames","timestamp":"2025-04-27T17:01:30.923Z"}
+{"level":"info","message":"Generated 960/1410 frames","timestamp":"2025-04-27T17:01:33.039Z"}
+{"level":"info","message":"Generated 990/1410 frames","timestamp":"2025-04-27T17:01:35.137Z"}
+{"level":"info","message":"Generated 1020/1410 frames","timestamp":"2025-04-27T17:01:37.245Z"}
+{"level":"info","message":"Generated 1050/1410 frames","timestamp":"2025-04-27T17:01:39.349Z"}
+{"level":"info","message":"Generated 1080/1410 frames","timestamp":"2025-04-27T17:01:41.484Z"}
+{"level":"info","message":"Generated 1110/1410 frames","timestamp":"2025-04-27T17:01:43.588Z"}
+{"level":"info","message":"Generated 1140/1410 frames","timestamp":"2025-04-27T17:01:45.700Z"}
+{"level":"info","message":"Generated 1170/1410 frames","timestamp":"2025-04-27T17:01:47.798Z"}
+{"level":"info","message":"Generated 1200/1410 frames","timestamp":"2025-04-27T17:01:49.892Z"}
+{"level":"info","message":"Generated 1230/1410 frames","timestamp":"2025-04-27T17:01:51.988Z"}
+{"level":"info","message":"Generated 1260/1410 frames","timestamp":"2025-04-27T17:01:54.104Z"}
+{"level":"info","message":"Generated 1290/1410 frames","timestamp":"2025-04-27T17:01:56.217Z"}
+{"level":"info","message":"Generated 1320/1410 frames","timestamp":"2025-04-27T17:01:58.303Z"}
+{"level":"info","message":"Generated 1350/1410 frames","timestamp":"2025-04-27T17:02:00.409Z"}
+{"level":"info","message":"Generated 1380/1410 frames","timestamp":"2025-04-27T17:02:02.516Z"}
+{"level":"info","message":"Completed frame sequence generation: 1410 frames created","timestamp":"2025-04-27T17:02:04.581Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T17:02:04.581Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_3fe70669ed4b2fd9.mp4","timestamp":"2025-04-27T17:02:13.800Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_3fe70669ed4b2fd9.mp4","timestamp":"2025-04-27T17:02:13.801Z"}
+{"level":"info","message":"Successfully processed news item: Sean Combs' former chief of staff is accused in three lawsuits of aiding his alleged sex abuse - NBC News","timestamp":"2025-04-27T17:02:13.801Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_3fe70669ed4b2fd9.mp4","timestamp":"2025-04-27T17:02:13.801Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 437b712c52ee8899","timestamp":"2025-04-27T17:02:13.801Z"}
+{"level":"info","message":"Generated content with ID: dd3602febd8a8cb5","timestamp":"2025-04-27T17:02:17.518Z"}
+{"level":"info","message":"Generating speech for content: dd3602febd8a8cb5","timestamp":"2025-04-27T17:02:17.518Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_dd3602febd8a8cb5.mp3 with duration: 38s","timestamp":"2025-04-27T17:02:25.516Z"}
+{"level":"info","message":"Creating video for content: dd3602febd8a8cb5","timestamp":"2025-04-27T17:02:25.517Z"}
+{"level":"info","message":"Generating animation frame sequence for 38 seconds of audio","timestamp":"2025-04-27T17:02:25.517Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_dd3602febd8a8cb5.mp3","timestamp":"2025-04-27T17:02:25.517Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T17:02:25.532Z"}
+{"level":"info","message":"Generating 1110 frames at 30 FPS","timestamp":"2025-04-27T17:02:25.533Z"}
+{"level":"info","message":"Generated 0/1110 frames","timestamp":"2025-04-27T17:02:25.609Z"}
+{"level":"info","message":"Generated 30/1110 frames","timestamp":"2025-04-27T17:02:28.198Z"}
+{"level":"info","message":"Generated 60/1110 frames","timestamp":"2025-04-27T17:02:30.510Z"}
+{"level":"info","message":"Generated 90/1110 frames","timestamp":"2025-04-27T17:02:32.966Z"}
+{"level":"info","message":"Generated 120/1110 frames","timestamp":"2025-04-27T17:02:35.296Z"}
+{"level":"info","message":"Generated 150/1110 frames","timestamp":"2025-04-27T17:02:37.608Z"}
+{"level":"info","message":"Generated 180/1110 frames","timestamp":"2025-04-27T17:02:39.950Z"}
+{"level":"info","message":"Generated 210/1110 frames","timestamp":"2025-04-27T17:02:42.464Z"}
+{"level":"info","message":"Generated 240/1110 frames","timestamp":"2025-04-27T17:02:44.762Z"}
+{"level":"info","message":"Generated 270/1110 frames","timestamp":"2025-04-27T17:02:47.128Z"}
+{"level":"info","message":"Generated 300/1110 frames","timestamp":"2025-04-27T17:02:49.554Z"}
+{"level":"info","message":"Generated 330/1110 frames","timestamp":"2025-04-27T17:02:51.886Z"}
+{"level":"info","message":"Generated 360/1110 frames","timestamp":"2025-04-27T17:02:54.253Z"}
+{"level":"info","message":"Generated 390/1110 frames","timestamp":"2025-04-27T17:02:56.837Z"}
+{"level":"info","message":"Generated 420/1110 frames","timestamp":"2025-04-27T17:02:59.239Z"}
+{"level":"info","message":"Generated 450/1110 frames","timestamp":"2025-04-27T17:03:01.562Z"}
+{"level":"info","message":"Generated 480/1110 frames","timestamp":"2025-04-27T17:03:04.003Z"}
+{"level":"info","message":"Generated 510/1110 frames","timestamp":"2025-04-27T17:03:06.693Z"}
+{"level":"info","message":"Generated 540/1110 frames","timestamp":"2025-04-27T17:03:08.951Z"}
+{"level":"info","message":"Generated 570/1110 frames","timestamp":"2025-04-27T17:03:11.365Z"}
+{"level":"info","message":"Generated 600/1110 frames","timestamp":"2025-04-27T17:03:13.980Z"}
+{"level":"info","message":"Generated 630/1110 frames","timestamp":"2025-04-27T17:03:16.203Z"}
+{"level":"info","message":"Generated 660/1110 frames","timestamp":"2025-04-27T17:03:18.581Z"}
+{"level":"info","message":"Generated 690/1110 frames","timestamp":"2025-04-27T17:03:20.857Z"}
+{"level":"info","message":"Generated 720/1110 frames","timestamp":"2025-04-27T17:03:23.218Z"}
+{"level":"info","message":"Generated 750/1110 frames","timestamp":"2025-04-27T17:03:25.455Z"}
+{"level":"info","message":"Generated 780/1110 frames","timestamp":"2025-04-27T17:03:27.888Z"}
+{"level":"info","message":"Generated 810/1110 frames","timestamp":"2025-04-27T17:03:30.160Z"}
+{"level":"info","message":"Generated 840/1110 frames","timestamp":"2025-04-27T17:03:32.452Z"}
+{"level":"info","message":"Generated 870/1110 frames","timestamp":"2025-04-27T17:03:34.713Z"}
+{"level":"info","message":"Generated 900/1110 frames","timestamp":"2025-04-27T17:03:37.006Z"}
+{"level":"info","message":"Generated 930/1110 frames","timestamp":"2025-04-27T17:03:39.256Z"}
+{"level":"info","message":"Generated 960/1110 frames","timestamp":"2025-04-27T17:03:41.671Z"}
+{"level":"info","message":"Generated 990/1110 frames","timestamp":"2025-04-27T17:03:43.894Z"}
+{"level":"info","message":"Generated 1020/1110 frames","timestamp":"2025-04-27T17:03:46.203Z"}
+{"level":"info","message":"Generated 1050/1110 frames","timestamp":"2025-04-27T17:03:48.502Z"}
+{"level":"info","message":"Generated 1080/1110 frames","timestamp":"2025-04-27T17:03:50.836Z"}
+{"level":"info","message":"Completed frame sequence generation: 1110 frames created","timestamp":"2025-04-27T17:03:53.260Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T17:03:53.260Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_02ce525ea167f8ca.mp4","timestamp":"2025-04-27T17:04:00.720Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_02ce525ea167f8ca.mp4","timestamp":"2025-04-27T17:04:00.721Z"}
+{"level":"info","message":"Successfully processed news item: Lana Del Rey Sings About Kissing Morgan Wallen in Stagecoach Set - Variety","timestamp":"2025-04-27T17:04:00.721Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_02ce525ea167f8ca.mp4","timestamp":"2025-04-27T17:04:00.721Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 8d440e18a1e62e96","timestamp":"2025-04-27T17:04:00.722Z"}
+{"level":"info","message":"Generated content with ID: 65dd201c59d43492","timestamp":"2025-04-27T17:04:04.579Z"}
+{"level":"info","message":"Generating speech for content: 65dd201c59d43492","timestamp":"2025-04-27T17:04:04.579Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_65dd201c59d43492.mp3 with duration: 44s","timestamp":"2025-04-27T17:04:13.603Z"}
+{"level":"info","message":"Creating video for content: 65dd201c59d43492","timestamp":"2025-04-27T17:04:13.603Z"}
+{"level":"info","message":"Generating animation frame sequence for 44 seconds of audio","timestamp":"2025-04-27T17:04:13.604Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_65dd201c59d43492.mp3","timestamp":"2025-04-27T17:04:13.604Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T17:04:13.619Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T17:07:43.502Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T17:07:43.504Z"}
+{"level":"info","message":"Fetching entertainment news...","timestamp":"2025-04-27T17:07:43.505Z"}
+{"level":"info","message":"Fetched 5 news items","timestamp":"2025-04-27T17:07:43.995Z"}
+{"level":"info","message":"Generating sarcastic content for news item: f26976f549523929","timestamp":"2025-04-27T17:07:43.997Z"}
+{"level":"info","message":"Generated content with ID: 7c7030ec9d79cf14","timestamp":"2025-04-27T17:07:47.320Z"}
+{"level":"info","message":"Generating speech for content: 7c7030ec9d79cf14","timestamp":"2025-04-27T17:07:47.320Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_7c7030ec9d79cf14.mp3 with duration: 46s","timestamp":"2025-04-27T17:07:57.544Z"}
+{"level":"info","message":"Creating video for content: 7c7030ec9d79cf14","timestamp":"2025-04-27T17:07:57.544Z"}
+{"level":"info","message":"Generating animation frame sequence for 46 seconds of audio","timestamp":"2025-04-27T17:07:57.545Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_7c7030ec9d79cf14.mp3","timestamp":"2025-04-27T17:07:57.545Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T17:07:57.560Z"}
+{"level":"info","message":"Generating 1350 frames at 30 FPS","timestamp":"2025-04-27T17:07:58.400Z"}
+{"level":"info","message":"Generated 0/1350 frames","timestamp":"2025-04-27T17:07:58.496Z"}
+{"level":"info","message":"Generated 30/1350 frames","timestamp":"2025-04-27T17:08:00.658Z"}
+{"level":"info","message":"Generated 60/1350 frames","timestamp":"2025-04-27T17:08:02.869Z"}
+{"level":"info","message":"Generated 90/1350 frames","timestamp":"2025-04-27T17:08:04.967Z"}
+{"level":"info","message":"Generated 120/1350 frames","timestamp":"2025-04-27T17:08:07.047Z"}
+{"level":"info","message":"Generated 150/1350 frames","timestamp":"2025-04-27T17:08:09.125Z"}
+{"level":"info","message":"Generated 180/1350 frames","timestamp":"2025-04-27T17:08:11.206Z"}
+{"level":"info","message":"Generated 210/1350 frames","timestamp":"2025-04-27T17:08:13.299Z"}
+{"level":"info","message":"Generated 240/1350 frames","timestamp":"2025-04-27T17:08:15.377Z"}
+{"level":"info","message":"Generated 270/1350 frames","timestamp":"2025-04-27T17:08:17.460Z"}
+{"level":"info","message":"Generated 300/1350 frames","timestamp":"2025-04-27T17:08:19.526Z"}
+{"level":"info","message":"Generated 330/1350 frames","timestamp":"2025-04-27T17:08:21.610Z"}
+{"level":"info","message":"Generated 360/1350 frames","timestamp":"2025-04-27T17:08:23.714Z"}
+{"level":"info","message":"Generated 390/1350 frames","timestamp":"2025-04-27T17:08:25.780Z"}
+{"level":"info","message":"Generated 420/1350 frames","timestamp":"2025-04-27T17:08:27.862Z"}
+{"level":"info","message":"Generated 450/1350 frames","timestamp":"2025-04-27T17:08:29.933Z"}
+{"level":"info","message":"Generated 480/1350 frames","timestamp":"2025-04-27T17:08:32.030Z"}
+{"level":"info","message":"Generated 510/1350 frames","timestamp":"2025-04-27T17:08:34.150Z"}
+{"level":"info","message":"Generated 540/1350 frames","timestamp":"2025-04-27T17:08:36.249Z"}
+{"level":"info","message":"Generated 570/1350 frames","timestamp":"2025-04-27T17:08:38.333Z"}
+{"level":"info","message":"Generated 600/1350 frames","timestamp":"2025-04-27T17:08:40.403Z"}
+{"level":"info","message":"Generated 630/1350 frames","timestamp":"2025-04-27T17:08:42.500Z"}
+{"level":"info","message":"Generated 660/1350 frames","timestamp":"2025-04-27T17:08:44.579Z"}
+{"level":"info","message":"Generated 690/1350 frames","timestamp":"2025-04-27T17:08:46.664Z"}
+{"level":"info","message":"Generated 720/1350 frames","timestamp":"2025-04-27T17:08:48.754Z"}
+{"level":"info","message":"Generated 750/1350 frames","timestamp":"2025-04-27T17:08:50.960Z"}
+{"level":"info","message":"Generated 780/1350 frames","timestamp":"2025-04-27T17:08:53.059Z"}
+{"level":"info","message":"Generated 810/1350 frames","timestamp":"2025-04-27T17:08:55.146Z"}
+{"level":"info","message":"Generated 840/1350 frames","timestamp":"2025-04-27T17:08:57.236Z"}
+{"level":"info","message":"Generated 870/1350 frames","timestamp":"2025-04-27T17:08:59.323Z"}
+{"level":"info","message":"Generated 900/1350 frames","timestamp":"2025-04-27T17:09:01.424Z"}
+{"level":"info","message":"Generated 930/1350 frames","timestamp":"2025-04-27T17:09:03.514Z"}
+{"level":"info","message":"Generated 960/1350 frames","timestamp":"2025-04-27T17:09:05.600Z"}
+{"level":"info","message":"Generated 990/1350 frames","timestamp":"2025-04-27T17:09:07.701Z"}
+{"level":"info","message":"Generated 1020/1350 frames","timestamp":"2025-04-27T17:09:09.813Z"}
+{"level":"info","message":"Generated 1050/1350 frames","timestamp":"2025-04-27T17:09:11.885Z"}
+{"level":"info","message":"Generated 1080/1350 frames","timestamp":"2025-04-27T17:09:13.976Z"}
+{"level":"info","message":"Generated 1110/1350 frames","timestamp":"2025-04-27T17:09:16.058Z"}
+{"level":"info","message":"Generated 1140/1350 frames","timestamp":"2025-04-27T17:09:18.147Z"}
+{"level":"info","message":"Generated 1170/1350 frames","timestamp":"2025-04-27T17:09:20.251Z"}
+{"level":"info","message":"Generated 1200/1350 frames","timestamp":"2025-04-27T17:09:22.345Z"}
+{"level":"info","message":"Generated 1230/1350 frames","timestamp":"2025-04-27T17:09:24.439Z"}
+{"level":"info","message":"Generated 1260/1350 frames","timestamp":"2025-04-27T17:09:26.553Z"}
+{"level":"info","message":"Generated 1290/1350 frames","timestamp":"2025-04-27T17:09:28.664Z"}
+{"level":"info","message":"Generated 1320/1350 frames","timestamp":"2025-04-27T17:09:30.773Z"}
+{"level":"info","message":"Completed frame sequence generation: 1350 frames created","timestamp":"2025-04-27T17:09:32.805Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T17:09:32.806Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_c7fca44522b98024.mp4","timestamp":"2025-04-27T17:09:40.708Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_c7fca44522b98024.mp4","timestamp":"2025-04-27T17:09:40.708Z"}
+{"level":"info","message":"Successfully processed news item: THE FANTASTIC FOUR: FIRST STEPS LEGO Set Fully Reveals The MCU's Take On Ralph Ineson's Galactus - ComicBookMovie.com","timestamp":"2025-04-27T17:09:40.709Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_c7fca44522b98024.mp4","timestamp":"2025-04-27T17:09:40.709Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 32705aaf42956531","timestamp":"2025-04-27T17:09:40.709Z"}
+{"level":"info","message":"Generated content with ID: 2d6dd3f607e80918","timestamp":"2025-04-27T17:09:59.590Z"}
+{"level":"info","message":"Generating speech for content: 2d6dd3f607e80918","timestamp":"2025-04-27T17:09:59.591Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_2d6dd3f607e80918.mp3 with duration: 45s","timestamp":"2025-04-27T17:10:11.006Z"}
+{"level":"info","message":"Creating video for content: 2d6dd3f607e80918","timestamp":"2025-04-27T17:10:11.007Z"}
+{"level":"info","message":"Generating animation frame sequence for 45 seconds of audio","timestamp":"2025-04-27T17:10:11.008Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_2d6dd3f607e80918.mp3","timestamp":"2025-04-27T17:10:11.008Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T17:10:11.033Z"}
+{"level":"info","message":"Generating 1320 frames at 30 FPS","timestamp":"2025-04-27T17:10:11.036Z"}
+{"level":"info","message":"Generated 0/1320 frames","timestamp":"2025-04-27T17:10:11.256Z"}
+{"level":"info","message":"Generated 30/1320 frames","timestamp":"2025-04-27T17:10:17.684Z"}
+{"level":"info","message":"Generated 60/1320 frames","timestamp":"2025-04-27T17:10:24.317Z"}
+{"level":"info","message":"Generated 90/1320 frames","timestamp":"2025-04-27T17:10:30.444Z"}
+{"level":"info","message":"Generated 120/1320 frames","timestamp":"2025-04-27T17:10:36.755Z"}
+{"level":"info","message":"Generated 150/1320 frames","timestamp":"2025-04-27T17:10:43.040Z"}
+{"level":"info","message":"Generated 180/1320 frames","timestamp":"2025-04-27T17:10:49.461Z"}
+{"level":"info","message":"Generated 210/1320 frames","timestamp":"2025-04-27T17:10:56.224Z"}
+{"level":"info","message":"Generated 240/1320 frames","timestamp":"2025-04-27T17:11:02.297Z"}
+{"level":"info","message":"Generated 270/1320 frames","timestamp":"2025-04-27T17:11:08.592Z"}
+{"level":"info","message":"Generated 300/1320 frames","timestamp":"2025-04-27T17:11:14.870Z"}
+{"level":"info","message":"Generated 330/1320 frames","timestamp":"2025-04-27T17:11:21.180Z"}
+{"level":"info","message":"Generated 360/1320 frames","timestamp":"2025-04-27T17:11:27.290Z"}
+{"level":"info","message":"Generated 390/1320 frames","timestamp":"2025-04-27T17:11:33.440Z"}
+{"level":"info","message":"Generated 420/1320 frames","timestamp":"2025-04-27T17:11:39.991Z"}
+{"level":"info","message":"Generated 450/1320 frames","timestamp":"2025-04-27T17:11:44.373Z"}
+{"level":"info","message":"Generated 480/1320 frames","timestamp":"2025-04-27T17:11:47.077Z"}
+{"level":"info","message":"Generated 510/1320 frames","timestamp":"2025-04-27T17:11:49.843Z"}
+{"level":"info","message":"Generated 540/1320 frames","timestamp":"2025-04-27T17:11:52.511Z"}
+{"level":"info","message":"Generated 570/1320 frames","timestamp":"2025-04-27T17:11:55.197Z"}
+{"level":"info","message":"Generated 600/1320 frames","timestamp":"2025-04-27T17:11:57.742Z"}
+{"level":"info","message":"Generated 630/1320 frames","timestamp":"2025-04-27T17:12:00.427Z"}
+{"level":"info","message":"Generated 660/1320 frames","timestamp":"2025-04-27T17:12:03.015Z"}
+{"level":"info","message":"Generated 690/1320 frames","timestamp":"2025-04-27T17:12:05.737Z"}
+{"level":"info","message":"Generated 720/1320 frames","timestamp":"2025-04-27T17:12:08.533Z"}
+{"level":"info","message":"Generated 750/1320 frames","timestamp":"2025-04-27T17:12:11.170Z"}
+{"level":"info","message":"Generated 780/1320 frames","timestamp":"2025-04-27T17:12:14.127Z"}
+{"level":"info","message":"Generated 810/1320 frames","timestamp":"2025-04-27T17:12:16.733Z"}
+{"level":"info","message":"Generated 840/1320 frames","timestamp":"2025-04-27T17:12:19.348Z"}
+{"level":"info","message":"Generated 870/1320 frames","timestamp":"2025-04-27T17:12:21.945Z"}
+{"level":"info","message":"Generated 900/1320 frames","timestamp":"2025-04-27T17:12:24.708Z"}
+{"level":"info","message":"Generated 930/1320 frames","timestamp":"2025-04-27T17:12:27.329Z"}
+{"level":"info","message":"Generated 960/1320 frames","timestamp":"2025-04-27T17:12:30.407Z"}
+{"level":"info","message":"Generated 990/1320 frames","timestamp":"2025-04-27T17:12:33.072Z"}
+{"level":"info","message":"Generated 1020/1320 frames","timestamp":"2025-04-27T17:12:35.670Z"}
+{"level":"info","message":"Generated 1050/1320 frames","timestamp":"2025-04-27T17:12:38.140Z"}
+{"level":"info","message":"Generated 1080/1320 frames","timestamp":"2025-04-27T17:12:40.637Z"}
+{"level":"info","message":"Generated 1110/1320 frames","timestamp":"2025-04-27T17:12:43.164Z"}
+{"level":"info","message":"Generated 1140/1320 frames","timestamp":"2025-04-27T17:12:45.792Z"}
+{"level":"info","message":"Generated 1170/1320 frames","timestamp":"2025-04-27T17:12:48.378Z"}
+{"level":"info","message":"Generated 1200/1320 frames","timestamp":"2025-04-27T17:12:50.898Z"}
+{"level":"info","message":"Generated 1230/1320 frames","timestamp":"2025-04-27T17:12:53.602Z"}
+{"level":"info","message":"Generated 1260/1320 frames","timestamp":"2025-04-27T17:12:56.685Z"}
+{"level":"info","message":"Generated 1290/1320 frames","timestamp":"2025-04-27T17:12:59.719Z"}
+{"level":"info","message":"Completed frame sequence generation: 1320 frames created","timestamp":"2025-04-27T17:13:02.857Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T17:13:02.857Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_b453b057461d9526.mp4","timestamp":"2025-04-27T17:13:13.568Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_b453b057461d9526.mp4","timestamp":"2025-04-27T17:13:13.569Z"}
+{"level":"info","message":"Successfully processed news item: ‘American Psycho’ Team Reacts to Luca Guadagnino’s Planned New Film: “They Have Their Work Cut Out” - The Hollywood Reporter","timestamp":"2025-04-27T17:13:13.569Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_b453b057461d9526.mp4","timestamp":"2025-04-27T17:13:13.570Z"}
+{"level":"info","message":"Generating sarcastic content for news item: c8468d36f549f7b7","timestamp":"2025-04-27T17:13:13.570Z"}
+{"level":"info","message":"Generated content with ID: ca25f66ea68d7a29","timestamp":"2025-04-27T17:13:16.974Z"}
+{"level":"info","message":"Generating speech for content: ca25f66ea68d7a29","timestamp":"2025-04-27T17:13:16.975Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_ca25f66ea68d7a29.mp3 with duration: 36s","timestamp":"2025-04-27T17:13:25.058Z"}
+{"level":"info","message":"Creating video for content: ca25f66ea68d7a29","timestamp":"2025-04-27T17:13:25.059Z"}
+{"level":"info","message":"Generating animation frame sequence for 36 seconds of audio","timestamp":"2025-04-27T17:13:25.059Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_ca25f66ea68d7a29.mp3","timestamp":"2025-04-27T17:13:25.060Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T17:13:25.097Z"}
+{"level":"info","message":"Generating 1050 frames at 30 FPS","timestamp":"2025-04-27T17:13:25.099Z"}
+{"level":"info","message":"Generated 0/1050 frames","timestamp":"2025-04-27T17:13:25.204Z"}
+{"level":"info","message":"Generated 30/1050 frames","timestamp":"2025-04-27T17:13:28.229Z"}
+{"level":"info","message":"Generated 60/1050 frames","timestamp":"2025-04-27T17:13:31.372Z"}
+{"level":"info","message":"Generated 90/1050 frames","timestamp":"2025-04-27T17:13:34.323Z"}
+{"level":"info","message":"Generated 120/1050 frames","timestamp":"2025-04-27T17:13:37.261Z"}
+{"level":"info","message":"Generated 150/1050 frames","timestamp":"2025-04-27T17:13:40.182Z"}
+{"level":"info","message":"Generated 180/1050 frames","timestamp":"2025-04-27T17:13:43.178Z"}
+{"level":"info","message":"Generated 210/1050 frames","timestamp":"2025-04-27T17:13:46.334Z"}
+{"level":"info","message":"Generated 240/1050 frames","timestamp":"2025-04-27T17:13:50.109Z"}
+{"level":"info","message":"Generated 270/1050 frames","timestamp":"2025-04-27T17:13:57.192Z"}
+{"level":"info","message":"Generated 300/1050 frames","timestamp":"2025-04-27T17:14:00.889Z"}
+{"level":"info","message":"Generated 330/1050 frames","timestamp":"2025-04-27T17:14:03.508Z"}
+{"level":"info","message":"Generated 360/1050 frames","timestamp":"2025-04-27T17:14:06.343Z"}
+{"level":"info","message":"Generated 390/1050 frames","timestamp":"2025-04-27T17:14:09.084Z"}
+{"level":"info","message":"Generated 420/1050 frames","timestamp":"2025-04-27T17:14:11.762Z"}
+{"level":"info","message":"Generated 450/1050 frames","timestamp":"2025-04-27T17:14:14.651Z"}
+{"level":"info","message":"Generated 480/1050 frames","timestamp":"2025-04-27T17:14:17.642Z"}
+{"level":"info","message":"Generated 510/1050 frames","timestamp":"2025-04-27T17:14:20.414Z"}
+{"level":"info","message":"Generated 540/1050 frames","timestamp":"2025-04-27T17:14:23.135Z"}
+{"level":"info","message":"Generated 570/1050 frames","timestamp":"2025-04-27T17:14:26.232Z"}
+{"level":"info","message":"Generated 600/1050 frames","timestamp":"2025-04-27T17:14:28.881Z"}
+{"level":"info","message":"Generated 630/1050 frames","timestamp":"2025-04-27T17:14:31.785Z"}
+{"level":"info","message":"Generated 660/1050 frames","timestamp":"2025-04-27T17:14:34.436Z"}
+{"level":"info","message":"Generated 690/1050 frames","timestamp":"2025-04-27T17:14:37.119Z"}
+{"level":"info","message":"Generated 720/1050 frames","timestamp":"2025-04-27T17:14:39.675Z"}
+{"level":"info","message":"Generated 750/1050 frames","timestamp":"2025-04-27T17:14:42.189Z"}
+{"level":"info","message":"Generated 780/1050 frames","timestamp":"2025-04-27T17:14:44.871Z"}
+{"level":"info","message":"Generated 810/1050 frames","timestamp":"2025-04-27T17:14:47.453Z"}
+{"level":"info","message":"Generated 840/1050 frames","timestamp":"2025-04-27T17:14:50.030Z"}
+{"level":"info","message":"Generated 870/1050 frames","timestamp":"2025-04-27T17:14:52.620Z"}
+{"level":"info","message":"Generated 900/1050 frames","timestamp":"2025-04-27T17:14:55.332Z"}
+{"level":"info","message":"Generated 930/1050 frames","timestamp":"2025-04-27T17:14:57.977Z"}
+{"level":"info","message":"Generated 960/1050 frames","timestamp":"2025-04-27T17:15:00.664Z"}
+{"level":"info","message":"Generated 990/1050 frames","timestamp":"2025-04-27T17:15:03.155Z"}
+{"level":"info","message":"Generated 1020/1050 frames","timestamp":"2025-04-27T17:15:05.868Z"}
+{"level":"info","message":"Completed frame sequence generation: 1050 frames created","timestamp":"2025-04-27T17:15:08.774Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T17:15:08.775Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_006fedb4ac4c6be6.mp4","timestamp":"2025-04-27T17:15:17.929Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_006fedb4ac4c6be6.mp4","timestamp":"2025-04-27T17:15:17.929Z"}
+{"level":"info","message":"Successfully processed news item: ‘The Accountant 2’ Director Says Anna Kendrick Is “A Hundred Percent In” For Third Movie - Deadline","timestamp":"2025-04-27T17:15:17.930Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_006fedb4ac4c6be6.mp4","timestamp":"2025-04-27T17:15:17.930Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 503d96d7bf227023","timestamp":"2025-04-27T17:15:17.930Z"}
+{"level":"info","message":"Generated content with ID: f25e105bc5a682d1","timestamp":"2025-04-27T17:15:22.550Z"}
+{"level":"info","message":"Generating speech for content: f25e105bc5a682d1","timestamp":"2025-04-27T17:15:22.551Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_f25e105bc5a682d1.mp3 with duration: 47s","timestamp":"2025-04-27T17:15:32.947Z"}
+{"level":"info","message":"Creating video for content: f25e105bc5a682d1","timestamp":"2025-04-27T17:15:32.948Z"}
+{"level":"info","message":"Generating animation frame sequence for 47 seconds of audio","timestamp":"2025-04-27T17:15:32.948Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_f25e105bc5a682d1.mp3","timestamp":"2025-04-27T17:15:32.949Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T17:15:32.978Z"}
+{"level":"info","message":"Generating 1380 frames at 30 FPS","timestamp":"2025-04-27T17:15:32.980Z"}
+{"level":"info","message":"Generated 0/1380 frames","timestamp":"2025-04-27T17:15:33.082Z"}
+{"level":"info","message":"Generated 30/1380 frames","timestamp":"2025-04-27T17:15:35.915Z"}
+{"level":"info","message":"Generated 60/1380 frames","timestamp":"2025-04-27T17:15:38.758Z"}
+{"level":"info","message":"Generated 90/1380 frames","timestamp":"2025-04-27T17:15:41.798Z"}
+{"level":"info","message":"Generated 120/1380 frames","timestamp":"2025-04-27T17:15:44.574Z"}
+{"level":"info","message":"Generated 150/1380 frames","timestamp":"2025-04-27T17:15:47.468Z"}
+{"level":"info","message":"Generated 180/1380 frames","timestamp":"2025-04-27T17:15:50.308Z"}
+{"level":"info","message":"Generated 210/1380 frames","timestamp":"2025-04-27T17:15:53.273Z"}
+{"level":"info","message":"Generated 240/1380 frames","timestamp":"2025-04-27T17:15:56.434Z"}
+{"level":"info","message":"Generated 270/1380 frames","timestamp":"2025-04-27T17:15:59.364Z"}
+{"level":"info","message":"Generated 300/1380 frames","timestamp":"2025-04-27T17:16:02.348Z"}
+{"level":"info","message":"Generated 330/1380 frames","timestamp":"2025-04-27T17:16:05.307Z"}
+{"level":"info","message":"Generated 360/1380 frames","timestamp":"2025-04-27T17:16:08.219Z"}
+{"level":"info","message":"Generated 390/1380 frames","timestamp":"2025-04-27T17:16:11.151Z"}
+{"level":"info","message":"Generated 420/1380 frames","timestamp":"2025-04-27T17:16:14.210Z"}
+{"level":"info","message":"Generated 450/1380 frames","timestamp":"2025-04-27T17:16:17.231Z"}
+{"level":"info","message":"Generated 480/1380 frames","timestamp":"2025-04-27T17:16:20.175Z"}
+{"level":"info","message":"Generated 510/1380 frames","timestamp":"2025-04-27T17:16:23.081Z"}
+{"level":"info","message":"Generated 540/1380 frames","timestamp":"2025-04-27T17:16:26.168Z"}
+{"level":"info","message":"Generated 570/1380 frames","timestamp":"2025-04-27T17:16:29.346Z"}
+{"level":"info","message":"Generated 600/1380 frames","timestamp":"2025-04-27T17:16:32.410Z"}
+{"level":"info","message":"Generated 630/1380 frames","timestamp":"2025-04-27T17:16:35.412Z"}
+{"level":"info","message":"Generated 660/1380 frames","timestamp":"2025-04-27T17:16:38.410Z"}
+{"level":"info","message":"Generated 690/1380 frames","timestamp":"2025-04-27T17:16:41.350Z"}
+{"level":"info","message":"Generated 720/1380 frames","timestamp":"2025-04-27T17:16:44.318Z"}
+{"level":"info","message":"Generated 750/1380 frames","timestamp":"2025-04-27T17:16:47.469Z"}
+{"level":"info","message":"Generated 780/1380 frames","timestamp":"2025-04-27T17:16:50.493Z"}
+{"level":"info","message":"Generated 810/1380 frames","timestamp":"2025-04-27T17:16:53.724Z"}
+{"level":"info","message":"Generated 840/1380 frames","timestamp":"2025-04-27T17:16:56.689Z"}
+{"level":"info","message":"Generated 870/1380 frames","timestamp":"2025-04-27T17:16:59.470Z"}
+{"level":"info","message":"Generated 900/1380 frames","timestamp":"2025-04-27T17:17:03.776Z"}
+{"level":"info","message":"Generated 930/1380 frames","timestamp":"2025-04-27T17:17:07.514Z"}
+{"level":"info","message":"Generated 960/1380 frames","timestamp":"2025-04-27T17:17:10.534Z"}
+{"level":"info","message":"Generated 990/1380 frames","timestamp":"2025-04-27T17:17:13.001Z"}
+{"level":"info","message":"Generated 1020/1380 frames","timestamp":"2025-04-27T17:17:15.502Z"}
+{"level":"info","message":"Generated 1050/1380 frames","timestamp":"2025-04-27T17:17:17.976Z"}
+{"level":"info","message":"Generated 1080/1380 frames","timestamp":"2025-04-27T17:17:20.464Z"}
+{"level":"info","message":"Generated 1110/1380 frames","timestamp":"2025-04-27T17:17:22.938Z"}
+{"level":"info","message":"Generated 1140/1380 frames","timestamp":"2025-04-27T17:17:25.416Z"}
+{"level":"info","message":"Generated 1170/1380 frames","timestamp":"2025-04-27T17:17:27.879Z"}
+{"level":"info","message":"Generated 1200/1380 frames","timestamp":"2025-04-27T17:17:30.359Z"}
+{"level":"info","message":"Generated 1230/1380 frames","timestamp":"2025-04-27T17:17:32.853Z"}
+{"level":"info","message":"Generated 1260/1380 frames","timestamp":"2025-04-27T17:17:35.323Z"}
+{"level":"info","message":"Generated 1290/1380 frames","timestamp":"2025-04-27T17:17:37.824Z"}
+{"level":"info","message":"Generated 1320/1380 frames","timestamp":"2025-04-27T17:17:40.279Z"}
+{"level":"info","message":"Generated 1350/1380 frames","timestamp":"2025-04-27T17:17:42.831Z"}
+{"level":"info","message":"Completed frame sequence generation: 1380 frames created","timestamp":"2025-04-27T17:17:45.311Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T17:17:45.311Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_10a8cf1312eabf4d.mp4","timestamp":"2025-04-27T17:17:55.090Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_10a8cf1312eabf4d.mp4","timestamp":"2025-04-27T17:17:55.091Z"}
+{"level":"info","message":"Successfully processed news item: Michelle Pfeiffer Worries Los Angeles Will No Longer Be an Industry Town: ‘You Need to Bring Back Tax Incentives’ - Variety","timestamp":"2025-04-27T17:17:55.092Z"}
+{"level":"info","message":"Video available at: storage\\videos\\video_10a8cf1312eabf4d.mp4","timestamp":"2025-04-27T17:17:55.092Z"}
+{"level":"info","message":"Generating sarcastic content for news item: eb983bfaf84e264c","timestamp":"2025-04-27T17:17:55.092Z"}
+{"level":"info","message":"Generated content with ID: 9d2f1102637b180a","timestamp":"2025-04-27T17:17:59.335Z"}
+{"level":"info","message":"Generating speech for content: 9d2f1102637b180a","timestamp":"2025-04-27T17:17:59.336Z"}

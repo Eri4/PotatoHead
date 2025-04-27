@@ -1,0 +1,38 @@
+{
+  "name": "potatohead-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "clean": "rimraf dist storage/videos storage/frames",
+    "setup-dirs": "node -e \"require('fs-extra').ensureDirSync('./storage/news'); require('fs-extra').ensureDirSync('./storage/content'); require('fs-extra').ensureDirSync('./storage/audio'); require('fs-extra').ensureDirSync('./storage/frames'); require('fs-extra').ensureDirSync('./storage/videos')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.15.2",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3",
+    "winston": "^3.17.0"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.9.0",
+    "canvas": "^3.1.0",
+    "dotenv": "^16.5.0",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "get-audio-duration": "^4.0.1",
+    "mp3-duration": "^1.1.0",
+    "openai": "^4.96.0"
+  }
+}

@@ -1,0 +1,5 @@
+{"level":"error","message":"FFmpeg process error: Error: spawn ffmpeg ENOENT","timestamp":"2025-04-27T14:58:11.302Z"}
+{"level":"error","message":"Failed to create video for content: Error: FFmpeg process error: Error: spawn ffmpeg ENOENT","timestamp":"2025-04-27T14:58:11.303Z"}
+{"level":"error","message":"Failed to process news item 57e70611f495229d: Error: Failed to create video for content: Error: FFmpeg process error: Error: spawn ffmpeg ENOENT","timestamp":"2025-04-27T14:58:11.303Z"}
+{"level":"error","message":"FFmpeg process exited with code -4058","timestamp":"2025-04-27T14:58:11.308Z"}
+{"level":"error","message":"FFmpeg logs: ","timestamp":"2025-04-27T14:58:11.308Z"}
