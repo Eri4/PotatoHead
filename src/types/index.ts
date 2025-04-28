@@ -12,7 +12,7 @@ export interface GeneratedContent {
     id: string;
     newsItemId: string;
     rawText: string;
-    sentiment: 'positive' | 'neutral' | 'negative' | 'sarcastic';
+    sentiment: string;
     audioUrl?: string;
     videoUrl?: string;
     createdAt: Date;
@@ -43,6 +43,7 @@ export interface FrameSequence {
     frames: string[];
     frameCount: number;
     frameRate: number;
+    isShortFormat: boolean;
 }
 
 export interface VideoResult {
@@ -51,4 +52,5 @@ export interface VideoResult {
     width: number;
     height: number;
     url: string;
+    isShortFormat: boolean;
 }

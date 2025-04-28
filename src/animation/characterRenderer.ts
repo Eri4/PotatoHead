@@ -27,7 +27,8 @@ export class CharacterRenderer {
     async renderFrame(
         characterState: AnimationState,
         studioState: StudioState,
-        frameNumber: number
+        frameNumber: number,
+        isShortFormat: boolean = false
     ): Promise<string> {
         // Clear the canvas
         this.ctx.clearRect(0, 0, this.width, this.height);
@@ -52,7 +53,7 @@ export class CharacterRenderer {
 
             // 5. Draw any overlay text
             if (studioState.overlayText) {
-                this.drawOverlayText(studioState.overlayText);
+                this.drawOverlayText(studioState.overlayText, isShortFormat);
             }
 
             // 6. Save the frame
@@ -530,14 +531,24 @@ export class CharacterRenderer {
         }
     }
 
-    private drawOverlayText(text: string): void {
-        // Draw text overlay for chyron/lower third
-        this.ctx.fillStyle = '#e74c3c';
-        this.ctx.fillRect(0, this.height - 60, this.width, 60);
+    private drawOverlayText(text: string, isShortFormat: boolean): void {
+        // For short format videos, make overlay more prominent
+        if (isShortFormat) {
+            this.ctx.fillStyle = '#e74c3c';
+            this.ctx.fillRect(0, this.height - 80, this.width, 80);
 
-        this.ctx.font = 'bold 24px Arial';
-        this.ctx.fillStyle = '#ffffff';
-        this.ctx.fillText(text, 20, this.height - 25);
+            this.ctx.font = 'bold 36px Arial';
+            this.ctx.fillStyle = '#ffffff';
+            this.ctx.fillText(text, 20, this.height - 30);
+        } else {
+            // Your existing overlay code
+            this.ctx.fillStyle = '#e74c3c';
+            this.ctx.fillRect(0, this.height - 60, this.width, 60);
+
+            this.ctx.font = 'bold 24px Arial';
+            this.ctx.fillStyle = '#ffffff';
+            this.ctx.fillText(text, 20, this.height - 25);
+        }
     }
 
     private saveFrame(frameNumber: number): string {

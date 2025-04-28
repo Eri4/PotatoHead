@@ -16,6 +16,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/express": "^5.0.1",
+    "@types/fluent-ffmpeg": "^2.1.27",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.15.2",
     "express": "^5.1.0",

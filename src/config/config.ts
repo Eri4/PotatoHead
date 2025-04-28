@@ -46,9 +46,9 @@ const assetPaths = {
     },
     studio: {
         backgrounds: path.join(assetsPath, 'studio', 'backgrounds'),
-        props: path.join(assetsPath, 'studio', 'props'),
-        overlays: path.join(assetsPath, 'studio', 'overlays')
-    }
+        props: path.join(assetsPath, 'studio', 'props')
+    },
+    audio: path.join(assetsPath, 'audio')
 };
 
 // Api configurations
@@ -87,10 +87,18 @@ const system = {
     logLevel: process.env.LOG_LEVEL || 'info'
 };
 
+const tiktok = {
+    maxDuration: parseInt(process.env.TIKTOK_MAX_DURATION || '22', 10), // in seconds
+    minDuration: parseInt(process.env.TIKTOK_MIN_DURATION || '15', 10), // in seconds
+    shortFormat: parseInt(process.env.TIKTOK_SHORT_FORMAT || '12', 10), // threshold for short format
+};
+
+
 export default {
     paths,
     assetPaths,
     apis,
     video,
-    system
+    system,
+    tiktok
 };

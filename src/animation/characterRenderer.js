@@ -29,8 +29,8 @@ class CharacterRenderer {
         // Create output directory
         fs_extra_1.default.ensureDirSync(this.outputDir);
     }
-    renderFrame(characterState, studioState, frameNumber) {
-        return __awaiter(this, void 0, void 0, function* () {
+    renderFrame(characterState_1, studioState_1, frameNumber_1) {
+        return __awaiter(this, arguments, void 0, function* (characterState, studioState, frameNumber, isShortFormat = false) {
             // Clear the canvas
             this.ctx.clearRect(0, 0, this.width, this.height);
             try {
@@ -44,7 +44,7 @@ class CharacterRenderer {
                 yield this.drawPotatoHead(characterState.eyeState, characterState.mouthState, characterState.headRotation, characterState.accessoryIndices);
                 // 5. Draw any overlay text
                 if (studioState.overlayText) {
-                    this.drawOverlayText(studioState.overlayText);
+                    this.drawOverlayText(studioState.overlayText, isShortFormat);
                 }
                 // 6. Save the frame
                 const outputPath = this.saveFrame(frameNumber);
@@ -445,13 +445,23 @@ class CharacterRenderer {
             this.ctx.stroke();
         }
     }
-    drawOverlayText(text) {
-        // Draw text overlay for chyron/lower third
-        this.ctx.fillStyle = '#e74c3c';
-        this.ctx.fillRect(0, this.height - 60, this.width, 60);
-        this.ctx.font = 'bold 24px Arial';
-        this.ctx.fillStyle = '#ffffff';
-        this.ctx.fillText(text, 20, this.height - 25);
+    drawOverlayText(text, isShortFormat) {
+        // For short format videos, make overlay more prominent
+        if (isShortFormat) {
+            this.ctx.fillStyle = '#e74c3c';
+            this.ctx.fillRect(0, this.height - 80, this.width, 80);
+            this.ctx.font = 'bold 36px Arial';
+            this.ctx.fillStyle = '#ffffff';
+            this.ctx.fillText(text, 20, this.height - 30);
+        }
+        else {
+            // Your existing overlay code
+            this.ctx.fillStyle = '#e74c3c';
+            this.ctx.fillRect(0, this.height - 60, this.width, 60);
+            this.ctx.font = 'bold 24px Arial';
+            this.ctx.fillStyle = '#ffffff';
+            this.ctx.fillText(text, 20, this.height - 25);
+        }
     }
     saveFrame(frameNumber) {
         const paddedNum = frameNumber.toString().padStart(5, '0');

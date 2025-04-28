@@ -1,4 +1,3 @@
-import path from 'path';
 import config from './config/config';
 import { NewsService } from './services/newsService';
 import { AIService } from './services/aiService';
@@ -12,9 +11,9 @@ async function processNewsItem() {
     try {
         logger.info('Starting news processing cycle');
 
-        // 1. Fetch news
+        // 1. Fetch weird news
         const newsService = new NewsService();
-        const newsItems = await newsService.fetchEntertainmentNews();
+        const newsItems = await newsService.fetchNews(); // Using the new method for weird news
 
         if (newsItems.length === 0) {
             logger.warn('No news items found');
@@ -35,8 +34,13 @@ async function processNewsItem() {
                 // Convert to speech
                 const audioResult = await voiceService.generateSpeech(content);
 
-                // Create video with PotatoHead animation
-                const videoResult = await videoService.createVideoForContent(content, audioResult);
+                // Create video with PotatoHead animation, subtitles, and sound effects
+                // Pass the newsItem to use for filename formatting
+                const videoResult = await videoService.createVideoForContent(
+                    content,
+                    audioResult,
+                    newsItem  // Pass the newsItem for filename formatting
+                );
 
                 // Update content with video URL
                 content.videoUrl = videoResult.url;

@@ -7,6 +7,7 @@ exports.generateId = generateId;
 exports.saveJsonToFile = saveJsonToFile;
 exports.loadJsonFromFile = loadJsonFromFile;
 exports.cleanDirectory = cleanDirectory;
+exports.formatVideoFilename = formatVideoFilename;
 const fs_extra_1 = __importDefault(require("fs-extra"));
 const path_1 = __importDefault(require("path"));
 const crypto_1 = __importDefault(require("crypto"));
@@ -51,4 +52,23 @@ function cleanDirectory(directory, ageInHours = 24) {
     catch (error) {
         logger_1.default.error(`Failed to clean directory: ${error}`);
     }
+}
+/**
+ * Generates a properly formatted filename for videos
+ * Format: date_title_category.mp4
+ */
+function formatVideoFilename(newsItem, content) {
+    // Get current date in YYYY-MM-DD format
+    const date = new Date().toISOString().split('T')[0];
+    // Sanitize the title: lowercase, replace spaces with underscores, remove special chars
+    const sanitizedTitle = newsItem.title
+        .toLowerCase()
+        .replace(/[^\w\s]/g, '') // Remove special chars
+        .replace(/\s+/g, '_') // Replace spaces with underscores
+        .substring(0, 40); // Limit length to 40 chars
+    // Determine category based on content sentiment
+    // Default to content category if sentiment not available
+    const category = content.sentiment || newsItem.category || 'news';
+    // Assemble filename: date_title_category.mp4
+    return `${date}_${sanitizedTitle}_${category}.mp4`;
 }

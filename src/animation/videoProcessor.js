@@ -55,22 +55,24 @@ const logger_1 = __importDefault(require("../utils/logger"));
 const fileManager_1 = require("../utils/fileManager");
 class VideoProcessor {
     constructor() {
+        var _a;
         this.width = config_1.default.video.width;
         this.height = config_1.default.video.height;
         this.frameRate = config_1.default.video.frameRate;
         this.quality = config_1.default.video.quality;
+        this.tikTokShortThreshold = ((_a = config_1.default.tiktok) === null || _a === void 0 ? void 0 : _a.shortFormat) || 15; // Default to 15 seconds
     }
     /**
      * Combine audio with animation frames to create a video
      */
-    createVideo(framesDir, audioPath, duration) {
+    createVideo(framesDir, audioPath, duration, customFilename) {
         return __awaiter(this, void 0, void 0, function* () {
             return new Promise((resolve, reject) => {
                 try {
                     logger_1.default.info('Creating video from frames and audio...');
                     // Create output filename and path
-                    const videoId = (0, fileManager_1.generateId)();
-                    const outputFilename = `video_${videoId}.mp4`;
+                    // Use custom filename if provided, otherwise generate a random ID
+                    const outputFilename = customFilename || `video_${(0, fileManager_1.generateId)()}.mp4`;
                     const outputPath = path.join(config_1.default.paths.videos, outputFilename);
                     // Ensure the videos directory exists
                     fs.ensureDirSync(config_1.default.paths.videos);
@@ -108,7 +110,8 @@ class VideoProcessor {
                                 duration: duration,
                                 width: this.width,
                                 height: this.height,
-                                url: `/videos/${outputFilename}`
+                                url: `/videos/${outputFilename}`,
+                                isShortFormat: true
                             };
                             resolve(result);
                         }
@@ -292,12 +295,48 @@ class VideoProcessor {
         return result;
     }
     /**
+     * Determine content type based on text analysis
+     */
+    determineContentType(text) {
+        const lowerText = text.toLowerCase();
+        // Words that indicate the content is weird
+        const weirdWords = ['bizarre', 'strange', 'unusual', 'weird', 'odd', 'peculiar',
+            'unexpected', 'mysterious', 'unexplained', 'curious'];
+        // Words that indicate the content is funny
+        const funnyWords = ['funny', 'hilarious', 'laugh', 'comedy', 'ridiculous', 'absurd',
+            'humorous', 'joke', 'punchline', 'amusing'];
+        let weirdCount = 0;
+        let funnyCount = 0;
+        // Count how many "weird" indicators are in the text
+        weirdWords.forEach(word => {
+            const regex = new RegExp(`\\b${word}\\b`, 'gi');
+            const matches = lowerText.match(regex);
+            if (matches)
+                weirdCount += matches.length;
+        });
+        // Count how many "funny" indicators are in the text
+        funnyWords.forEach(word => {
+            const regex = new RegExp(`\\b${word}\\b`, 'gi');
+            const matches = lowerText.match(regex);
+            if (matches)
+                funnyCount += matches.length;
+        });
+        // Default to WEIRD if tied or more weird indicators
+        return (funnyCount > weirdCount) ? 'FUNNY' : 'WEIRD';
+    }
+    /**
      * Generate a sequence of frames for animation based on audio
      */
-    generateFrameSequence(audioDuration, audioPath) {
-        return __awaiter(this, void 0, void 0, function* () {
+    generateFrameSequence(audioDuration_1, audioPath_1, contentText_1) {
+        return __awaiter(this, arguments, void 0, function* (audioDuration, audioPath, contentText, isShortFormat = false) {
             try {
                 logger_1.default.info(`Generating animation frame sequence for ${audioDuration} seconds of audio`);
+                // Determine if this is a short format video
+                const isShortFormat = audioDuration <= this.tikTokShortThreshold;
+                logger_1.default.info(`Video format: ${isShortFormat ? 'SHORT' : 'STANDARD'} (${audioDuration}s)`);
+                // Determine content type if text is provided
+                const contentType = contentText ? this.determineContentType(contentText) : 'WEIRD';
+                logger_1.default.info(`Content type determined: ${contentType}`);
                 // Analyze audio for better lip sync
                 const { amplitudes, duration } = yield this.analyzeAudio(audioPath);
                 // Create a CharacterRenderer instance
@@ -348,19 +387,30 @@ class VideoProcessor {
                         headRotation,
                         accessoryIndices: [0, 1] // Microphone and glasses
                     };
-                    // Set overlay text based on video section
+                    // Set overlay text based on video section and format
                     let overlayText;
-                    if (i < this.frameRate * 3) {
-                        // First 3 seconds: "BREAKING NEWS"
-                        overlayText = 'BREAKING NEWS';
+                    if (isShortFormat) {
+                        // For short videos, just show content type throughout
+                        overlayText = `${contentType} NEWS`;
                     }
-                    else if (endingVideo || i > totalFrames - (this.frameRate * 3)) {
-                        // Last 3 seconds or ending sequence: "LIKE AND SUBSCRIBE!"
-                        overlayText = 'LIKE AND SUBSCRIBE!';
-                    }
-                    else if (i % (this.frameRate * 8) === 0) {
-                        // Show "POTATO NEWS NETWORK" briefly every 8 seconds
-                        overlayText = 'POTATO NEWS NETWORK';
+                    else {
+                        // For standard videos, use more varied texts
+                        if (i < this.frameRate * 3) {
+                            // First 3 seconds: "BREAKING NEWS"
+                            overlayText = 'BREAKING NEWS';
+                        }
+                        else if (endingVideo || i > totalFrames - (this.frameRate * 3)) {
+                            // Last 3 seconds or ending sequence: "LIKE AND SUBSCRIBE!"
+                            overlayText = 'LIKE AND SUBSCRIBE!';
+                        }
+                        else if (i % (this.frameRate * 8) === 0) {
+                            // Show "POTATO NEWS NETWORK" briefly every 8 seconds
+                            overlayText = 'POTATO NEWS NETWORK';
+                        }
+                        else if (i % (this.frameRate * 4) === 0) {
+                            // Show content type briefly every 4 seconds
+                            overlayText = `${contentType} NEWS`;
+                        }
                     }
                     const studioState = {
                         backgroundIndex: 0,
@@ -368,8 +418,8 @@ class VideoProcessor {
                         propIndices: [0, 1, 2], // Monitor, coffee mug, papers
                         overlayText
                     };
-                    // Render the frame
-                    const framePath = yield renderer.renderFrame(animationState, studioState, i);
+                    // Render the frame - pass isShortFormat parameter
+                    const framePath = yield renderer.renderFrame(animationState, studioState, i, isShortFormat);
                     frames.push(framePath);
                     // Log progress occasionally
                     if (i % 30 === 0) {
@@ -382,7 +432,8 @@ class VideoProcessor {
                     directory: outputDir,
                     frames,
                     frameCount: frames.length,
-                    frameRate: this.frameRate
+                    frameRate: this.frameRate,
+                    isShortFormat: isShortFormat
                 };
             }
             catch (error) {

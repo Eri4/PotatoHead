@@ -24,9 +24,9 @@ function processNewsItem() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             logger_1.default.info('Starting news processing cycle');
-            // 1. Fetch news
+            // 1. Fetch weird news
             const newsService = new newsService_1.NewsService();
-            const newsItems = yield newsService.fetchEntertainmentNews();
+            const newsItems = yield newsService.fetchNews(); // Using the new method for weird news
             if (newsItems.length === 0) {
                 logger_1.default.warn('No news items found');
                 return;
@@ -42,8 +42,10 @@ function processNewsItem() {
                     const content = yield aiService.generateSarcasticContent(newsItem);
                     // Convert to speech
                     const audioResult = yield voiceService.generateSpeech(content);
-                    // Create video with PotatoHead animation
-                    const videoResult = yield videoService.createVideoForContent(content, audioResult);
+                    // Create video with PotatoHead animation, subtitles, and sound effects
+                    // Pass the newsItem to use for filename formatting
+                    const videoResult = yield videoService.createVideoForContent(content, audioResult, newsItem // Pass the newsItem for filename formatting
+                    );
                     // Update content with video URL
                     content.videoUrl = videoResult.url;
                     logger_1.default.info(`Successfully processed news item: ${newsItem.title}`);

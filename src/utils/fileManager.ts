@@ -2,6 +2,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import crypto from 'crypto';
 import logger from './logger';
+import { NewsItem, GeneratedContent } from '../types';
 
 export function generateId(): string {
     return crypto.randomBytes(8).toString('hex');
@@ -45,4 +46,27 @@ export function cleanDirectory(directory: string, ageInHours: number = 24): void
     } catch (error) {
         logger.error(`Failed to clean directory: ${error}`);
     }
+}
+
+/**
+ * Generates a properly formatted filename for videos
+ * Format: date_title_category.mp4
+ */
+export function formatVideoFilename(newsItem: NewsItem, content: GeneratedContent): string {
+    // Get current date in YYYY-MM-DD format
+    const date = new Date().toISOString().split('T')[0];
+
+    // Sanitize the title: lowercase, replace spaces with underscores, remove special chars
+    const sanitizedTitle = newsItem.title
+        .toLowerCase()
+        .replace(/[^\w\s]/g, '')  // Remove special chars
+        .replace(/\s+/g, '_')     // Replace spaces with underscores
+        .substring(0, 40);        // Limit length to 40 chars
+
+    // Determine category based on content sentiment
+    // Default to content category if sentiment not available
+    const category = content.sentiment || newsItem.category || 'news';
+
+    // Assemble filename: date_title_category.mp4
+    return `${date}_${sanitizedTitle}_${category}.mp4`;
 }

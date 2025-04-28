@@ -1521,3 +1521,884 @@
 {"level":"info","message":"Generating sarcastic content for news item: eb983bfaf84e264c","timestamp":"2025-04-27T17:17:55.092Z"}
 {"level":"info","message":"Generated content with ID: 9d2f1102637b180a","timestamp":"2025-04-27T17:17:59.335Z"}
 {"level":"info","message":"Generating speech for content: 9d2f1102637b180a","timestamp":"2025-04-27T17:17:59.336Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T20:34:44.749Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T20:34:44.752Z"}
+{"level":"info","message":"Fetching weird news...","timestamp":"2025-04-27T20:34:44.752Z"}
+{"level":"info","message":"Fetched 5 weird news items","timestamp":"2025-04-27T20:34:46.701Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 26bff3e612f95c4c","timestamp":"2025-04-27T20:34:46.702Z"}
+{"level":"info","message":"Generated content with ID: 988391e7df1e8fdd","timestamp":"2025-04-27T20:34:52.940Z"}
+{"level":"info","message":"Generating speech for content: 988391e7df1e8fdd","timestamp":"2025-04-27T20:34:52.941Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_988391e7df1e8fdd.mp3 with duration: 68s","timestamp":"2025-04-27T20:35:06.921Z"}
+{"level":"info","message":"Creating enhanced video for content: 988391e7df1e8fdd","timestamp":"2025-04-27T20:35:06.922Z"}
+{"level":"info","message":"Generating animation frame sequence for 68 seconds of audio","timestamp":"2025-04-27T20:35:06.922Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_988391e7df1e8fdd.mp3","timestamp":"2025-04-27T20:35:06.923Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T20:35:06.953Z"}
+{"level":"info","message":"Generating 2010 frames at 30 FPS","timestamp":"2025-04-27T20:35:07.340Z"}
+{"level":"info","message":"Generated 0/2010 frames","timestamp":"2025-04-27T20:35:07.473Z"}
+{"level":"info","message":"Generated 30/2010 frames","timestamp":"2025-04-27T20:35:10.874Z"}
+{"level":"info","message":"Generated 60/2010 frames","timestamp":"2025-04-27T20:35:14.038Z"}
+{"level":"info","message":"Generated 90/2010 frames","timestamp":"2025-04-27T20:35:17.315Z"}
+{"level":"info","message":"Generated 120/2010 frames","timestamp":"2025-04-27T20:35:20.989Z"}
+{"level":"info","message":"Generated 150/2010 frames","timestamp":"2025-04-27T20:35:24.081Z"}
+{"level":"info","message":"Generated 180/2010 frames","timestamp":"2025-04-27T20:35:27.584Z"}
+{"level":"info","message":"Generated 210/2010 frames","timestamp":"2025-04-27T20:35:30.808Z"}
+{"level":"info","message":"Generated 240/2010 frames","timestamp":"2025-04-27T20:35:34.190Z"}
+{"level":"info","message":"Generated 270/2010 frames","timestamp":"2025-04-27T20:35:37.857Z"}
+{"level":"info","message":"Generated 300/2010 frames","timestamp":"2025-04-27T20:35:41.244Z"}
+{"level":"info","message":"Generated 330/2010 frames","timestamp":"2025-04-27T20:35:44.652Z"}
+{"level":"info","message":"Generated 360/2010 frames","timestamp":"2025-04-27T20:35:48.453Z"}
+{"level":"info","message":"Generated 390/2010 frames","timestamp":"2025-04-27T20:35:52.114Z"}
+{"level":"info","message":"Generated 420/2010 frames","timestamp":"2025-04-27T20:35:55.890Z"}
+{"level":"info","message":"Generated 450/2010 frames","timestamp":"2025-04-27T20:36:00.320Z"}
+{"level":"info","message":"Generated 480/2010 frames","timestamp":"2025-04-27T20:36:04.572Z"}
+{"level":"info","message":"Generated 510/2010 frames","timestamp":"2025-04-27T20:36:08.757Z"}
+{"level":"info","message":"Generated 540/2010 frames","timestamp":"2025-04-27T20:36:13.116Z"}
+{"level":"info","message":"Generated 570/2010 frames","timestamp":"2025-04-27T20:36:17.718Z"}
+{"level":"info","message":"Generated 600/2010 frames","timestamp":"2025-04-27T20:36:21.472Z"}
+{"level":"info","message":"Generated 630/2010 frames","timestamp":"2025-04-27T20:36:25.399Z"}
+{"level":"info","message":"Generated 660/2010 frames","timestamp":"2025-04-27T20:36:29.826Z"}
+{"level":"info","message":"Generated 690/2010 frames","timestamp":"2025-04-27T20:36:33.493Z"}
+{"level":"info","message":"Generated 720/2010 frames","timestamp":"2025-04-27T20:36:37.283Z"}
+{"level":"info","message":"Generated 750/2010 frames","timestamp":"2025-04-27T20:36:40.958Z"}
+{"level":"info","message":"Generated 780/2010 frames","timestamp":"2025-04-27T20:36:46.043Z"}
+{"level":"info","message":"Generated 810/2010 frames","timestamp":"2025-04-27T20:36:49.829Z"}
+{"level":"info","message":"Generated 840/2010 frames","timestamp":"2025-04-27T20:36:53.718Z"}
+{"level":"info","message":"Generated 870/2010 frames","timestamp":"2025-04-27T20:36:57.187Z"}
+{"level":"info","message":"Generated 900/2010 frames","timestamp":"2025-04-27T20:37:00.509Z"}
+{"level":"info","message":"Generated 930/2010 frames","timestamp":"2025-04-27T20:37:04.136Z"}
+{"level":"info","message":"Generated 960/2010 frames","timestamp":"2025-04-27T20:37:07.452Z"}
+{"level":"info","message":"Generated 990/2010 frames","timestamp":"2025-04-27T20:37:10.942Z"}
+{"level":"info","message":"Generated 1020/2010 frames","timestamp":"2025-04-27T20:37:14.351Z"}
+{"level":"info","message":"Generated 1050/2010 frames","timestamp":"2025-04-27T20:37:18.003Z"}
+{"level":"info","message":"Generated 1080/2010 frames","timestamp":"2025-04-27T20:37:21.925Z"}
+{"level":"info","message":"Generated 1110/2010 frames","timestamp":"2025-04-27T20:37:25.257Z"}
+{"level":"info","message":"Generated 1140/2010 frames","timestamp":"2025-04-27T20:37:28.619Z"}
+{"level":"info","message":"Generated 1170/2010 frames","timestamp":"2025-04-27T20:37:31.962Z"}
+{"level":"info","message":"Generated 1200/2010 frames","timestamp":"2025-04-27T20:37:37.500Z"}
+{"level":"info","message":"Generated 1230/2010 frames","timestamp":"2025-04-27T20:37:40.864Z"}
+{"level":"info","message":"Generated 1260/2010 frames","timestamp":"2025-04-27T20:37:44.126Z"}
+{"level":"info","message":"Generated 1290/2010 frames","timestamp":"2025-04-27T20:37:47.484Z"}
+{"level":"info","message":"Generated 1320/2010 frames","timestamp":"2025-04-27T20:37:50.916Z"}
+{"level":"info","message":"Generated 1350/2010 frames","timestamp":"2025-04-27T20:37:54.291Z"}
+{"level":"info","message":"Generated 1380/2010 frames","timestamp":"2025-04-27T20:37:57.791Z"}
+{"level":"info","message":"Generated 1410/2010 frames","timestamp":"2025-04-27T20:38:01.268Z"}
+{"level":"info","message":"Generated 1440/2010 frames","timestamp":"2025-04-27T20:38:06.093Z"}
+{"level":"info","message":"Generated 1470/2010 frames","timestamp":"2025-04-27T20:38:10.932Z"}
+{"level":"info","message":"Generated 1500/2010 frames","timestamp":"2025-04-27T20:38:15.075Z"}
+{"level":"info","message":"Generated 1530/2010 frames","timestamp":"2025-04-27T20:38:18.428Z"}
+{"level":"info","message":"Generated 1560/2010 frames","timestamp":"2025-04-27T20:38:22.472Z"}
+{"level":"info","message":"Generated 1590/2010 frames","timestamp":"2025-04-27T20:38:25.997Z"}
+{"level":"info","message":"Generated 1620/2010 frames","timestamp":"2025-04-27T20:38:30.310Z"}
+{"level":"info","message":"Generated 1650/2010 frames","timestamp":"2025-04-27T20:38:34.573Z"}
+{"level":"info","message":"Generated 1680/2010 frames","timestamp":"2025-04-27T20:38:38.393Z"}
+{"level":"info","message":"Generated 1710/2010 frames","timestamp":"2025-04-27T20:38:42.319Z"}
+{"level":"info","message":"Generated 1740/2010 frames","timestamp":"2025-04-27T20:38:46.453Z"}
+{"level":"info","message":"Generated 1770/2010 frames","timestamp":"2025-04-27T20:38:50.386Z"}
+{"level":"info","message":"Generated 1800/2010 frames","timestamp":"2025-04-27T20:38:53.867Z"}
+{"level":"info","message":"Generated 1830/2010 frames","timestamp":"2025-04-27T20:38:58.287Z"}
+{"level":"info","message":"Generated 1860/2010 frames","timestamp":"2025-04-27T20:39:02.549Z"}
+{"level":"info","message":"Generated 1890/2010 frames","timestamp":"2025-04-27T20:39:06.088Z"}
+{"level":"info","message":"Generated 1920/2010 frames","timestamp":"2025-04-27T20:39:10.037Z"}
+{"level":"info","message":"Generated 1950/2010 frames","timestamp":"2025-04-27T20:39:13.563Z"}
+{"level":"info","message":"Generated 1980/2010 frames","timestamp":"2025-04-27T20:39:17.557Z"}
+{"level":"info","message":"Completed frame sequence generation: 2010 frames created","timestamp":"2025-04-27T20:39:21.734Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T20:39:21.741Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_18f76c0acb72da2d.mp4","timestamp":"2025-04-27T20:39:40.172Z"}
+{"level":"info","message":"Creating subtitles for content: 988391e7df1e8fdd","timestamp":"2025-04-27T20:39:40.174Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_988391e7df1e8fdd.srt","timestamp":"2025-04-27T20:39:40.180Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\video_18f76c0acb72da2d.mp4","timestamp":"2025-04-27T20:39:40.181Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_video_18f76c0acb72da2d.mp4","timestamp":"2025-04-27T20:40:10.565Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_video_18f76c0acb72da2d.mp4","timestamp":"2025-04-27T20:40:10.568Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T20:40:10.568Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_video_18f76c0acb72da2d.mp4","timestamp":"2025-04-27T20:40:10.569Z"}
+{"level":"info","message":"Successfully processed news item: Apple Must Be Extremely Furious, Amazon Crushes the Price of the MacBook Air 2025 to a Record Low","timestamp":"2025-04-27T20:40:10.569Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_video_18f76c0acb72da2d.mp4","timestamp":"2025-04-27T20:40:10.569Z"}
+{"level":"info","message":"Generating sarcastic content for news item: c6111628ab4736df","timestamp":"2025-04-27T20:40:10.570Z"}
+{"level":"info","message":"Generated content with ID: 56d13a88f7226d54","timestamp":"2025-04-27T20:40:13.991Z"}
+{"level":"info","message":"Generating speech for content: 56d13a88f7226d54","timestamp":"2025-04-27T20:40:13.991Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_56d13a88f7226d54.mp3 with duration: 42s","timestamp":"2025-04-27T20:40:23.797Z"}
+{"level":"info","message":"Creating enhanced video for content: 56d13a88f7226d54","timestamp":"2025-04-27T20:40:23.798Z"}
+{"level":"info","message":"Generating animation frame sequence for 42 seconds of audio","timestamp":"2025-04-27T20:40:23.798Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_56d13a88f7226d54.mp3","timestamp":"2025-04-27T20:40:23.799Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T20:40:23.813Z"}
+{"level":"info","message":"Generating 1230 frames at 30 FPS","timestamp":"2025-04-27T20:40:23.815Z"}
+{"level":"info","message":"Generated 0/1230 frames","timestamp":"2025-04-27T20:40:23.944Z"}
+{"level":"info","message":"Generated 30/1230 frames","timestamp":"2025-04-27T20:40:28.051Z"}
+{"level":"info","message":"Generated 60/1230 frames","timestamp":"2025-04-27T20:40:31.797Z"}
+{"level":"info","message":"Generated 90/1230 frames","timestamp":"2025-04-27T20:40:35.173Z"}
+{"level":"info","message":"Generated 120/1230 frames","timestamp":"2025-04-27T20:40:38.360Z"}
+{"level":"info","message":"Generated 150/1230 frames","timestamp":"2025-04-27T20:40:41.539Z"}
+{"level":"info","message":"Generated 180/1230 frames","timestamp":"2025-04-27T20:40:45.190Z"}
+{"level":"info","message":"Generated 210/1230 frames","timestamp":"2025-04-27T20:40:48.407Z"}
+{"level":"info","message":"Generated 240/1230 frames","timestamp":"2025-04-27T20:40:51.581Z"}
+{"level":"info","message":"Generated 270/1230 frames","timestamp":"2025-04-27T20:40:54.926Z"}
+{"level":"info","message":"Generated 300/1230 frames","timestamp":"2025-04-27T20:40:58.442Z"}
+{"level":"info","message":"Generated 330/1230 frames","timestamp":"2025-04-27T20:41:01.752Z"}
+{"level":"info","message":"Generated 360/1230 frames","timestamp":"2025-04-27T20:41:04.928Z"}
+{"level":"info","message":"Generated 390/1230 frames","timestamp":"2025-04-27T20:41:08.244Z"}
+{"level":"info","message":"Generated 420/1230 frames","timestamp":"2025-04-27T20:41:11.425Z"}
+{"level":"info","message":"Generated 450/1230 frames","timestamp":"2025-04-27T20:41:14.945Z"}
+{"level":"info","message":"Generated 480/1230 frames","timestamp":"2025-04-27T20:41:18.254Z"}
+{"level":"info","message":"Generated 510/1230 frames","timestamp":"2025-04-27T20:41:21.440Z"}
+{"level":"info","message":"Generated 540/1230 frames","timestamp":"2025-04-27T20:41:25.003Z"}
+{"level":"info","message":"Generated 570/1230 frames","timestamp":"2025-04-27T20:41:29.214Z"}
+{"level":"info","message":"Generated 600/1230 frames","timestamp":"2025-04-27T20:41:32.729Z"}
+{"level":"info","message":"Generated 630/1230 frames","timestamp":"2025-04-27T20:41:36.006Z"}
+{"level":"info","message":"Generated 660/1230 frames","timestamp":"2025-04-27T20:41:39.411Z"}
+{"level":"info","message":"Generated 690/1230 frames","timestamp":"2025-04-27T20:41:42.842Z"}
+{"level":"info","message":"Generated 720/1230 frames","timestamp":"2025-04-27T20:41:48.312Z"}
+{"level":"info","message":"Generated 750/1230 frames","timestamp":"2025-04-27T20:41:51.848Z"}
+{"level":"info","message":"Generated 780/1230 frames","timestamp":"2025-04-27T20:41:55.396Z"}
+{"level":"info","message":"Generated 810/1230 frames","timestamp":"2025-04-27T20:41:58.885Z"}
+{"level":"info","message":"Generated 840/1230 frames","timestamp":"2025-04-27T20:42:02.102Z"}
+{"level":"info","message":"Generated 870/1230 frames","timestamp":"2025-04-27T20:42:05.454Z"}
+{"level":"info","message":"Generated 900/1230 frames","timestamp":"2025-04-27T20:42:08.825Z"}
+{"level":"info","message":"Generated 930/1230 frames","timestamp":"2025-04-27T20:42:12.110Z"}
+{"level":"info","message":"Generated 960/1230 frames","timestamp":"2025-04-27T20:42:15.586Z"}
+{"level":"info","message":"Generated 990/1230 frames","timestamp":"2025-04-27T20:42:19.238Z"}
+{"level":"info","message":"Generated 1020/1230 frames","timestamp":"2025-04-27T20:42:22.435Z"}
+{"level":"info","message":"Generated 1050/1230 frames","timestamp":"2025-04-27T20:42:25.743Z"}
+{"level":"info","message":"Generated 1080/1230 frames","timestamp":"2025-04-27T20:42:29.315Z"}
+{"level":"info","message":"Generated 1110/1230 frames","timestamp":"2025-04-27T20:42:32.557Z"}
+{"level":"info","message":"Generated 1140/1230 frames","timestamp":"2025-04-27T20:42:35.984Z"}
+{"level":"info","message":"Generated 1170/1230 frames","timestamp":"2025-04-27T20:42:39.231Z"}
+{"level":"info","message":"Generated 1200/1230 frames","timestamp":"2025-04-27T20:42:42.494Z"}
+{"level":"info","message":"Completed frame sequence generation: 1230 frames created","timestamp":"2025-04-27T20:42:46.022Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T20:42:46.023Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_c15b0935d7710679.mp4","timestamp":"2025-04-27T20:42:55.340Z"}
+{"level":"info","message":"Creating subtitles for content: 56d13a88f7226d54","timestamp":"2025-04-27T20:42:55.341Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_56d13a88f7226d54.srt","timestamp":"2025-04-27T20:42:55.343Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\video_c15b0935d7710679.mp4","timestamp":"2025-04-27T20:42:55.343Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_video_c15b0935d7710679.mp4","timestamp":"2025-04-27T20:43:08.872Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_video_c15b0935d7710679.mp4","timestamp":"2025-04-27T20:43:08.873Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T20:43:08.874Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_video_c15b0935d7710679.mp4","timestamp":"2025-04-27T20:43:08.874Z"}
+{"level":"info","message":"Successfully processed news item: Square Enix if that Nier Reincarnation thing you're teasing isn't a port I won't be your friend any more","timestamp":"2025-04-27T20:43:08.874Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_video_c15b0935d7710679.mp4","timestamp":"2025-04-27T20:43:08.874Z"}
+{"level":"info","message":"Generating sarcastic content for news item: d2ef325af74b2c5d","timestamp":"2025-04-27T20:43:08.875Z"}
+{"level":"info","message":"Generated content with ID: f65721d09136d992","timestamp":"2025-04-27T20:43:13.765Z"}
+{"level":"info","message":"Generating speech for content: f65721d09136d992","timestamp":"2025-04-27T20:43:13.766Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_f65721d09136d992.mp3 with duration: 47s","timestamp":"2025-04-27T20:43:24.701Z"}
+{"level":"info","message":"Creating enhanced video for content: f65721d09136d992","timestamp":"2025-04-27T20:43:24.701Z"}
+{"level":"info","message":"Generating animation frame sequence for 47 seconds of audio","timestamp":"2025-04-27T20:43:24.701Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_f65721d09136d992.mp3","timestamp":"2025-04-27T20:43:24.702Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T20:43:24.715Z"}
+{"level":"info","message":"Generating 1380 frames at 30 FPS","timestamp":"2025-04-27T20:43:24.717Z"}
+{"level":"info","message":"Generated 0/1380 frames","timestamp":"2025-04-27T20:43:24.816Z"}
+{"level":"info","message":"Generated 30/1380 frames","timestamp":"2025-04-27T20:43:27.924Z"}
+{"level":"info","message":"Generated 60/1380 frames","timestamp":"2025-04-27T20:43:31.068Z"}
+{"level":"info","message":"Generated 90/1380 frames","timestamp":"2025-04-27T20:43:34.226Z"}
+{"level":"info","message":"Generated 120/1380 frames","timestamp":"2025-04-27T20:43:37.494Z"}
+{"level":"info","message":"Generated 150/1380 frames","timestamp":"2025-04-27T20:43:40.618Z"}
+{"level":"info","message":"Generated 180/1380 frames","timestamp":"2025-04-27T20:43:43.763Z"}
+{"level":"info","message":"Generated 210/1380 frames","timestamp":"2025-04-27T20:43:46.920Z"}
+{"level":"info","message":"Generated 240/1380 frames","timestamp":"2025-04-27T20:43:50.057Z"}
+{"level":"info","message":"Generated 270/1380 frames","timestamp":"2025-04-27T20:43:53.209Z"}
+{"level":"info","message":"Generated 300/1380 frames","timestamp":"2025-04-27T20:43:56.518Z"}
+{"level":"info","message":"Generated 330/1380 frames","timestamp":"2025-04-27T20:43:59.658Z"}
+{"level":"info","message":"Generated 360/1380 frames","timestamp":"2025-04-27T20:44:02.814Z"}
+{"level":"info","message":"Generated 390/1380 frames","timestamp":"2025-04-27T20:44:06.125Z"}
+{"level":"info","message":"Generated 420/1380 frames","timestamp":"2025-04-27T20:44:09.273Z"}
+{"level":"info","message":"Generated 450/1380 frames","timestamp":"2025-04-27T20:44:12.478Z"}
+{"level":"info","message":"Generated 480/1380 frames","timestamp":"2025-04-27T20:44:15.774Z"}
+{"level":"info","message":"Generated 510/1380 frames","timestamp":"2025-04-27T20:44:18.959Z"}
+{"level":"info","message":"Generated 540/1380 frames","timestamp":"2025-04-27T20:44:22.106Z"}
+{"level":"info","message":"Generated 570/1380 frames","timestamp":"2025-04-27T20:44:25.241Z"}
+{"level":"info","message":"Generated 600/1380 frames","timestamp":"2025-04-27T20:44:28.452Z"}
+{"level":"info","message":"Generated 630/1380 frames","timestamp":"2025-04-27T20:44:31.779Z"}
+{"level":"info","message":"Generated 660/1380 frames","timestamp":"2025-04-27T20:44:35.214Z"}
+{"level":"info","message":"Generated 690/1380 frames","timestamp":"2025-04-27T20:44:38.378Z"}
+{"level":"info","message":"Generated 720/1380 frames","timestamp":"2025-04-27T20:44:41.661Z"}
+{"level":"info","message":"Generated 750/1380 frames","timestamp":"2025-04-27T20:44:44.846Z"}
+{"level":"info","message":"Generated 780/1380 frames","timestamp":"2025-04-27T20:44:48.116Z"}
+{"level":"info","message":"Generated 810/1380 frames","timestamp":"2025-04-27T20:44:51.475Z"}
+{"level":"info","message":"Generated 840/1380 frames","timestamp":"2025-04-27T20:44:54.858Z"}
+{"level":"info","message":"Generated 870/1380 frames","timestamp":"2025-04-27T20:44:58.066Z"}
+{"level":"info","message":"Generated 900/1380 frames","timestamp":"2025-04-27T20:45:01.338Z"}
+{"level":"info","message":"Generated 930/1380 frames","timestamp":"2025-04-27T20:45:04.577Z"}
+{"level":"info","message":"Generated 960/1380 frames","timestamp":"2025-04-27T20:45:07.900Z"}
+{"level":"info","message":"Generated 990/1380 frames","timestamp":"2025-04-27T20:45:11.146Z"}
+{"level":"info","message":"Generated 1020/1380 frames","timestamp":"2025-04-27T20:45:14.324Z"}
+{"level":"info","message":"Generated 1050/1380 frames","timestamp":"2025-04-27T20:45:18.654Z"}
+{"level":"info","message":"Generated 1080/1380 frames","timestamp":"2025-04-27T20:45:21.957Z"}
+{"level":"info","message":"Generated 1110/1380 frames","timestamp":"2025-04-27T20:45:25.164Z"}
+{"level":"info","message":"Generated 1140/1380 frames","timestamp":"2025-04-27T20:45:28.489Z"}
+{"level":"info","message":"Generated 1170/1380 frames","timestamp":"2025-04-27T20:45:31.693Z"}
+{"level":"info","message":"Generated 1200/1380 frames","timestamp":"2025-04-27T20:45:35.082Z"}
+{"level":"info","message":"Generated 1230/1380 frames","timestamp":"2025-04-27T20:45:38.467Z"}
+{"level":"info","message":"Generated 1260/1380 frames","timestamp":"2025-04-27T20:45:41.787Z"}
+{"level":"info","message":"Generated 1290/1380 frames","timestamp":"2025-04-27T20:45:44.972Z"}
+{"level":"info","message":"Generated 1320/1380 frames","timestamp":"2025-04-27T20:45:48.378Z"}
+{"level":"info","message":"Generated 1350/1380 frames","timestamp":"2025-04-27T20:45:51.619Z"}
+{"level":"info","message":"Completed frame sequence generation: 1380 frames created","timestamp":"2025-04-27T20:45:55.179Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T20:45:55.183Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_c7e384f4ace1fcb7.mp4","timestamp":"2025-04-27T20:46:05.698Z"}
+{"level":"info","message":"Creating subtitles for content: f65721d09136d992","timestamp":"2025-04-27T20:46:05.699Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_f65721d09136d992.srt","timestamp":"2025-04-27T20:46:05.700Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\video_c7e384f4ace1fcb7.mp4","timestamp":"2025-04-27T20:46:05.701Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_video_c7e384f4ace1fcb7.mp4","timestamp":"2025-04-27T20:46:20.979Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_video_c7e384f4ace1fcb7.mp4","timestamp":"2025-04-27T20:46:20.980Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T20:46:20.981Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_video_c7e384f4ace1fcb7.mp4","timestamp":"2025-04-27T20:46:20.981Z"}
+{"level":"info","message":"Successfully processed news item: TVA #5 Preview: Deferment Department Drama Unfolds","timestamp":"2025-04-27T20:46:20.981Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_video_c7e384f4ace1fcb7.mp4","timestamp":"2025-04-27T20:46:20.981Z"}
+{"level":"info","message":"Generating sarcastic content for news item: cdc21c75370912fa","timestamp":"2025-04-27T20:46:20.982Z"}
+{"level":"info","message":"Generated content with ID: 864f4774d85ae913","timestamp":"2025-04-27T20:46:25.153Z"}
+{"level":"info","message":"Generating speech for content: 864f4774d85ae913","timestamp":"2025-04-27T20:46:25.153Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_864f4774d85ae913.mp3 with duration: 40s","timestamp":"2025-04-27T20:46:34.982Z"}
+{"level":"info","message":"Creating enhanced video for content: 864f4774d85ae913","timestamp":"2025-04-27T20:46:34.982Z"}
+{"level":"info","message":"Generating animation frame sequence for 40 seconds of audio","timestamp":"2025-04-27T20:46:34.983Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_864f4774d85ae913.mp3","timestamp":"2025-04-27T20:46:34.983Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T20:46:34.997Z"}
+{"level":"info","message":"Generating 1170 frames at 30 FPS","timestamp":"2025-04-27T20:46:35.001Z"}
+{"level":"info","message":"Generated 0/1170 frames","timestamp":"2025-04-27T20:46:35.132Z"}
+{"level":"info","message":"Generated 30/1170 frames","timestamp":"2025-04-27T20:46:39.702Z"}
+{"level":"info","message":"Generated 60/1170 frames","timestamp":"2025-04-27T20:46:44.543Z"}
+{"level":"info","message":"Generated 90/1170 frames","timestamp":"2025-04-27T20:46:48.664Z"}
+{"level":"info","message":"Generated 120/1170 frames","timestamp":"2025-04-27T20:46:52.174Z"}
+{"level":"info","message":"Generated 150/1170 frames","timestamp":"2025-04-27T20:46:55.604Z"}
+{"level":"info","message":"Generated 180/1170 frames","timestamp":"2025-04-27T20:46:59.165Z"}
+{"level":"info","message":"Generated 210/1170 frames","timestamp":"2025-04-27T20:47:02.763Z"}
+{"level":"info","message":"Generated 240/1170 frames","timestamp":"2025-04-27T20:47:06.629Z"}
+{"level":"info","message":"Generated 270/1170 frames","timestamp":"2025-04-27T20:47:10.119Z"}
+{"level":"info","message":"Generated 300/1170 frames","timestamp":"2025-04-27T20:47:13.632Z"}
+{"level":"info","message":"Generated 330/1170 frames","timestamp":"2025-04-27T20:47:17.138Z"}
+{"level":"info","message":"Generated 360/1170 frames","timestamp":"2025-04-27T20:47:20.455Z"}
+{"level":"info","message":"Generated 390/1170 frames","timestamp":"2025-04-27T20:47:23.668Z"}
+{"level":"info","message":"Generated 420/1170 frames","timestamp":"2025-04-27T20:47:26.922Z"}
+{"level":"info","message":"Generated 450/1170 frames","timestamp":"2025-04-27T20:47:30.371Z"}
+{"level":"info","message":"Generated 480/1170 frames","timestamp":"2025-04-27T20:47:33.673Z"}
+{"level":"info","message":"Generated 510/1170 frames","timestamp":"2025-04-27T20:47:36.888Z"}
+{"level":"info","message":"Generated 540/1170 frames","timestamp":"2025-04-27T20:47:40.100Z"}
+{"level":"info","message":"Generated 570/1170 frames","timestamp":"2025-04-27T20:47:43.308Z"}
+{"level":"info","message":"Generated 600/1170 frames","timestamp":"2025-04-27T20:47:46.516Z"}
+{"level":"info","message":"Generated 630/1170 frames","timestamp":"2025-04-27T20:47:49.964Z"}
+{"level":"info","message":"Generated 660/1170 frames","timestamp":"2025-04-27T20:47:53.252Z"}
+{"level":"info","message":"Generated 690/1170 frames","timestamp":"2025-04-27T20:47:56.527Z"}
+{"level":"info","message":"Generated 720/1170 frames","timestamp":"2025-04-27T20:47:59.763Z"}
+{"level":"info","message":"Generated 750/1170 frames","timestamp":"2025-04-27T20:48:03.189Z"}
+{"level":"info","message":"Generated 780/1170 frames","timestamp":"2025-04-27T20:48:06.421Z"}
+{"level":"info","message":"Generated 810/1170 frames","timestamp":"2025-04-27T20:48:09.891Z"}
+{"level":"info","message":"Generated 840/1170 frames","timestamp":"2025-04-27T20:48:13.178Z"}
+{"level":"info","message":"Generated 870/1170 frames","timestamp":"2025-04-27T20:48:16.656Z"}
+{"level":"info","message":"Generated 900/1170 frames","timestamp":"2025-04-27T20:48:19.859Z"}
+{"level":"info","message":"Generated 930/1170 frames","timestamp":"2025-04-27T20:48:23.134Z"}
+{"level":"info","message":"Generated 960/1170 frames","timestamp":"2025-04-27T20:48:26.437Z"}
+{"level":"info","message":"Generated 990/1170 frames","timestamp":"2025-04-27T20:48:29.763Z"}
+{"level":"info","message":"Generated 1020/1170 frames","timestamp":"2025-04-27T20:48:33.043Z"}
+{"level":"info","message":"Generated 1050/1170 frames","timestamp":"2025-04-27T20:48:36.411Z"}
+{"level":"info","message":"Generated 1080/1170 frames","timestamp":"2025-04-27T20:48:39.703Z"}
+{"level":"info","message":"Generated 1110/1170 frames","timestamp":"2025-04-27T20:48:43.012Z"}
+{"level":"info","message":"Generated 1140/1170 frames","timestamp":"2025-04-27T20:48:46.352Z"}
+{"level":"info","message":"Completed frame sequence generation: 1170 frames created","timestamp":"2025-04-27T20:48:50.161Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T20:48:50.163Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_ae6f582cda3544d9.mp4","timestamp":"2025-04-27T20:48:59.285Z"}
+{"level":"info","message":"Creating subtitles for content: 864f4774d85ae913","timestamp":"2025-04-27T20:48:59.286Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_864f4774d85ae913.srt","timestamp":"2025-04-27T20:48:59.287Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\video_ae6f582cda3544d9.mp4","timestamp":"2025-04-27T20:48:59.288Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_video_ae6f582cda3544d9.mp4","timestamp":"2025-04-27T20:49:11.990Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_video_ae6f582cda3544d9.mp4","timestamp":"2025-04-27T20:49:11.991Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T20:49:11.992Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_video_ae6f582cda3544d9.mp4","timestamp":"2025-04-27T20:49:11.992Z"}
+{"level":"info","message":"Successfully processed news item: Slinky-Coil Dipole (2021)","timestamp":"2025-04-27T20:49:11.992Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_video_ae6f582cda3544d9.mp4","timestamp":"2025-04-27T20:49:11.993Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 8a3fee59c290a234","timestamp":"2025-04-27T20:49:11.993Z"}
+{"level":"info","message":"Generated content with ID: 1240ce7758c0a7be","timestamp":"2025-04-27T20:49:16.049Z"}
+{"level":"info","message":"Generating speech for content: 1240ce7758c0a7be","timestamp":"2025-04-27T20:49:16.050Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_1240ce7758c0a7be.mp3 with duration: 43s","timestamp":"2025-04-27T20:49:25.294Z"}
+{"level":"info","message":"Creating enhanced video for content: 1240ce7758c0a7be","timestamp":"2025-04-27T20:49:25.294Z"}
+{"level":"info","message":"Generating animation frame sequence for 43 seconds of audio","timestamp":"2025-04-27T20:49:25.295Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_1240ce7758c0a7be.mp3","timestamp":"2025-04-27T20:49:25.295Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T20:49:25.309Z"}
+{"level":"info","message":"Generating 1260 frames at 30 FPS","timestamp":"2025-04-27T20:49:25.312Z"}
+{"level":"info","message":"Generated 0/1260 frames","timestamp":"2025-04-27T20:49:25.418Z"}
+{"level":"info","message":"Generated 30/1260 frames","timestamp":"2025-04-27T20:49:28.545Z"}
+{"level":"info","message":"Generated 60/1260 frames","timestamp":"2025-04-27T20:49:31.820Z"}
+{"level":"info","message":"Generated 90/1260 frames","timestamp":"2025-04-27T20:49:34.917Z"}
+{"level":"info","message":"Generated 120/1260 frames","timestamp":"2025-04-27T20:49:38.055Z"}
+{"level":"info","message":"Generated 150/1260 frames","timestamp":"2025-04-27T20:49:41.157Z"}
+{"level":"info","message":"Generated 180/1260 frames","timestamp":"2025-04-27T20:49:44.288Z"}
+{"level":"info","message":"Generated 210/1260 frames","timestamp":"2025-04-27T20:49:47.408Z"}
+{"level":"info","message":"Generated 240/1260 frames","timestamp":"2025-04-27T20:49:50.696Z"}
+{"level":"info","message":"Generated 270/1260 frames","timestamp":"2025-04-27T20:49:53.853Z"}
+{"level":"info","message":"Generated 300/1260 frames","timestamp":"2025-04-27T20:49:57.096Z"}
+{"level":"info","message":"Generated 330/1260 frames","timestamp":"2025-04-27T20:50:00.334Z"}
+{"level":"info","message":"Generated 360/1260 frames","timestamp":"2025-04-27T20:50:03.467Z"}
+{"level":"info","message":"Generated 390/1260 frames","timestamp":"2025-04-27T20:50:06.603Z"}
+{"level":"info","message":"Generated 420/1260 frames","timestamp":"2025-04-27T20:50:09.730Z"}
+{"level":"info","message":"Generated 450/1260 frames","timestamp":"2025-04-27T20:50:13.024Z"}
+{"level":"info","message":"Generated 480/1260 frames","timestamp":"2025-04-27T20:50:16.151Z"}
+{"level":"info","message":"Generated 510/1260 frames","timestamp":"2025-04-27T20:50:19.325Z"}
+{"level":"info","message":"Generated 540/1260 frames","timestamp":"2025-04-27T20:50:22.513Z"}
+{"level":"info","message":"Generated 570/1260 frames","timestamp":"2025-04-27T20:50:25.653Z"}
+{"level":"info","message":"Generated 600/1260 frames","timestamp":"2025-04-27T20:50:28.813Z"}
+{"level":"info","message":"Generated 630/1260 frames","timestamp":"2025-04-27T20:50:32.246Z"}
+{"level":"info","message":"Generated 660/1260 frames","timestamp":"2025-04-27T20:50:35.638Z"}
+{"level":"info","message":"Generated 690/1260 frames","timestamp":"2025-04-27T20:50:38.839Z"}
+{"level":"info","message":"Generated 720/1260 frames","timestamp":"2025-04-27T20:50:42.096Z"}
+{"level":"info","message":"Generated 750/1260 frames","timestamp":"2025-04-27T20:50:45.309Z"}
+{"level":"info","message":"Generated 780/1260 frames","timestamp":"2025-04-27T20:50:48.574Z"}
+{"level":"info","message":"Generated 810/1260 frames","timestamp":"2025-04-27T20:50:51.964Z"}
+{"level":"info","message":"Generated 840/1260 frames","timestamp":"2025-04-27T20:50:55.425Z"}
+{"level":"info","message":"Generated 870/1260 frames","timestamp":"2025-04-27T20:50:58.712Z"}
+{"level":"info","message":"Generated 900/1260 frames","timestamp":"2025-04-27T20:51:01.945Z"}
+{"level":"info","message":"Generated 930/1260 frames","timestamp":"2025-04-27T20:51:05.150Z"}
+{"level":"info","message":"Generated 960/1260 frames","timestamp":"2025-04-27T20:51:08.647Z"}
+{"level":"info","message":"Generated 990/1260 frames","timestamp":"2025-04-27T20:51:12.126Z"}
+{"level":"info","message":"Generated 1020/1260 frames","timestamp":"2025-04-27T20:51:15.969Z"}
+{"level":"info","message":"Generated 1050/1260 frames","timestamp":"2025-04-27T20:51:19.614Z"}
+{"level":"info","message":"Generated 1080/1260 frames","timestamp":"2025-04-27T20:51:23.213Z"}
+{"level":"info","message":"Generated 1110/1260 frames","timestamp":"2025-04-27T20:51:26.779Z"}
+{"level":"info","message":"Generated 1140/1260 frames","timestamp":"2025-04-27T20:51:30.303Z"}
+{"level":"info","message":"Generated 1170/1260 frames","timestamp":"2025-04-27T20:51:34.492Z"}
+{"level":"info","message":"Generated 1200/1260 frames","timestamp":"2025-04-27T20:51:38.223Z"}
+{"level":"info","message":"Generated 1230/1260 frames","timestamp":"2025-04-27T20:51:41.701Z"}
+{"level":"info","message":"Completed frame sequence generation: 1260 frames created","timestamp":"2025-04-27T20:51:44.917Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T20:51:44.922Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_5d0660eab5edd2d5.mp4","timestamp":"2025-04-27T20:51:54.336Z"}
+{"level":"info","message":"Creating subtitles for content: 1240ce7758c0a7be","timestamp":"2025-04-27T20:51:54.337Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_1240ce7758c0a7be.srt","timestamp":"2025-04-27T20:51:54.339Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\video_5d0660eab5edd2d5.mp4","timestamp":"2025-04-27T20:51:54.339Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_video_5d0660eab5edd2d5.mp4","timestamp":"2025-04-27T20:52:08.875Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_video_5d0660eab5edd2d5.mp4","timestamp":"2025-04-27T20:52:08.876Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T20:52:08.878Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_video_5d0660eab5edd2d5.mp4","timestamp":"2025-04-27T20:52:08.879Z"}
+{"level":"info","message":"Successfully processed news item: Mini ice age was final death blow to Roman Empire, unusual rocks in Iceland suggest","timestamp":"2025-04-27T20:52:08.879Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_video_5d0660eab5edd2d5.mp4","timestamp":"2025-04-27T20:52:08.879Z"}
+{"level":"info","message":"News processing cycle completed","timestamp":"2025-04-27T20:52:08.881Z"}
+{"level":"info","message":"Setting up news fetch interval: 900000ms","timestamp":"2025-04-27T20:52:08.881Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T23:32:43.883Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T23:32:43.886Z"}
+{"level":"info","message":"Fetching weird news...","timestamp":"2025-04-27T23:32:43.887Z"}
+{"level":"info","message":"Fetched 5 weird news items","timestamp":"2025-04-27T23:32:44.711Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 50e34d6b1f1c6893","timestamp":"2025-04-27T23:32:44.712Z"}
+{"level":"info","message":"Generated content with ID: 25aa73783fa9cbc1","timestamp":"2025-04-27T23:32:47.198Z"}
+{"level":"info","message":"Generating speech for content: 25aa73783fa9cbc1","timestamp":"2025-04-27T23:32:47.198Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_25aa73783fa9cbc1.mp3 with duration: 16s","timestamp":"2025-04-27T23:32:50.800Z"}
+{"level":"info","message":"Creating enhanced video for content: 25aa73783fa9cbc1","timestamp":"2025-04-27T23:32:50.800Z"}
+{"level":"info","message":"Generating animation frame sequence for 16 seconds of audio","timestamp":"2025-04-27T23:32:50.801Z"}
+{"level":"info","message":"Video format: STANDARD (16s)","timestamp":"2025-04-27T23:32:50.801Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-27T23:32:50.802Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_25aa73783fa9cbc1.mp3","timestamp":"2025-04-27T23:32:50.802Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T23:32:50.818Z"}
+{"level":"info","message":"Generating 480 frames at 30 FPS","timestamp":"2025-04-27T23:32:51.256Z"}
+{"level":"info","message":"Generated 0/480 frames","timestamp":"2025-04-27T23:32:51.412Z"}
+{"level":"info","message":"Generated 30/480 frames","timestamp":"2025-04-27T23:32:55.148Z"}
+{"level":"info","message":"Generated 60/480 frames","timestamp":"2025-04-27T23:32:59.569Z"}
+{"level":"info","message":"Generated 90/480 frames","timestamp":"2025-04-27T23:33:03.516Z"}
+{"level":"info","message":"Generated 120/480 frames","timestamp":"2025-04-27T23:33:07.315Z"}
+{"level":"info","message":"Generated 150/480 frames","timestamp":"2025-04-27T23:33:10.546Z"}
+{"level":"info","message":"Generated 180/480 frames","timestamp":"2025-04-27T23:33:13.861Z"}
+{"level":"info","message":"Generated 210/480 frames","timestamp":"2025-04-27T23:33:17.056Z"}
+{"level":"info","message":"Generated 240/480 frames","timestamp":"2025-04-27T23:33:20.215Z"}
+{"level":"info","message":"Generated 270/480 frames","timestamp":"2025-04-27T23:33:23.415Z"}
+{"level":"info","message":"Generated 300/480 frames","timestamp":"2025-04-27T23:33:26.805Z"}
+{"level":"info","message":"Generated 330/480 frames","timestamp":"2025-04-27T23:33:30.399Z"}
+{"level":"info","message":"Generated 360/480 frames","timestamp":"2025-04-27T23:33:34.254Z"}
+{"level":"info","message":"Generated 390/480 frames","timestamp":"2025-04-27T23:33:38.350Z"}
+{"level":"info","message":"Generated 420/480 frames","timestamp":"2025-04-27T23:33:41.728Z"}
+{"level":"info","message":"Generated 450/480 frames","timestamp":"2025-04-27T23:33:44.921Z"}
+{"level":"info","message":"Completed frame sequence generation: 480 frames created","timestamp":"2025-04-27T23:33:48.299Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T23:33:48.300Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_812134919945e4ec.mp4","timestamp":"2025-04-27T23:33:52.401Z"}
+{"level":"info","message":"Creating subtitles for content: 25aa73783fa9cbc1","timestamp":"2025-04-27T23:33:52.401Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_25aa73783fa9cbc1.srt","timestamp":"2025-04-27T23:33:52.403Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\video_812134919945e4ec.mp4","timestamp":"2025-04-27T23:33:52.403Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_video_812134919945e4ec.mp4","timestamp":"2025-04-27T23:33:56.135Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_video_812134919945e4ec.mp4","timestamp":"2025-04-27T23:33:56.136Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T23:33:56.137Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_video_812134919945e4ec.mp4, format: standard","timestamp":"2025-04-27T23:33:56.137Z"}
+{"level":"info","message":"Successfully processed news item: Exclusive | Rosie O’Donnell reveals the surprising frequency in which she speaks to Lyle Menendez - Page Six","timestamp":"2025-04-27T23:33:56.137Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_video_812134919945e4ec.mp4","timestamp":"2025-04-27T23:33:56.138Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 6c347c58b1bc7f86","timestamp":"2025-04-27T23:33:56.139Z"}
+{"level":"info","message":"Generated content with ID: 8f72ad01be71ed95","timestamp":"2025-04-27T23:33:58.197Z"}
+{"level":"info","message":"Generating speech for content: 8f72ad01be71ed95","timestamp":"2025-04-27T23:33:58.198Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_8f72ad01be71ed95.mp3 with duration: 16s","timestamp":"2025-04-27T23:34:02.049Z"}
+{"level":"info","message":"Creating enhanced video for content: 8f72ad01be71ed95","timestamp":"2025-04-27T23:34:02.050Z"}
+{"level":"info","message":"Generating animation frame sequence for 16 seconds of audio","timestamp":"2025-04-27T23:34:02.050Z"}
+{"level":"info","message":"Video format: STANDARD (16s)","timestamp":"2025-04-27T23:34:02.051Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-27T23:34:02.051Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_8f72ad01be71ed95.mp3","timestamp":"2025-04-27T23:34:02.051Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T23:34:02.066Z"}
+{"level":"info","message":"Generating 480 frames at 30 FPS","timestamp":"2025-04-27T23:34:02.068Z"}
+{"level":"info","message":"Generated 0/480 frames","timestamp":"2025-04-27T23:34:02.179Z"}
+{"level":"info","message":"Generated 30/480 frames","timestamp":"2025-04-27T23:34:06.609Z"}
+{"level":"info","message":"Generated 60/480 frames","timestamp":"2025-04-27T23:34:10.855Z"}
+{"level":"info","message":"Generated 90/480 frames","timestamp":"2025-04-27T23:34:14.748Z"}
+{"level":"info","message":"Generated 120/480 frames","timestamp":"2025-04-27T23:34:18.498Z"}
+{"level":"info","message":"Generated 150/480 frames","timestamp":"2025-04-27T23:34:22.522Z"}
+{"level":"info","message":"Generated 180/480 frames","timestamp":"2025-04-27T23:34:26.231Z"}
+{"level":"info","message":"Generated 210/480 frames","timestamp":"2025-04-27T23:34:30.044Z"}
+{"level":"info","message":"Generated 240/480 frames","timestamp":"2025-04-27T23:34:33.848Z"}
+{"level":"info","message":"Generated 270/480 frames","timestamp":"2025-04-27T23:34:38.004Z"}
+{"level":"info","message":"Generated 300/480 frames","timestamp":"2025-04-27T23:34:41.565Z"}
+{"level":"info","message":"Generated 330/480 frames","timestamp":"2025-04-27T23:34:45.346Z"}
+{"level":"info","message":"Generated 360/480 frames","timestamp":"2025-04-27T23:34:48.884Z"}
+{"level":"info","message":"Generated 390/480 frames","timestamp":"2025-04-27T23:34:52.983Z"}
+{"level":"info","message":"Generated 420/480 frames","timestamp":"2025-04-27T23:34:56.609Z"}
+{"level":"info","message":"Generated 450/480 frames","timestamp":"2025-04-27T23:35:01.191Z"}
+{"level":"info","message":"Completed frame sequence generation: 480 frames created","timestamp":"2025-04-27T23:35:05.687Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T23:35:05.688Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_4bcc57940406ab82.mp4","timestamp":"2025-04-27T23:35:09.826Z"}
+{"level":"info","message":"Creating subtitles for content: 8f72ad01be71ed95","timestamp":"2025-04-27T23:35:09.827Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_8f72ad01be71ed95.srt","timestamp":"2025-04-27T23:35:09.828Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\video_4bcc57940406ab82.mp4","timestamp":"2025-04-27T23:35:09.828Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_video_4bcc57940406ab82.mp4","timestamp":"2025-04-27T23:35:13.726Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_video_4bcc57940406ab82.mp4","timestamp":"2025-04-27T23:35:13.727Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T23:35:13.728Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_video_4bcc57940406ab82.mp4, format: standard","timestamp":"2025-04-27T23:35:13.728Z"}
+{"level":"info","message":"Successfully processed news item: NaturaPro Skin Tag Remover Complaints Investigated: A Real Skin Tag Free Pro Option to Use","timestamp":"2025-04-27T23:35:13.729Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_video_4bcc57940406ab82.mp4","timestamp":"2025-04-27T23:35:13.729Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 80c146cd0cc04861","timestamp":"2025-04-27T23:35:13.730Z"}
+{"level":"info","message":"Generated content with ID: c560ffbaa6ef9e3c","timestamp":"2025-04-27T23:35:15.250Z"}
+{"level":"info","message":"Generating speech for content: c560ffbaa6ef9e3c","timestamp":"2025-04-27T23:35:15.251Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_c560ffbaa6ef9e3c.mp3 with duration: 12s","timestamp":"2025-04-27T23:35:17.991Z"}
+{"level":"info","message":"Creating enhanced video for content: c560ffbaa6ef9e3c","timestamp":"2025-04-27T23:35:17.992Z"}
+{"level":"info","message":"Generating animation frame sequence for 12 seconds of audio","timestamp":"2025-04-27T23:35:17.992Z"}
+{"level":"info","message":"Video format: SHORT (12s)","timestamp":"2025-04-27T23:35:17.992Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-27T23:35:17.993Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_c560ffbaa6ef9e3c.mp3","timestamp":"2025-04-27T23:35:17.993Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T23:35:18.006Z"}
+{"level":"info","message":"Generating 330 frames at 30 FPS","timestamp":"2025-04-27T23:35:18.008Z"}
+{"level":"info","message":"Generated 0/330 frames","timestamp":"2025-04-27T23:35:18.114Z"}
+{"level":"info","message":"Generated 30/330 frames","timestamp":"2025-04-27T23:35:22.038Z"}
+{"level":"info","message":"Generated 60/330 frames","timestamp":"2025-04-27T23:35:25.305Z"}
+{"level":"info","message":"Generated 90/330 frames","timestamp":"2025-04-27T23:35:28.512Z"}
+{"level":"info","message":"Generated 120/330 frames","timestamp":"2025-04-27T23:35:31.860Z"}
+{"level":"info","message":"Generated 150/330 frames","timestamp":"2025-04-27T23:35:35.071Z"}
+{"level":"info","message":"Generated 180/330 frames","timestamp":"2025-04-27T23:35:38.698Z"}
+{"level":"info","message":"Generated 210/330 frames","timestamp":"2025-04-27T23:35:42.016Z"}
+{"level":"info","message":"Generated 240/330 frames","timestamp":"2025-04-27T23:35:45.209Z"}
+{"level":"info","message":"Generated 270/330 frames","timestamp":"2025-04-27T23:35:48.564Z"}
+{"level":"info","message":"Generated 300/330 frames","timestamp":"2025-04-27T23:35:52.391Z"}
+{"level":"info","message":"Completed frame sequence generation: 330 frames created","timestamp":"2025-04-27T23:35:55.744Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T23:35:55.745Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_2db020fe05b79a5f.mp4","timestamp":"2025-04-27T23:35:59.100Z"}
+{"level":"info","message":"Creating subtitles for content: c560ffbaa6ef9e3c","timestamp":"2025-04-27T23:35:59.101Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_c560ffbaa6ef9e3c.srt","timestamp":"2025-04-27T23:35:59.102Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\video_2db020fe05b79a5f.mp4","timestamp":"2025-04-27T23:35:59.103Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_video_2db020fe05b79a5f.mp4","timestamp":"2025-04-27T23:36:01.878Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_video_2db020fe05b79a5f.mp4","timestamp":"2025-04-27T23:36:01.879Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T23:36:01.879Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_video_2db020fe05b79a5f.mp4, format: short","timestamp":"2025-04-27T23:36:01.879Z"}
+{"level":"info","message":"Successfully processed news item: Saturday Evening Movie Thread - 4/26/2025","timestamp":"2025-04-27T23:36:01.880Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_video_2db020fe05b79a5f.mp4","timestamp":"2025-04-27T23:36:01.880Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 923b0735ffe0103a","timestamp":"2025-04-27T23:36:01.880Z"}
+{"level":"info","message":"Generated content with ID: c9ac518fb784c80d","timestamp":"2025-04-27T23:36:03.311Z"}
+{"level":"info","message":"Generating speech for content: c9ac518fb784c80d","timestamp":"2025-04-27T23:36:03.311Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_c9ac518fb784c80d.mp3 with duration: 14s","timestamp":"2025-04-27T23:36:06.472Z"}
+{"level":"info","message":"Creating enhanced video for content: c9ac518fb784c80d","timestamp":"2025-04-27T23:36:06.472Z"}
+{"level":"info","message":"Generating animation frame sequence for 14 seconds of audio","timestamp":"2025-04-27T23:36:06.473Z"}
+{"level":"info","message":"Video format: STANDARD (14s)","timestamp":"2025-04-27T23:36:06.473Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-27T23:36:06.473Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_c9ac518fb784c80d.mp3","timestamp":"2025-04-27T23:36:06.474Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T23:36:06.495Z"}
+{"level":"info","message":"Generating 420 frames at 30 FPS","timestamp":"2025-04-27T23:36:06.497Z"}
+{"level":"info","message":"Generated 0/420 frames","timestamp":"2025-04-27T23:36:06.660Z"}
+{"level":"info","message":"Generated 30/420 frames","timestamp":"2025-04-27T23:36:09.849Z"}
+{"level":"info","message":"Generated 60/420 frames","timestamp":"2025-04-27T23:36:13.116Z"}
+{"level":"info","message":"Generated 90/420 frames","timestamp":"2025-04-27T23:36:16.294Z"}
+{"level":"info","message":"Generated 120/420 frames","timestamp":"2025-04-27T23:36:19.476Z"}
+{"level":"info","message":"Generated 150/420 frames","timestamp":"2025-04-27T23:36:23.216Z"}
+{"level":"info","message":"Generated 180/420 frames","timestamp":"2025-04-27T23:36:26.394Z"}
+{"level":"info","message":"Generated 210/420 frames","timestamp":"2025-04-27T23:36:29.551Z"}
+{"level":"info","message":"Generated 240/420 frames","timestamp":"2025-04-27T23:36:32.727Z"}
+{"level":"info","message":"Generated 270/420 frames","timestamp":"2025-04-27T23:36:36.344Z"}
+{"level":"info","message":"Generated 300/420 frames","timestamp":"2025-04-27T23:36:39.569Z"}
+{"level":"info","message":"Generated 330/420 frames","timestamp":"2025-04-27T23:36:42.794Z"}
+{"level":"info","message":"Generated 360/420 frames","timestamp":"2025-04-27T23:36:46.123Z"}
+{"level":"info","message":"Generated 390/420 frames","timestamp":"2025-04-27T23:36:49.861Z"}
+{"level":"info","message":"Completed frame sequence generation: 420 frames created","timestamp":"2025-04-27T23:36:54.035Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T23:36:54.036Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\video_c163f89a9c7f8abf.mp4","timestamp":"2025-04-27T23:36:57.749Z"}
+{"level":"info","message":"Creating subtitles for content: c9ac518fb784c80d","timestamp":"2025-04-27T23:36:57.749Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_c9ac518fb784c80d.srt","timestamp":"2025-04-27T23:36:57.751Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\video_c163f89a9c7f8abf.mp4","timestamp":"2025-04-27T23:36:57.752Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_video_c163f89a9c7f8abf.mp4","timestamp":"2025-04-27T23:37:01.477Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_video_c163f89a9c7f8abf.mp4","timestamp":"2025-04-27T23:37:01.478Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T23:37:01.478Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_video_c163f89a9c7f8abf.mp4, format: standard","timestamp":"2025-04-27T23:37:01.479Z"}
+{"level":"info","message":"Successfully processed news item: Student access to visa database restored on Friday","timestamp":"2025-04-27T23:37:01.479Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_video_c163f89a9c7f8abf.mp4","timestamp":"2025-04-27T23:37:01.479Z"}
+{"level":"info","message":"Generating sarcastic content for news item: ceee125504420153","timestamp":"2025-04-27T23:37:01.479Z"}
+{"level":"info","message":"Generated content with ID: bbbe52d749747706","timestamp":"2025-04-27T23:37:03.680Z"}
+{"level":"info","message":"Generating speech for content: bbbe52d749747706","timestamp":"2025-04-27T23:37:03.681Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_bbbe52d749747706.mp3 with duration: 17s","timestamp":"2025-04-27T23:37:07.366Z"}
+{"level":"info","message":"Creating enhanced video for content: bbbe52d749747706","timestamp":"2025-04-27T23:37:07.367Z"}
+{"level":"info","message":"Generating animation frame sequence for 17 seconds of audio","timestamp":"2025-04-27T23:37:07.367Z"}
+{"level":"info","message":"Video format: STANDARD (17s)","timestamp":"2025-04-27T23:37:07.368Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-27T23:37:07.368Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_bbbe52d749747706.mp3","timestamp":"2025-04-27T23:37:07.368Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T23:37:07.387Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-27T23:57:41.945Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-27T23:57:41.948Z"}
+{"level":"info","message":"Fetching weird news...","timestamp":"2025-04-27T23:57:41.949Z"}
+{"level":"info","message":"Fetched 5 weird news items","timestamp":"2025-04-27T23:57:42.765Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 7770d2f1f368ebf9","timestamp":"2025-04-27T23:57:42.766Z"}
+{"level":"info","message":"Generated content with ID: 58e1326a0e24961e","timestamp":"2025-04-27T23:57:44.522Z"}
+{"level":"info","message":"Generating speech for content: 58e1326a0e24961e","timestamp":"2025-04-27T23:57:44.523Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_58e1326a0e24961e.mp3 with duration: 15s","timestamp":"2025-04-27T23:57:47.974Z"}
+{"level":"info","message":"Creating enhanced video for content: 58e1326a0e24961e","timestamp":"2025-04-27T23:57:47.975Z"}
+{"level":"info","message":"Generating animation frame sequence for 15 seconds of audio","timestamp":"2025-04-27T23:57:47.976Z"}
+{"level":"info","message":"Video format: STANDARD (15s)","timestamp":"2025-04-27T23:57:47.976Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-27T23:57:47.977Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_58e1326a0e24961e.mp3","timestamp":"2025-04-27T23:57:47.977Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T23:57:47.991Z"}
+{"level":"info","message":"Generating 450 frames at 30 FPS","timestamp":"2025-04-27T23:57:48.345Z"}
+{"level":"info","message":"Generated 0/450 frames","timestamp":"2025-04-27T23:57:48.487Z"}
+{"level":"info","message":"Generated 30/450 frames","timestamp":"2025-04-27T23:57:51.862Z"}
+{"level":"info","message":"Generated 60/450 frames","timestamp":"2025-04-27T23:57:55.108Z"}
+{"level":"info","message":"Generated 90/450 frames","timestamp":"2025-04-27T23:57:58.341Z"}
+{"level":"info","message":"Generated 120/450 frames","timestamp":"2025-04-27T23:58:01.781Z"}
+{"level":"info","message":"Generated 150/450 frames","timestamp":"2025-04-27T23:58:05.763Z"}
+{"level":"info","message":"Generated 180/450 frames","timestamp":"2025-04-27T23:58:09.985Z"}
+{"level":"info","message":"Generated 210/450 frames","timestamp":"2025-04-27T23:58:13.958Z"}
+{"level":"info","message":"Generated 240/450 frames","timestamp":"2025-04-27T23:58:17.980Z"}
+{"level":"info","message":"Generated 270/450 frames","timestamp":"2025-04-27T23:58:21.496Z"}
+{"level":"info","message":"Generated 300/450 frames","timestamp":"2025-04-27T23:58:25.075Z"}
+{"level":"info","message":"Generated 330/450 frames","timestamp":"2025-04-27T23:58:28.940Z"}
+{"level":"info","message":"Generated 360/450 frames","timestamp":"2025-04-27T23:58:32.802Z"}
+{"level":"info","message":"Generated 390/450 frames","timestamp":"2025-04-27T23:58:36.377Z"}
+{"level":"info","message":"Generated 420/450 frames","timestamp":"2025-04-27T23:58:40.023Z"}
+{"level":"info","message":"Completed frame sequence generation: 450 frames created","timestamp":"2025-04-27T23:58:43.741Z"}
+{"level":"info","message":"Using formatted filename: 2025-04-27_2025_nfl_draft_shilo_sanders_signing_wit_neutral.mp4","timestamp":"2025-04-27T23:58:43.755Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T23:58:43.758Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\2025-04-27_2025_nfl_draft_shilo_sanders_signing_wit_neutral.mp4","timestamp":"2025-04-27T23:58:47.536Z"}
+{"level":"info","message":"Creating subtitles for content: 58e1326a0e24961e","timestamp":"2025-04-27T23:58:47.537Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_58e1326a0e24961e.srt","timestamp":"2025-04-27T23:58:47.539Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\2025-04-27_2025_nfl_draft_shilo_sanders_signing_wit_neutral.mp4","timestamp":"2025-04-27T23:58:47.539Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_2025-04-27_2025_nfl_draft_shilo_sanders_signing_wit_neutral.mp4","timestamp":"2025-04-27T23:58:51.322Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_2025-04-27_2025_nfl_draft_shilo_sanders_signing_wit_neutral.mp4","timestamp":"2025-04-27T23:58:51.323Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T23:58:51.323Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_2025-04-27_2025_nfl_draft_shilo_sanders_signing_wit_neutral.mp4, format: standard","timestamp":"2025-04-27T23:58:51.324Z"}
+{"level":"info","message":"Successfully processed news item: 2025 NFL Draft: Shilo Sanders signing with Buccaneers as undrafted free agent, per report","timestamp":"2025-04-27T23:58:51.324Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_2025-04-27_2025_nfl_draft_shilo_sanders_signing_wit_neutral.mp4","timestamp":"2025-04-27T23:58:51.324Z"}
+{"level":"info","message":"Generating sarcastic content for news item: b02fea72d3c4f925","timestamp":"2025-04-27T23:58:51.324Z"}
+{"level":"info","message":"Generated content with ID: 976611b2b453c6b8","timestamp":"2025-04-27T23:58:52.869Z"}
+{"level":"info","message":"Generating speech for content: 976611b2b453c6b8","timestamp":"2025-04-27T23:58:52.873Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_976611b2b453c6b8.mp3 with duration: 15s","timestamp":"2025-04-27T23:58:56.336Z"}
+{"level":"info","message":"Creating enhanced video for content: 976611b2b453c6b8","timestamp":"2025-04-27T23:58:56.336Z"}
+{"level":"info","message":"Generating animation frame sequence for 15 seconds of audio","timestamp":"2025-04-27T23:58:56.337Z"}
+{"level":"info","message":"Video format: STANDARD (15s)","timestamp":"2025-04-27T23:58:56.337Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-27T23:58:56.338Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_976611b2b453c6b8.mp3","timestamp":"2025-04-27T23:58:56.338Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-27T23:58:56.354Z"}
+{"level":"info","message":"Generating 420 frames at 30 FPS","timestamp":"2025-04-27T23:58:56.355Z"}
+{"level":"info","message":"Generated 0/420 frames","timestamp":"2025-04-27T23:58:56.494Z"}
+{"level":"info","message":"Generated 30/420 frames","timestamp":"2025-04-27T23:59:00.020Z"}
+{"level":"info","message":"Generated 60/420 frames","timestamp":"2025-04-27T23:59:03.302Z"}
+{"level":"info","message":"Generated 90/420 frames","timestamp":"2025-04-27T23:59:06.514Z"}
+{"level":"info","message":"Generated 120/420 frames","timestamp":"2025-04-27T23:59:10.517Z"}
+{"level":"info","message":"Generated 150/420 frames","timestamp":"2025-04-27T23:59:14.251Z"}
+{"level":"info","message":"Generated 180/420 frames","timestamp":"2025-04-27T23:59:18.223Z"}
+{"level":"info","message":"Generated 210/420 frames","timestamp":"2025-04-27T23:59:21.959Z"}
+{"level":"info","message":"Generated 240/420 frames","timestamp":"2025-04-27T23:59:25.967Z"}
+{"level":"info","message":"Generated 270/420 frames","timestamp":"2025-04-27T23:59:29.827Z"}
+{"level":"info","message":"Generated 300/420 frames","timestamp":"2025-04-27T23:59:33.547Z"}
+{"level":"info","message":"Generated 330/420 frames","timestamp":"2025-04-27T23:59:37.194Z"}
+{"level":"info","message":"Generated 360/420 frames","timestamp":"2025-04-27T23:59:41.369Z"}
+{"level":"info","message":"Generated 390/420 frames","timestamp":"2025-04-27T23:59:44.930Z"}
+{"level":"info","message":"Completed frame sequence generation: 420 frames created","timestamp":"2025-04-27T23:59:48.373Z"}
+{"level":"info","message":"Using formatted filename: 2025-04-27_trans_activists_push_measure_to_issue_pr_neutral.mp4","timestamp":"2025-04-27T23:59:48.374Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-27T23:59:48.374Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\2025-04-27_trans_activists_push_measure_to_issue_pr_neutral.mp4","timestamp":"2025-04-27T23:59:51.604Z"}
+{"level":"info","message":"Creating subtitles for content: 976611b2b453c6b8","timestamp":"2025-04-27T23:59:51.605Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_976611b2b453c6b8.srt","timestamp":"2025-04-27T23:59:51.606Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\2025-04-27_trans_activists_push_measure_to_issue_pr_neutral.mp4","timestamp":"2025-04-27T23:59:51.606Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_2025-04-27_trans_activists_push_measure_to_issue_pr_neutral.mp4","timestamp":"2025-04-27T23:59:55.049Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_2025-04-27_trans_activists_push_measure_to_issue_pr_neutral.mp4","timestamp":"2025-04-27T23:59:55.050Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-27T23:59:55.051Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_2025-04-27_trans_activists_push_measure_to_issue_pr_neutral.mp4, format: standard","timestamp":"2025-04-27T23:59:55.051Z"}
+{"level":"info","message":"Successfully processed news item: Trans activists push measure to issue ‘predator’ warning to schools if Cuomo wins mayoral race","timestamp":"2025-04-27T23:59:55.051Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_2025-04-27_trans_activists_push_measure_to_issue_pr_neutral.mp4","timestamp":"2025-04-27T23:59:55.051Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 2de9325fb6f7eef8","timestamp":"2025-04-27T23:59:55.052Z"}
+{"level":"info","message":"Generated content with ID: 13ae2d388f6e12ef","timestamp":"2025-04-27T23:59:57.064Z"}
+{"level":"info","message":"Generating speech for content: 13ae2d388f6e12ef","timestamp":"2025-04-27T23:59:57.064Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_13ae2d388f6e12ef.mp3 with duration: 16s","timestamp":"2025-04-28T00:00:00.515Z"}
+{"level":"info","message":"Creating enhanced video for content: 13ae2d388f6e12ef","timestamp":"2025-04-28T00:00:00.516Z"}
+{"level":"info","message":"Generating animation frame sequence for 16 seconds of audio","timestamp":"2025-04-28T00:00:00.516Z"}
+{"level":"info","message":"Video format: STANDARD (16s)","timestamp":"2025-04-28T00:00:00.516Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-28T00:00:00.517Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_13ae2d388f6e12ef.mp3","timestamp":"2025-04-28T00:00:00.517Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-28T00:00:00.531Z"}
+{"level":"info","message":"Generating 450 frames at 30 FPS","timestamp":"2025-04-28T00:00:00.532Z"}
+{"level":"info","message":"Generated 0/450 frames","timestamp":"2025-04-28T00:00:00.641Z"}
+{"level":"info","message":"Generated 30/450 frames","timestamp":"2025-04-28T00:00:04.280Z"}
+{"level":"info","message":"Generated 60/450 frames","timestamp":"2025-04-28T00:00:07.871Z"}
+{"level":"info","message":"Generated 90/450 frames","timestamp":"2025-04-28T00:00:11.132Z"}
+{"level":"info","message":"Generated 120/450 frames","timestamp":"2025-04-28T00:00:14.363Z"}
+{"level":"info","message":"Generated 150/450 frames","timestamp":"2025-04-28T00:00:18.161Z"}
+{"level":"info","message":"Generated 180/450 frames","timestamp":"2025-04-28T00:00:21.752Z"}
+{"level":"info","message":"Generated 210/450 frames","timestamp":"2025-04-28T00:00:25.013Z"}
+{"level":"info","message":"Generated 240/450 frames","timestamp":"2025-04-28T00:00:28.328Z"}
+{"level":"info","message":"Generated 270/450 frames","timestamp":"2025-04-28T00:00:31.883Z"}
+{"level":"info","message":"Generated 300/450 frames","timestamp":"2025-04-28T00:00:35.301Z"}
+{"level":"info","message":"Generated 330/450 frames","timestamp":"2025-04-28T00:00:38.641Z"}
+{"level":"info","message":"Generated 360/450 frames","timestamp":"2025-04-28T00:00:41.855Z"}
+{"level":"info","message":"Generated 390/450 frames","timestamp":"2025-04-28T00:00:45.781Z"}
+{"level":"info","message":"Generated 420/450 frames","timestamp":"2025-04-28T00:00:50.206Z"}
+{"level":"info","message":"Completed frame sequence generation: 450 frames created","timestamp":"2025-04-28T00:00:53.945Z"}
+{"level":"info","message":"Using formatted filename: 2025-04-28_soarin_into_chaos_guests_looses_limb_mid_neutral.mp4","timestamp":"2025-04-28T00:00:53.947Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-28T00:00:53.947Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\2025-04-28_soarin_into_chaos_guests_looses_limb_mid_neutral.mp4","timestamp":"2025-04-28T00:00:57.799Z"}
+{"level":"info","message":"Creating subtitles for content: 13ae2d388f6e12ef","timestamp":"2025-04-28T00:00:57.800Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_13ae2d388f6e12ef.srt","timestamp":"2025-04-28T00:00:57.801Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\2025-04-28_soarin_into_chaos_guests_looses_limb_mid_neutral.mp4","timestamp":"2025-04-28T00:00:57.802Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_2025-04-28_soarin_into_chaos_guests_looses_limb_mid_neutral.mp4","timestamp":"2025-04-28T00:01:01.270Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_2025-04-28_soarin_into_chaos_guests_looses_limb_mid_neutral.mp4","timestamp":"2025-04-28T00:01:01.271Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-28T00:01:01.271Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_2025-04-28_soarin_into_chaos_guests_looses_limb_mid_neutral.mp4, format: standard","timestamp":"2025-04-28T00:01:01.271Z"}
+{"level":"info","message":"Successfully processed news item: Soarin’ into Chaos: Guest’s Looses Limb Mid-Ride at EPCOT","timestamp":"2025-04-28T00:01:01.271Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_2025-04-28_soarin_into_chaos_guests_looses_limb_mid_neutral.mp4","timestamp":"2025-04-28T00:01:01.272Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 966572515b4323af","timestamp":"2025-04-28T00:01:01.272Z"}
+{"level":"info","message":"Generated content with ID: 8d6ec3532bbef107","timestamp":"2025-04-28T00:01:03.078Z"}
+{"level":"info","message":"Generating speech for content: 8d6ec3532bbef107","timestamp":"2025-04-28T00:01:03.079Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_8d6ec3532bbef107.mp3 with duration: 15s","timestamp":"2025-04-28T00:01:06.289Z"}
+{"level":"info","message":"Creating enhanced video for content: 8d6ec3532bbef107","timestamp":"2025-04-28T00:01:06.290Z"}
+{"level":"info","message":"Generating animation frame sequence for 15 seconds of audio","timestamp":"2025-04-28T00:01:06.291Z"}
+{"level":"info","message":"Video format: STANDARD (15s)","timestamp":"2025-04-28T00:01:06.291Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-28T00:01:06.292Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_8d6ec3532bbef107.mp3","timestamp":"2025-04-28T00:01:06.292Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-28T00:01:06.319Z"}
+{"level":"info","message":"Generating 450 frames at 30 FPS","timestamp":"2025-04-28T00:01:06.323Z"}
+{"level":"info","message":"Generated 0/450 frames","timestamp":"2025-04-28T00:01:06.524Z"}
+{"level":"info","message":"Generated 30/450 frames","timestamp":"2025-04-28T00:01:10.301Z"}
+{"level":"info","message":"Generated 60/450 frames","timestamp":"2025-04-28T00:01:14.257Z"}
+{"level":"info","message":"Generated 90/450 frames","timestamp":"2025-04-28T00:01:18.389Z"}
+{"level":"info","message":"Generated 120/450 frames","timestamp":"2025-04-28T00:01:22.255Z"}
+{"level":"info","message":"Generated 150/450 frames","timestamp":"2025-04-28T00:01:25.826Z"}
+{"level":"info","message":"Generated 180/450 frames","timestamp":"2025-04-28T00:01:29.289Z"}
+{"level":"info","message":"Generated 210/450 frames","timestamp":"2025-04-28T00:01:32.588Z"}
+{"level":"info","message":"Generated 240/450 frames","timestamp":"2025-04-28T00:01:36.450Z"}
+{"level":"info","message":"Generated 270/450 frames","timestamp":"2025-04-28T00:01:40.177Z"}
+{"level":"info","message":"Generated 300/450 frames","timestamp":"2025-04-28T00:01:44.109Z"}
+{"level":"info","message":"Generated 330/450 frames","timestamp":"2025-04-28T00:01:47.825Z"}
+{"level":"info","message":"Generated 360/450 frames","timestamp":"2025-04-28T00:01:51.752Z"}
+{"level":"info","message":"Generated 390/450 frames","timestamp":"2025-04-28T00:01:55.446Z"}
+{"level":"info","message":"Generated 420/450 frames","timestamp":"2025-04-28T00:02:00.585Z"}
+{"level":"info","message":"Completed frame sequence generation: 450 frames created","timestamp":"2025-04-28T00:02:04.442Z"}
+{"level":"info","message":"Using formatted filename: 2025-04-28_back_to_the_future_and_star_trek_icons_c_neutral.mp4","timestamp":"2025-04-28T00:02:04.443Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-28T00:02:04.444Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\2025-04-28_back_to_the_future_and_star_trek_icons_c_neutral.mp4","timestamp":"2025-04-28T00:02:08.148Z"}
+{"level":"info","message":"Creating subtitles for content: 8d6ec3532bbef107","timestamp":"2025-04-28T00:02:08.149Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_8d6ec3532bbef107.srt","timestamp":"2025-04-28T00:02:08.150Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\2025-04-28_back_to_the_future_and_star_trek_icons_c_neutral.mp4","timestamp":"2025-04-28T00:02:08.151Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_2025-04-28_back_to_the_future_and_star_trek_icons_c_neutral.mp4","timestamp":"2025-04-28T00:02:11.366Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_2025-04-28_back_to_the_future_and_star_trek_icons_c_neutral.mp4","timestamp":"2025-04-28T00:02:11.366Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-28T00:02:11.367Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_2025-04-28_back_to_the_future_and_star_trek_icons_c_neutral.mp4, format: standard","timestamp":"2025-04-28T00:02:11.367Z"}
+{"level":"info","message":"Successfully processed news item: ‘Back To The Future’ And ‘Star Trek’ Icons Celebrate Fan Fest Nights","timestamp":"2025-04-28T00:02:11.367Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_2025-04-28_back_to_the_future_and_star_trek_icons_c_neutral.mp4","timestamp":"2025-04-28T00:02:11.367Z"}
+{"level":"info","message":"Generating sarcastic content for news item: 1fc6bfa2d1404723","timestamp":"2025-04-28T00:02:11.368Z"}
+{"level":"info","message":"Generated content with ID: 69b5c5ba2eb9fbc0","timestamp":"2025-04-28T00:02:13.154Z"}
+{"level":"info","message":"Generating speech for content: 69b5c5ba2eb9fbc0","timestamp":"2025-04-28T00:02:13.154Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_69b5c5ba2eb9fbc0.mp3 with duration: 16s","timestamp":"2025-04-28T00:02:16.694Z"}
+{"level":"info","message":"Creating enhanced video for content: 69b5c5ba2eb9fbc0","timestamp":"2025-04-28T00:02:16.694Z"}
+{"level":"info","message":"Generating animation frame sequence for 16 seconds of audio","timestamp":"2025-04-28T00:02:16.695Z"}
+{"level":"info","message":"Video format: STANDARD (16s)","timestamp":"2025-04-28T00:02:16.695Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-28T00:02:16.695Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_69b5c5ba2eb9fbc0.mp3","timestamp":"2025-04-28T00:02:16.696Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-28T00:02:16.710Z"}
+{"level":"info","message":"Generating 450 frames at 30 FPS","timestamp":"2025-04-28T00:02:16.712Z"}
+{"level":"info","message":"Generated 0/450 frames","timestamp":"2025-04-28T00:02:16.861Z"}
+{"level":"info","message":"Generated 30/450 frames","timestamp":"2025-04-28T00:02:20.635Z"}
+{"level":"info","message":"Generated 60/450 frames","timestamp":"2025-04-28T00:02:24.601Z"}
+{"level":"info","message":"Generated 90/450 frames","timestamp":"2025-04-28T00:02:28.687Z"}
+{"level":"info","message":"Generated 120/450 frames","timestamp":"2025-04-28T00:02:32.394Z"}
+{"level":"info","message":"Generated 150/450 frames","timestamp":"2025-04-28T00:02:36.258Z"}
+{"level":"info","message":"Generated 180/450 frames","timestamp":"2025-04-28T00:02:39.856Z"}
+{"level":"info","message":"Generated 210/450 frames","timestamp":"2025-04-28T00:02:43.753Z"}
+{"level":"info","message":"Generated 240/450 frames","timestamp":"2025-04-28T00:02:47.713Z"}
+{"level":"info","message":"Generated 270/450 frames","timestamp":"2025-04-28T00:02:51.458Z"}
+{"level":"info","message":"Generated 300/450 frames","timestamp":"2025-04-28T00:02:55.232Z"}
+{"level":"info","message":"Generated 330/450 frames","timestamp":"2025-04-28T00:02:59.244Z"}
+{"level":"info","message":"Generated 360/450 frames","timestamp":"2025-04-28T00:03:03.011Z"}
+{"level":"info","message":"Generated 390/450 frames","timestamp":"2025-04-28T00:03:06.794Z"}
+{"level":"info","message":"Generated 420/450 frames","timestamp":"2025-04-28T00:03:10.776Z"}
+{"level":"info","message":"Completed frame sequence generation: 450 frames created","timestamp":"2025-04-28T00:03:14.929Z"}
+{"level":"info","message":"Using formatted filename: 2025-04-28_shedeur_sanders_celebrates_in_an_epic_wa_neutral.mp4","timestamp":"2025-04-28T00:03:14.930Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-28T00:03:14.931Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\2025-04-28_shedeur_sanders_celebrates_in_an_epic_wa_neutral.mp4","timestamp":"2025-04-28T00:03:18.811Z"}
+{"level":"info","message":"Creating subtitles for content: 69b5c5ba2eb9fbc0","timestamp":"2025-04-28T00:03:18.812Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_69b5c5ba2eb9fbc0.srt","timestamp":"2025-04-28T00:03:18.814Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\2025-04-28_shedeur_sanders_celebrates_in_an_epic_wa_neutral.mp4","timestamp":"2025-04-28T00:03:18.814Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_2025-04-28_shedeur_sanders_celebrates_in_an_epic_wa_neutral.mp4","timestamp":"2025-04-28T00:03:22.762Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_2025-04-28_shedeur_sanders_celebrates_in_an_epic_wa_neutral.mp4","timestamp":"2025-04-28T00:03:22.763Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-28T00:03:22.764Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_2025-04-28_shedeur_sanders_celebrates_in_an_epic_wa_neutral.mp4, format: standard","timestamp":"2025-04-28T00:03:22.764Z"}
+{"level":"info","message":"Successfully processed news item: Shedeur Sanders celebrates in an epic way after being drafted by the Browns","timestamp":"2025-04-28T00:03:22.765Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_2025-04-28_shedeur_sanders_celebrates_in_an_epic_wa_neutral.mp4","timestamp":"2025-04-28T00:03:22.765Z"}
+{"level":"info","message":"News processing cycle completed","timestamp":"2025-04-28T00:03:22.768Z"}
+{"level":"info","message":"Setting up news fetch interval: 900000ms","timestamp":"2025-04-28T00:03:22.768Z"}
+{"level":"info","message":"PotatoHead News Announcer starting up","timestamp":"2025-04-28T00:06:23.402Z"}
+{"level":"info","message":"Starting news processing cycle","timestamp":"2025-04-28T00:06:23.405Z"}
+{"level":"info","message":"Fetching weird and mysterious news...","timestamp":"2025-04-28T00:06:23.406Z"}
+{"level":"info","message":"Using query: unexplained scientific finding OR quantum physics strange OR weird OR cryptid OR bigfoot OR \"loch ness\"","timestamp":"2025-04-28T00:06:23.406Z"}
+{"level":"info","message":"Fetched 4 weird/mysterious news items","timestamp":"2025-04-28T00:06:24.247Z"}
+{"level":"info","message":"Generating content for news item: 2a040f34e5bb4912","timestamp":"2025-04-28T00:06:24.248Z"}
+{"level":"info","message":"Generated content with ID: 817fe71e9a906971","timestamp":"2025-04-28T00:06:26.113Z"}
+{"level":"info","message":"Generating speech for content: 817fe71e9a906971","timestamp":"2025-04-28T00:06:26.113Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_817fe71e9a906971.mp3 with duration: 18s","timestamp":"2025-04-28T00:06:30.552Z"}
+{"level":"info","message":"Creating enhanced video for content: 817fe71e9a906971","timestamp":"2025-04-28T00:06:30.553Z"}
+{"level":"info","message":"Generating animation frame sequence for 18 seconds of audio","timestamp":"2025-04-28T00:06:30.553Z"}
+{"level":"info","message":"Video format: STANDARD (18s)","timestamp":"2025-04-28T00:06:30.554Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-28T00:06:30.554Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_817fe71e9a906971.mp3","timestamp":"2025-04-28T00:06:30.555Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-28T00:06:30.570Z"}
+{"level":"info","message":"Generating 510 frames at 30 FPS","timestamp":"2025-04-28T00:06:31.612Z"}
+{"level":"info","message":"Generated 0/510 frames","timestamp":"2025-04-28T00:06:31.732Z"}
+{"level":"info","message":"Generated 30/510 frames","timestamp":"2025-04-28T00:06:34.976Z"}
+{"level":"info","message":"Generated 60/510 frames","timestamp":"2025-04-28T00:06:38.181Z"}
+{"level":"info","message":"Generated 90/510 frames","timestamp":"2025-04-28T00:06:41.348Z"}
+{"level":"info","message":"Generated 120/510 frames","timestamp":"2025-04-28T00:06:45.084Z"}
+{"level":"info","message":"Generated 150/510 frames","timestamp":"2025-04-28T00:06:48.759Z"}
+{"level":"info","message":"Generated 180/510 frames","timestamp":"2025-04-28T00:06:52.013Z"}
+{"level":"info","message":"Generated 210/510 frames","timestamp":"2025-04-28T00:06:55.277Z"}
+{"level":"info","message":"Generated 240/510 frames","timestamp":"2025-04-28T00:06:58.547Z"}
+{"level":"info","message":"Generated 270/510 frames","timestamp":"2025-04-28T00:07:01.835Z"}
+{"level":"info","message":"Generated 300/510 frames","timestamp":"2025-04-28T00:07:05.305Z"}
+{"level":"info","message":"Generated 330/510 frames","timestamp":"2025-04-28T00:07:08.606Z"}
+{"level":"info","message":"Generated 360/510 frames","timestamp":"2025-04-28T00:07:11.901Z"}
+{"level":"info","message":"Generated 390/510 frames","timestamp":"2025-04-28T00:07:15.806Z"}
+{"level":"info","message":"Generated 420/510 frames","timestamp":"2025-04-28T00:07:19.421Z"}
+{"level":"info","message":"Generated 450/510 frames","timestamp":"2025-04-28T00:07:22.763Z"}
+{"level":"info","message":"Generated 480/510 frames","timestamp":"2025-04-28T00:07:26.344Z"}
+{"level":"info","message":"Completed frame sequence generation: 510 frames created","timestamp":"2025-04-28T00:07:29.912Z"}
+{"level":"info","message":"Using formatted filename: 2025-04-28_crop_circles_mystery.mp4","timestamp":"2025-04-28T00:07:29.914Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-28T00:07:29.915Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\2025-04-28_crop_circles_mystery.mp4","timestamp":"2025-04-28T00:07:34.964Z"}
+{"level":"info","message":"Creating subtitles for content: 817fe71e9a906971","timestamp":"2025-04-28T00:07:34.964Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_817fe71e9a906971.srt","timestamp":"2025-04-28T00:07:34.966Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\2025-04-28_crop_circles_mystery.mp4","timestamp":"2025-04-28T00:07:34.966Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_2025-04-28_crop_circles_mystery.mp4","timestamp":"2025-04-28T00:07:39.132Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_2025-04-28_crop_circles_mystery.mp4","timestamp":"2025-04-28T00:07:39.133Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-28T00:07:39.134Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_2025-04-28_crop_circles_mystery.mp4, format: standard","timestamp":"2025-04-28T00:07:39.134Z"}
+{"level":"info","message":"Successfully processed news item: Crop Circles","timestamp":"2025-04-28T00:07:39.134Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_2025-04-28_crop_circles_mystery.mp4","timestamp":"2025-04-28T00:07:39.134Z"}
+{"level":"info","message":"Generating content for news item: 970caaffae2d362b","timestamp":"2025-04-28T00:07:39.134Z"}
+{"level":"info","message":"Generated content with ID: e268e1570296328b","timestamp":"2025-04-28T00:07:41.517Z"}
+{"level":"info","message":"Generating speech for content: e268e1570296328b","timestamp":"2025-04-28T00:07:41.518Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_e268e1570296328b.mp3 with duration: 19s","timestamp":"2025-04-28T00:07:45.957Z"}
+{"level":"info","message":"Creating enhanced video for content: e268e1570296328b","timestamp":"2025-04-28T00:07:45.958Z"}
+{"level":"info","message":"Generating animation frame sequence for 19 seconds of audio","timestamp":"2025-04-28T00:07:45.958Z"}
+{"level":"info","message":"Video format: STANDARD (19s)","timestamp":"2025-04-28T00:07:45.958Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-28T00:07:45.959Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_e268e1570296328b.mp3","timestamp":"2025-04-28T00:07:45.959Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-28T00:07:45.974Z"}
+{"level":"info","message":"Generating 540 frames at 30 FPS","timestamp":"2025-04-28T00:07:45.975Z"}
+{"level":"info","message":"Generated 0/540 frames","timestamp":"2025-04-28T00:07:46.120Z"}
+{"level":"info","message":"Generated 30/540 frames","timestamp":"2025-04-28T00:07:50.131Z"}
+{"level":"info","message":"Generated 60/540 frames","timestamp":"2025-04-28T00:07:54.672Z"}
+{"level":"info","message":"Generated 90/540 frames","timestamp":"2025-04-28T00:07:58.659Z"}
+{"level":"info","message":"Generated 120/540 frames","timestamp":"2025-04-28T00:08:02.896Z"}
+{"level":"info","message":"Generated 150/540 frames","timestamp":"2025-04-28T00:08:06.798Z"}
+{"level":"info","message":"Generated 180/540 frames","timestamp":"2025-04-28T00:08:10.809Z"}
+{"level":"info","message":"Generated 210/540 frames","timestamp":"2025-04-28T00:08:14.171Z"}
+{"level":"info","message":"Generated 240/540 frames","timestamp":"2025-04-28T00:08:17.401Z"}
+{"level":"info","message":"Generated 270/540 frames","timestamp":"2025-04-28T00:08:20.617Z"}
+{"level":"info","message":"Generated 300/540 frames","timestamp":"2025-04-28T00:08:23.999Z"}
+{"level":"info","message":"Generated 330/540 frames","timestamp":"2025-04-28T00:08:27.825Z"}
+{"level":"info","message":"Generated 360/540 frames","timestamp":"2025-04-28T00:08:31.316Z"}
+{"level":"info","message":"Generated 390/540 frames","timestamp":"2025-04-28T00:08:34.935Z"}
+{"level":"info","message":"Generated 420/540 frames","timestamp":"2025-04-28T00:08:38.515Z"}
+{"level":"info","message":"Generated 450/540 frames","timestamp":"2025-04-28T00:08:42.547Z"}
+{"level":"info","message":"Generated 480/540 frames","timestamp":"2025-04-28T00:08:46.889Z"}
+{"level":"info","message":"Generated 510/540 frames","timestamp":"2025-04-28T00:08:51.095Z"}
+{"level":"info","message":"Completed frame sequence generation: 540 frames created","timestamp":"2025-04-28T00:08:54.908Z"}
+{"level":"info","message":"Using formatted filename: 2025-04-28_with_behaviors_like_these_in_complex_sys_mystery.mp4","timestamp":"2025-04-28T00:08:54.909Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-28T00:08:54.910Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\2025-04-28_with_behaviors_like_these_in_complex_sys_mystery.mp4","timestamp":"2025-04-28T00:08:59.148Z"}
+{"level":"info","message":"Creating subtitles for content: e268e1570296328b","timestamp":"2025-04-28T00:08:59.149Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_e268e1570296328b.srt","timestamp":"2025-04-28T00:08:59.151Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\2025-04-28_with_behaviors_like_these_in_complex_sys_mystery.mp4","timestamp":"2025-04-28T00:08:59.151Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_2025-04-28_with_behaviors_like_these_in_complex_sys_mystery.mp4","timestamp":"2025-04-28T00:09:03.151Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_2025-04-28_with_behaviors_like_these_in_complex_sys_mystery.mp4","timestamp":"2025-04-28T00:09:03.152Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-28T00:09:03.153Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_2025-04-28_with_behaviors_like_these_in_complex_sys_mystery.mp4, format: standard","timestamp":"2025-04-28T00:09:03.153Z"}
+{"level":"info","message":"Successfully processed news item: With Behaviors Like These in Complex Systems, Who Needs Mechanisms?","timestamp":"2025-04-28T00:09:03.153Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_2025-04-28_with_behaviors_like_these_in_complex_sys_mystery.mp4","timestamp":"2025-04-28T00:09:03.153Z"}
+{"level":"info","message":"Generating content for news item: cf95276d988d487f","timestamp":"2025-04-28T00:09:03.153Z"}
+{"level":"info","message":"Generated content with ID: ab85493dc456b3ce","timestamp":"2025-04-28T00:09:05.130Z"}
+{"level":"info","message":"Generating speech for content: ab85493dc456b3ce","timestamp":"2025-04-28T00:09:05.130Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_ab85493dc456b3ce.mp3 with duration: 19s","timestamp":"2025-04-28T00:09:09.425Z"}
+{"level":"info","message":"Creating enhanced video for content: ab85493dc456b3ce","timestamp":"2025-04-28T00:09:09.425Z"}
+{"level":"info","message":"Generating animation frame sequence for 19 seconds of audio","timestamp":"2025-04-28T00:09:09.426Z"}
+{"level":"info","message":"Video format: STANDARD (19s)","timestamp":"2025-04-28T00:09:09.426Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-28T00:09:09.427Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_ab85493dc456b3ce.mp3","timestamp":"2025-04-28T00:09:09.427Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-28T00:09:09.445Z"}
+{"level":"info","message":"Generating 540 frames at 30 FPS","timestamp":"2025-04-28T00:09:09.448Z"}
+{"level":"info","message":"Generated 0/540 frames","timestamp":"2025-04-28T00:09:09.605Z"}
+{"level":"info","message":"Generated 30/540 frames","timestamp":"2025-04-28T00:09:13.932Z"}
+{"level":"info","message":"Generated 60/540 frames","timestamp":"2025-04-28T00:09:18.020Z"}
+{"level":"info","message":"Generated 90/540 frames","timestamp":"2025-04-28T00:09:21.974Z"}
+{"level":"info","message":"Generated 120/540 frames","timestamp":"2025-04-28T00:09:26.672Z"}
+{"level":"info","message":"Generated 150/540 frames","timestamp":"2025-04-28T00:09:30.329Z"}
+{"level":"info","message":"Generated 180/540 frames","timestamp":"2025-04-28T00:09:33.921Z"}
+{"level":"info","message":"Generated 210/540 frames","timestamp":"2025-04-28T00:09:37.615Z"}
+{"level":"info","message":"Generated 240/540 frames","timestamp":"2025-04-28T00:09:41.355Z"}
+{"level":"info","message":"Generated 270/540 frames","timestamp":"2025-04-28T00:09:45.003Z"}
+{"level":"info","message":"Generated 300/540 frames","timestamp":"2025-04-28T00:09:48.536Z"}
+{"level":"info","message":"Generated 330/540 frames","timestamp":"2025-04-28T00:09:52.282Z"}
+{"level":"info","message":"Generated 360/540 frames","timestamp":"2025-04-28T00:09:55.973Z"}
+{"level":"info","message":"Generated 390/540 frames","timestamp":"2025-04-28T00:09:59.684Z"}
+{"level":"info","message":"Generated 420/540 frames","timestamp":"2025-04-28T00:10:03.822Z"}
+{"level":"info","message":"Generated 450/540 frames","timestamp":"2025-04-28T00:10:07.878Z"}
+{"level":"info","message":"Generated 480/540 frames","timestamp":"2025-04-28T00:10:12.247Z"}
+{"level":"info","message":"Generated 510/540 frames","timestamp":"2025-04-28T00:10:17.284Z"}
+{"level":"info","message":"Completed frame sequence generation: 540 frames created","timestamp":"2025-04-28T00:10:21.638Z"}
+{"level":"info","message":"Using formatted filename: 2025-04-28_wireless_radiation_sickness_gets_a_new_n_mystery.mp4","timestamp":"2025-04-28T00:10:21.640Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-28T00:10:21.640Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\2025-04-28_wireless_radiation_sickness_gets_a_new_n_mystery.mp4","timestamp":"2025-04-28T00:10:26.019Z"}
+{"level":"info","message":"Creating subtitles for content: ab85493dc456b3ce","timestamp":"2025-04-28T00:10:26.020Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_ab85493dc456b3ce.srt","timestamp":"2025-04-28T00:10:26.021Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\2025-04-28_wireless_radiation_sickness_gets_a_new_n_mystery.mp4","timestamp":"2025-04-28T00:10:26.022Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_2025-04-28_wireless_radiation_sickness_gets_a_new_n_mystery.mp4","timestamp":"2025-04-28T00:10:30.352Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_2025-04-28_wireless_radiation_sickness_gets_a_new_n_mystery.mp4","timestamp":"2025-04-28T00:10:30.353Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-28T00:10:30.353Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_2025-04-28_wireless_radiation_sickness_gets_a_new_n_mystery.mp4, format: standard","timestamp":"2025-04-28T00:10:30.354Z"}
+{"level":"info","message":"Successfully processed news item: Wireless Radiation Sickness Gets a New Name — 'EMR Syndrome'","timestamp":"2025-04-28T00:10:30.354Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_2025-04-28_wireless_radiation_sickness_gets_a_new_n_mystery.mp4","timestamp":"2025-04-28T00:10:30.354Z"}
+{"level":"info","message":"Generating content for news item: e9f4e084d04e84b3","timestamp":"2025-04-28T00:10:30.355Z"}
+{"level":"info","message":"Generated content with ID: a5aa75a60d7c3aa8","timestamp":"2025-04-28T00:10:32.615Z"}
+{"level":"info","message":"Generating speech for content: a5aa75a60d7c3aa8","timestamp":"2025-04-28T00:10:32.616Z"}
+{"level":"info","message":"Generated speech saved to: storage\\audio\\speech_a5aa75a60d7c3aa8.mp3 with duration: 17s","timestamp":"2025-04-28T00:10:37.885Z"}
+{"level":"info","message":"Creating enhanced video for content: a5aa75a60d7c3aa8","timestamp":"2025-04-28T00:10:37.885Z"}
+{"level":"info","message":"Generating animation frame sequence for 17 seconds of audio","timestamp":"2025-04-28T00:10:37.886Z"}
+{"level":"info","message":"Video format: STANDARD (17s)","timestamp":"2025-04-28T00:10:37.886Z"}
+{"level":"info","message":"Content type determined: WEIRD","timestamp":"2025-04-28T00:10:37.887Z"}
+{"level":"info","message":"Analyzing audio file for lip sync: storage\\audio\\speech_a5aa75a60d7c3aa8.mp3","timestamp":"2025-04-28T00:10:37.887Z"}
+{"level":"warn","message":"Failed to get audio duration, using estimate","timestamp":"2025-04-28T00:10:37.905Z"}
+{"level":"info","message":"Generating 480 frames at 30 FPS","timestamp":"2025-04-28T00:10:37.907Z"}
+{"level":"info","message":"Generated 0/480 frames","timestamp":"2025-04-28T00:10:38.054Z"}
+{"level":"info","message":"Generated 30/480 frames","timestamp":"2025-04-28T00:10:41.992Z"}
+{"level":"info","message":"Generated 60/480 frames","timestamp":"2025-04-28T00:10:46.096Z"}
+{"level":"info","message":"Generated 90/480 frames","timestamp":"2025-04-28T00:10:49.880Z"}
+{"level":"info","message":"Generated 120/480 frames","timestamp":"2025-04-28T00:10:53.805Z"}
+{"level":"info","message":"Generated 150/480 frames","timestamp":"2025-04-28T00:10:57.644Z"}
+{"level":"info","message":"Generated 180/480 frames","timestamp":"2025-04-28T00:11:01.692Z"}
+{"level":"info","message":"Generated 210/480 frames","timestamp":"2025-04-28T00:11:05.491Z"}
+{"level":"info","message":"Generated 240/480 frames","timestamp":"2025-04-28T00:11:09.353Z"}
+{"level":"info","message":"Generated 270/480 frames","timestamp":"2025-04-28T00:11:13.203Z"}
+{"level":"info","message":"Generated 300/480 frames","timestamp":"2025-04-28T00:11:17.177Z"}
+{"level":"info","message":"Generated 330/480 frames","timestamp":"2025-04-28T00:11:20.845Z"}
+{"level":"info","message":"Generated 360/480 frames","timestamp":"2025-04-28T00:11:24.453Z"}
+{"level":"info","message":"Generated 390/480 frames","timestamp":"2025-04-28T00:11:28.094Z"}
+{"level":"info","message":"Generated 420/480 frames","timestamp":"2025-04-28T00:11:32.316Z"}
+{"level":"info","message":"Generated 450/480 frames","timestamp":"2025-04-28T00:11:36.214Z"}
+{"level":"info","message":"Completed frame sequence generation: 480 frames created","timestamp":"2025-04-28T00:11:39.843Z"}
+{"level":"info","message":"Using formatted filename: 2025-04-28_distributary_development_in_a_21st_centu_mystery.mp4","timestamp":"2025-04-28T00:11:39.845Z"}
+{"level":"info","message":"Creating video from frames and audio...","timestamp":"2025-04-28T00:11:39.845Z"}
+{"level":"info","message":"Video created successfully: storage\\videos\\2025-04-28_distributary_development_in_a_21st_centu_mystery.mp4","timestamp":"2025-04-28T00:11:43.854Z"}
+{"level":"info","message":"Creating subtitles for content: a5aa75a60d7c3aa8","timestamp":"2025-04-28T00:11:43.855Z"}
+{"level":"info","message":"Subtitle file created at: storage\\videos\\subtitles_a5aa75a60d7c3aa8.srt","timestamp":"2025-04-28T00:11:43.857Z"}
+{"level":"info","message":"Adding subtitles to video: storage\\videos\\2025-04-28_distributary_development_in_a_21st_centu_mystery.mp4","timestamp":"2025-04-28T00:11:43.857Z"}
+{"level":"info","message":"Subtitled video created at: storage\\videos\\subtitled_2025-04-28_distributary_development_in_a_21st_centu_mystery.mp4","timestamp":"2025-04-28T00:11:47.950Z"}
+{"level":"info","message":"Adding sound effects to video: storage\\videos\\subtitled_2025-04-28_distributary_development_in_a_21st_centu_mystery.mp4","timestamp":"2025-04-28T00:11:47.951Z"}
+{"level":"warn","message":"No sound effect files found, skipping sound effects","timestamp":"2025-04-28T00:11:47.951Z"}
+{"level":"info","message":"Enhanced video creation complete: storage\\videos\\subtitled_2025-04-28_distributary_development_in_a_21st_centu_mystery.mp4, format: standard","timestamp":"2025-04-28T00:11:47.952Z"}
+{"level":"info","message":"Successfully processed news item: Distributary development in a 21st century river: The evolution of Neptune Pass and its delta, the largest new offshoot of the Mississippi River","timestamp":"2025-04-28T00:11:47.952Z"}
+{"level":"info","message":"Video available at: storage\\videos\\subtitled_2025-04-28_distributary_development_in_a_21st_centu_mystery.mp4","timestamp":"2025-04-28T00:11:47.952Z"}
+{"level":"info","message":"News processing cycle completed","timestamp":"2025-04-28T00:11:47.955Z"}
+{"level":"info","message":"Setting up news fetch interval: 900000ms","timestamp":"2025-04-28T00:11:47.955Z"}
