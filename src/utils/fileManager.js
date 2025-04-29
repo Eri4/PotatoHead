@@ -17,6 +17,7 @@ function generateId() {
 }
 function saveJsonToFile(data, directory, filename) {
     try {
+        console.log('1', filename);
         const filePath = path_1.default.join(directory, filename);
         fs_extra_1.default.writeJsonSync(filePath, data, { spaces: 2 });
         return filePath;
@@ -36,7 +37,17 @@ function loadJsonFromFile(filePath) {
     }
 }
 function cleanDirectory(directory, ageInHours = 24) {
+    // Type and null checks
+    if (!directory || typeof directory !== 'string') {
+        logger_1.default.error('Invalid directory path:', directory);
+        return;
+    }
     try {
+        // Ensure directory exists before trying to read it
+        if (!fs_extra_1.default.existsSync(directory)) {
+            logger_1.default.warn(`Directory does not exist: ${directory}`);
+            return;
+        }
         const files = fs_extra_1.default.readdirSync(directory);
         const now = Date.now();
         files.forEach(file => {

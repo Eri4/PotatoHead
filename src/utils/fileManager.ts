@@ -10,6 +10,7 @@ export function generateId(): string {
 
 export function saveJsonToFile<T>(data: T, directory: string, filename: string): string {
     try {
+        console.log('1', filename);
         const filePath = path.join(directory, filename);
         fs.writeJsonSync(filePath, data, { spaces: 2 });
         return filePath;
@@ -29,7 +30,19 @@ export function loadJsonFromFile<T>(filePath: string): T {
 }
 
 export function cleanDirectory(directory: string, ageInHours: number = 24): void {
+    // Type and null checks
+    if (!directory || typeof directory !== 'string') {
+        logger.error('Invalid directory path:', directory);
+        return;
+    }
+
     try {
+        // Ensure directory exists before trying to read it
+        if (!fs.existsSync(directory)) {
+            logger.warn(`Directory does not exist: ${directory}`);
+            return;
+        }
+
         const files = fs.readdirSync(directory);
         const now = Date.now();
 

@@ -8,11 +8,11 @@ import logger from '../utils/logger';
 import { generateId } from '../utils/fileManager';
 
 export class VoiceService {
-    private apiKey: string;
-    private apiUrl: string;
-    private voiceId: string;
-    private stability: number;
-    private similarityBoost: number;
+    private readonly apiKey: string;
+    private readonly apiUrl: string;
+    private readonly voiceId: string;
+    private readonly stability: number;
+    private readonly similarityBoost: number;
 
     constructor() {
         this.apiKey = config.apis.elevenlabs.key as string;

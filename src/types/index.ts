@@ -15,12 +15,14 @@ export interface GeneratedContent {
     sentiment: string;
     audioUrl?: string;
     videoUrl?: string;
+    imageSearchTerms: string[];
     createdAt: Date;
 }
 
 export interface AudioResult {
     path: string;
     duration: number;
+    wordTimings?: { word: string; time: number; }[];
     url: string;
 }
 

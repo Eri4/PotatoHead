@@ -3,3 +3,218 @@
 {"level":"error","message":"Failed to process news item 57e70611f495229d: Error: Failed to create video for content: Error: FFmpeg process error: Error: spawn ffmpeg ENOENT","timestamp":"2025-04-27T14:58:11.303Z"}
 {"level":"error","message":"FFmpeg process exited with code -4058","timestamp":"2025-04-27T14:58:11.308Z"}
 {"level":"error","message":"FFmpeg logs: ","timestamp":"2025-04-27T14:58:11.308Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError: videoProcessor_1.VideoProcessor is not a constructor","timestamp":"2025-04-28T09:41:39.649Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T15:40:40.405Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T15:46:15.559Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T15:46:30.299Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T15:47:31.942Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T15:50:03.549Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:07:27.861Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:08:10.614Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:08:30.285Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:10:02.147Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:11:02.409Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:11:37.327Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:13:26.016Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:14:28.816Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:15:50.801Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:16:45.770Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:16:56.816Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:17:13.680Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:17:22.751Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:17:28.064Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:17:31.220Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:17:36.910Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:17:40.088Z"}
+{"level":"error","message":"Error in news processing cycle: TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object","timestamp":"2025-04-28T16:17:45.159Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T16:23:59.357Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T21:51:19.491Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T21:53:41.536Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T21:55:55.090Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:07:36.558Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:09:21.487Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:13:00.133Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:19:01.883Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:24:59.176Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:26:24.719Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:27:44.382Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:29:41.399Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:31:09.143Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:32:27.552Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:33:59.955Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:35:18.495Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:57:45.783Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T22:59:04.118Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T23:22:53.748Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T23:24:25.202Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T23:26:15.017Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T23:27:34.209Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-28T23:29:25.587Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:14:07.716Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:22:16.764Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:24:01.296Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:24:08.644Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=tessakoumoundouros.com&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:24:09.274Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=tessakoumoundouros.org&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:24:09.591Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=tessakoumoundouros.net&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:24:10.171Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=www.tessakoumoundouros.com&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:24:10.492Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:25:26.601Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:25:33.488Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:27:22.627Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:27:30.738Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=michellestarr.com&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:27:31.209Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=michellestarr.org&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:27:31.515Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=michellestarr.net&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:27:32.056Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=www.michellestarr.com&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:27:32.529Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:28:39.371Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=davidnield.com&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:28:47.470Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=davidnield.org&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:28:47.946Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=davidnield.net&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:28:48.292Z"}
+{"level":"error","message":"Failed to download image from https://www.google.com/s2/favicons?domain=www.davidnield.com&sz=128: AxiosError: Request failed with status code 404","timestamp":"2025-04-29T09:28:48.769Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:30:18.963Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:32:54.468Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:34:22.719Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:34:28.944Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:35:46.368Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:35:52.658Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:37:16.977Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:37:23.736Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:38:41.503Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:40:37.693Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:47:14.054Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:48:27.921Z"}
+{"level":"error","message":"Failed to generate speech: AxiosError: Request failed with status code 429","timestamp":"2025-04-29T09:48:34.772Z"}
+{"level":"error","message":"Failed to process news item 796171a5ea39c4c9: Error: Failed to generate speech: AxiosError: Request failed with status code 429","timestamp":"2025-04-29T09:48:34.772Z"}
+{"level":"error","message":"Failed to generate speech: AxiosError: Request failed with status code 429","timestamp":"2025-04-29T09:48:41.015Z"}
+{"level":"error","message":"Failed to process news item a58c10dfe2454bea: Error: Failed to generate speech: AxiosError: Request failed with status code 429","timestamp":"2025-04-29T09:48:41.016Z"}
+{"level":"error","message":"Failed to generate speech: AxiosError: Request failed with status code 429","timestamp":"2025-04-29T09:48:47.500Z"}
+{"level":"error","message":"Failed to process news item da2ad2fc3acd63a9: Error: Failed to generate speech: AxiosError: Request failed with status code 429","timestamp":"2025-04-29T09:48:47.500Z"}
+{"level":"error","message":"Failed to generate speech: AxiosError: Request failed with status code 429","timestamp":"2025-04-29T09:48:54.637Z"}
+{"level":"error","message":"Failed to process news item 7be7cb6eb4caa633: Error: Failed to generate speech: AxiosError: Request failed with status code 429","timestamp":"2025-04-29T09:48:54.637Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:52:36.167Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:53:33.515Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:53:39.926Z"}
+{"level":"error","message":"Pixabay API error: AxiosError: Request failed with status code 400","timestamp":"2025-04-29T09:55:56.463Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:57:24.747Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T09:58:44.372Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T10:06:51.382Z"}
+{"level":"error","message":"Error processing image: Error: Input file contains unsupported image format","timestamp":"2025-04-29T10:13:18.516Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T10:15:49.068Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T10:16:55.968Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T10:18:18.824Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T15:52:19.999Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8176a6150dd64e740813f0d45a1f5b27222470bc02e629b49f89d5c457e540f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T15:52:20.000Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T15:54:27.790Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T15:56:52.261Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T15:59:45.820Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T16:01:25.651Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.361Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8176a6150dd64e740813f0d45a1f5b27222470bc02e629b49f89d5c457e540f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.362Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///972764c4f4201e3615a2f395581852f4a6fdebd55d3fb77ea3f092fe3055a0f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.363Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///bc3fdda02efa48411cd83791e94fa8fc4c02f5dd27d47affa9d2b12cc9880885: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.364Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///deb03703f97e0fe3855352ff136e3289d036aa80858079ede5bdd17e41e8c3f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.365Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.740Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8176a6150dd64e740813f0d45a1f5b27222470bc02e629b49f89d5c457e540f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.741Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///972764c4f4201e3615a2f395581852f4a6fdebd55d3fb77ea3f092fe3055a0f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.742Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///bc3fdda02efa48411cd83791e94fa8fc4c02f5dd27d47affa9d2b12cc9880885: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.743Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///deb03703f97e0fe3855352ff136e3289d036aa80858079ede5bdd17e41e8c3f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:04:39.744Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1877264513009786: Error: Downloaded file too small or empty","timestamp":"2025-04-29T16:04:40.742Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T16:06:42.608Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///a5ebe2e9725eb973f8471d75e31af9081b00ebd43f98f94ecb7b816b2ab6aba5: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:12:39.740Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///aa7527fb8606552a16be69e3d831a74653a8a2749c24f1a01743d611e8d70529: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:12:39.746Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T16:15:06.993Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T16:17:42.713Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T16:20:14.978Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T16:23:02.594Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///f17ebc8f7ed8c72169a06c47c224080be70b143f89232c567184a3a856703841: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:14.909Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///d938f433c262b231ee0017af161d2f32a48a05ab3d0a0bc5d6899e8679133510: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:14.911Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8284ed51da2a2b8ac30db7bb894c691fb45b7162e7c941557b27214db990216a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:14.912Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///881ee55cb74800e8c705663af56045c2b86f49d9363ff45abe60997378aea216: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:14.913Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///39501f4226a8dd302fdfbb8261fa003616a101ffbb421e60909a5a679879a841: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:14.915Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///c743a269aac92d914add531dc17fd81d25022507fbe71f1d0371a9b8e6c34bbc: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:14.917Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///018023bba7dddc0268cdc5ef36a2c97b3919ae0a179506a54e41ad4e3b25e8f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:14.919Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///f17ebc8f7ed8c72169a06c47c224080be70b143f89232c567184a3a856703841: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:15.277Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///d938f433c262b231ee0017af161d2f32a48a05ab3d0a0bc5d6899e8679133510: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:15.279Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8284ed51da2a2b8ac30db7bb894c691fb45b7162e7c941557b27214db990216a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:15.280Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///881ee55cb74800e8c705663af56045c2b86f49d9363ff45abe60997378aea216: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:15.281Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///39501f4226a8dd302fdfbb8261fa003616a101ffbb421e60909a5a679879a841: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:15.282Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///c743a269aac92d914add531dc17fd81d25022507fbe71f1d0371a9b8e6c34bbc: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:15.283Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///018023bba7dddc0268cdc5ef36a2c97b3919ae0a179506a54e41ad4e3b25e8f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T16:28:15.284Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1877264513009786: Error: Downloaded file too small or empty","timestamp":"2025-04-29T16:28:16.277Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T16:30:25.492Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1877264513009786: Error: Downloaded file too small or empty","timestamp":"2025-04-29T20:17:08.228Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T20:17:41.545Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///972764c4f4201e3615a2f395581852f4a6fdebd55d3fb77ea3f092fe3055a0f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:08.980Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///0d360028a12911b524984423df28bcb08f912ab3c439236e53de5e6033756948: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:08.982Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///bc3fdda02efa48411cd83791e94fa8fc4c02f5dd27d47affa9d2b12cc9880885: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:08.983Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///193240c22abdda944cce394f936ef249132c6720503c4d18ea247e2fd4384f79: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:08.984Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///7f42e3176c8076d45bf020fd7ca0dcefc2d89d2f618b231eb2294e7e4a9e2313: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:08.985Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///1bb93b2cb877bf35bd199f47b623a8d3452e60a132b325e5261f6e3bf1e7032b: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:08.986Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///aacb9657b4fe75895547d2eb123e20298241d47dd3245232c7a962a8d0f38fa7: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:08.987Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///4c6cb33d135b03581331f81c8ad4e684dd9e17c7dc59f449679f79970b9a8e1a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:08.987Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///136086fa10c107ee52eb9a171c84c588acd7170b290c915375d4cdf83968a407: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:08.988Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///972764c4f4201e3615a2f395581852f4a6fdebd55d3fb77ea3f092fe3055a0f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:09.399Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///0d360028a12911b524984423df28bcb08f912ab3c439236e53de5e6033756948: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:09.400Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///bc3fdda02efa48411cd83791e94fa8fc4c02f5dd27d47affa9d2b12cc9880885: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:09.401Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///193240c22abdda944cce394f936ef249132c6720503c4d18ea247e2fd4384f79: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:09.402Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///7f42e3176c8076d45bf020fd7ca0dcefc2d89d2f618b231eb2294e7e4a9e2313: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:09.403Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///1bb93b2cb877bf35bd199f47b623a8d3452e60a132b325e5261f6e3bf1e7032b: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:09.404Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///aacb9657b4fe75895547d2eb123e20298241d47dd3245232c7a962a8d0f38fa7: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:09.405Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///4c6cb33d135b03581331f81c8ad4e684dd9e17c7dc59f449679f79970b9a8e1a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:09.406Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///136086fa10c107ee52eb9a171c84c588acd7170b290c915375d4cdf83968a407: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:21:09.407Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1877264513009786: Error: Downloaded file too small or empty","timestamp":"2025-04-29T20:21:10.239Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T20:21:49.550Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.084Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8176a6150dd64e740813f0d45a1f5b27222470bc02e629b49f89d5c457e540f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.085Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///a5ebe2e9725eb973f8471d75e31af9081b00ebd43f98f94ecb7b816b2ab6aba5: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.087Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///aa7527fb8606552a16be69e3d831a74653a8a2749c24f1a01743d611e8d70529: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.088Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///700a79cb33da03536c97918fcf1710c1e3312bdc7cb8c8d9adf215aab2bf908a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.089Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///deb03703f97e0fe3855352ff136e3289d036aa80858079ede5bdd17e41e8c3f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.092Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.365Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8176a6150dd64e740813f0d45a1f5b27222470bc02e629b49f89d5c457e540f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.366Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///a5ebe2e9725eb973f8471d75e31af9081b00ebd43f98f94ecb7b816b2ab6aba5: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.367Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///aa7527fb8606552a16be69e3d831a74653a8a2749c24f1a01743d611e8d70529: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.368Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///bdc56048d2b9215a43e38351ead50c2d4afa99383a19a7a8f5a07a29f1054d54: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.369Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///deb03703f97e0fe3855352ff136e3289d036aa80858079ede5bdd17e41e8c3f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.370Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///700a79cb33da03536c97918fcf1710c1e3312bdc7cb8c8d9adf215aab2bf908a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.371Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///74a10bc794d66692d061493d41e921f51dd889e9e9212ab1622a132fe5128035: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.372Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///193240c22abdda944cce394f936ef249132c6720503c4d18ea247e2fd4384f79: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.373Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///dfff862edc0600bf5e39d960dc555ed92ad4affefae2fbe422dafb608fb03f5a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:26:16.375Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1877264513009786: Error: Downloaded file too small or empty","timestamp":"2025-04-29T20:26:17.258Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T20:27:54.679Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1877264513009786: Error: Downloaded file too small or empty","timestamp":"2025-04-29T20:31:01.479Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T20:32:35.144Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.058Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8176a6150dd64e740813f0d45a1f5b27222470bc02e629b49f89d5c457e540f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.059Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///972764c4f4201e3615a2f395581852f4a6fdebd55d3fb77ea3f092fe3055a0f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.060Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///bc3fdda02efa48411cd83791e94fa8fc4c02f5dd27d47affa9d2b12cc9880885: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.061Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///deb03703f97e0fe3855352ff136e3289d036aa80858079ede5bdd17e41e8c3f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.062Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///4c6cb33d135b03581331f81c8ad4e684dd9e17c7dc59f449679f79970b9a8e1a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.064Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///f35da3f3d679f66c269d13f523380814bfe4148dbbd1da320981af882a45ecfa: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.065Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///76c770f05dbe43451ca4ca4cfacf4ddd6e5572c5d809f24e9726b0f08d501476: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.066Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.403Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8176a6150dd64e740813f0d45a1f5b27222470bc02e629b49f89d5c457e540f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.404Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///972764c4f4201e3615a2f395581852f4a6fdebd55d3fb77ea3f092fe3055a0f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.405Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///bc3fdda02efa48411cd83791e94fa8fc4c02f5dd27d47affa9d2b12cc9880885: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.406Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///deb03703f97e0fe3855352ff136e3289d036aa80858079ede5bdd17e41e8c3f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.406Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///4c6cb33d135b03581331f81c8ad4e684dd9e17c7dc59f449679f79970b9a8e1a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.407Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///f35da3f3d679f66c269d13f523380814bfe4148dbbd1da320981af882a45ecfa: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.409Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///76c770f05dbe43451ca4ca4cfacf4ddd6e5572c5d809f24e9726b0f08d501476: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:38:02.409Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1877264513009786: Error: Downloaded file too small or empty","timestamp":"2025-04-29T20:38:03.359Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-04-29T20:39:26.670Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8176a6150dd64e740813f0d45a1f5b27222470bc02e629b49f89d5c457e540f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:40.877Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:40.879Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///a5ebe2e9725eb973f8471d75e31af9081b00ebd43f98f94ecb7b816b2ab6aba5: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:40.880Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///aa7527fb8606552a16be69e3d831a74653a8a2749c24f1a01743d611e8d70529: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:40.881Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///700a79cb33da03536c97918fcf1710c1e3312bdc7cb8c8d9adf215aab2bf908a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:40.882Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///ee19bb1c007e6cd0f129dae451bc085875bbb6a2dcc16b5966c64bb159197c90: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:40.885Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///972764c4f4201e3615a2f395581852f4a6fdebd55d3fb77ea3f092fe3055a0f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:40.886Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///8176a6150dd64e740813f0d45a1f5b27222470bc02e629b49f89d5c457e540f6: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:41.152Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///fca1bd8c36a3f859e01ff8910816263bab05ae8af80f75e319c2c80222c5e426: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:41.153Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///a5ebe2e9725eb973f8471d75e31af9081b00ebd43f98f94ecb7b816b2ab6aba5: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:41.154Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///aa7527fb8606552a16be69e3d831a74653a8a2749c24f1a01743d611e8d70529: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:41.155Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///700a79cb33da03536c97918fcf1710c1e3312bdc7cb8c8d9adf215aab2bf908a: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:41.156Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///ee19bb1c007e6cd0f129dae451bc085875bbb6a2dcc16b5966c64bb159197c90: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:41.157Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///4e336bf6eca94f0b68152fee1e57e17259284b6b271eb0f26f0d4bb320295992: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:41.158Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///972764c4f4201e3615a2f395581852f4a6fdebd55d3fb77ea3f092fe3055a0f2: AxiosError: Unsupported protocol x-raw-image:","timestamp":"2025-04-29T20:46:41.159Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1877264513009786: Error: Downloaded file too small or empty","timestamp":"2025-04-29T20:46:41.919Z"}

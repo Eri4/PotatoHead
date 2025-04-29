@@ -28,7 +28,8 @@ const paths = {
     content: path_1.default.join(storagePath, 'content'),
     audio: path_1.default.join(storagePath, 'audio'),
     frames: path_1.default.join(storagePath, 'frames'),
-    videos: path_1.default.join(storagePath, 'videos')
+    videos: path_1.default.join(storagePath, 'videos'),
+    temp: path_1.default.join(storagePath, 'temp') // Added temp directory for images and other temporary files
 };
 // Ensure storage directories exist
 Object.values(paths).forEach(dir => {
@@ -45,9 +46,16 @@ const assetPaths = {
     },
     studio: {
         backgrounds: path_1.default.join(assetsPath, 'studio', 'backgrounds'),
-        props: path_1.default.join(assetsPath, 'studio', 'props')
+        props: path_1.default.join(assetsPath, 'studio', 'props'),
+        overlays: path_1.default.join(assetsPath, 'studio', 'overlays')
     },
-    audio: path_1.default.join(assetsPath, 'audio')
+    audio: {
+        soundEffects: path_1.default.join(assetsPath, 'audio', 'sound_effects'),
+        music: path_1.default.join(assetsPath, 'audio', 'music')
+    },
+    misc: {
+        fallbackImages: path_1.default.join(assetsPath, 'misc', 'fallback_images')
+    }
 };
 // Api configurations
 const apis = {
@@ -55,7 +63,7 @@ const apis = {
         url: process.env.NEWS_API_URL || 'https://newsapi.org/v2',
         key: process.env.NEWS_API_KEY,
         category: process.env.NEWS_CATEGORY || 'entertainment',
-        itemsPerFetch: parseInt(process.env.NEWS_ITEMS_PER_FETCH || '5', 10),
+        itemsPerFetch: parseInt(process.env.NEWS_ITEMS_PER_FETCH || '10', 10),
         fetchInterval: parseInt(process.env.NEWS_FETCH_INTERVAL || '900000', 10) // Default 15 minutes
     },
     openai: {
@@ -69,23 +77,66 @@ const apis = {
         voiceId: process.env.POTATO_HEAD_VOICE_ID,
         stability: parseFloat(process.env.VOICE_STABILITY || '0.5'),
         similarityBoost: parseFloat(process.env.VOICE_SIMILARITY_BOOST || '0.75')
+    },
+    imageSearch: {
+        // Provider can be 'unsplash', 'pixabay', 'pexels', or null to disable
+        provider: process.env.IMAGE_SEARCH_PROVIDER,
+        // API keys for different image search providers
+        unsplash: {
+            key: process.env.UNSPLASH_API_KEY
+        },
+        pixabay: {
+            key: process.env.PIXABAY_API_KEY
+        },
+        pexels: {
+            key: process.env.PEXELS_API_KEY
+        },
+        // Google Custom Search API information
+        googleCustomSearch: {
+            key: process.env.GOOGLE_SEARCH_API_KEY,
+            cx: process.env.GOOGLE_SEARCH_ENGINE_ID // Custom Search Engine ID
+        },
+        // Max images to keep in temp storage before cleanup
+        maxStoredImages: parseInt(process.env.MAX_STORED_IMAGES || '100', 10),
+        // How old images need to be (in hours) before cleanup
+        cleanupAge: parseInt(process.env.IMAGE_CLEANUP_AGE || '24', 10)
     }
 };
-// Video configurations
+// Video configurations - Updated for TikTok vertical format
 const video = {
-    width: parseInt(process.env.VIDEO_WIDTH || '1920', 10),
-    height: parseInt(process.env.VIDEO_HEIGHT || '1080', 10),
+    // Default to TikTok vertical format (9:16 aspect ratio)
+    width: parseInt(process.env.VIDEO_WIDTH || '720', 10),
+    height: parseInt(process.env.VIDEO_HEIGHT || '1280', 10),
     frameRate: parseInt(process.env.FRAME_RATE || '30', 10),
-    quality: parseInt(process.env.VIDEO_QUALITY || '23', 10)
+    quality: parseInt(process.env.VIDEO_QUALITY || '23', 10),
+    // Set to true to use vertical format, false for horizontal
+    verticalFormat: process.env.VERTICAL_FORMAT !== 'false',
+    // Horizontal format dimensions (if needed)
+    horizontal: {
+        width: parseInt(process.env.HORIZONTAL_WIDTH || '1920', 10),
+        height: parseInt(process.env.HORIZONTAL_HEIGHT || '1080', 10)
+    }
+};
+// TikTok-specific settings
+const tiktok = {
+    maxDuration: parseInt(process.env.TIKTOK_MAX_DURATION || '60', 10), // Updated to 60 seconds for longer form
+    minDuration: parseInt(process.env.TIKTOK_MIN_DURATION || '15', 10), // in seconds
+    shortFormat: parseInt(process.env.TIKTOK_SHORT_FORMAT || '15', 10), // threshold for short format
+    // Section heights for vertical layout (as percentages)
+    verticalLayout: {
+        topSection: parseInt(process.env.TIKTOK_TOP_SECTION || '20', 10), // Top 20% for header
+        middleSection: parseInt(process.env.TIKTOK_MIDDLE_SECTION || '50', 10), // Middle 50% for character
+        bottomSection: parseInt(process.env.TIKTOK_BOTTOM_SECTION || '30', 10) // Bottom 30% for image
+    }
 };
 // System settings
 const system = {
-    logLevel: process.env.LOG_LEVEL || 'info'
-};
-const tiktok = {
-    maxDuration: parseInt(process.env.TIKTOK_MAX_DURATION || '22', 10), // in seconds
-    minDuration: parseInt(process.env.TIKTOK_MIN_DURATION || '15', 10), // in seconds
-    shortFormat: parseInt(process.env.TIKTOK_SHORT_FORMAT || '12', 10), // threshold for short format
+    logLevel: process.env.LOG_LEVEL || 'info',
+    cleanupInterval: parseInt(process.env.CLEANUP_INTERVAL || '86400000', 10), // 24 hours by default
+    maxStorageAge: {
+        frames: parseInt(process.env.MAX_FRAMES_AGE || '24', 10), // in hours
+        temp: parseInt(process.env.MAX_TEMP_AGE || '24', 10) // in hours
+    }
 };
 exports.default = {
     paths,

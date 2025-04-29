@@ -2,12 +2,108 @@ import axios from 'axios';
 import {NewsItem} from '../types';
 import config from '../config/config';
 import logger from '../utils/logger';
-import {saveJsonToFile, generateId} from '../utils/fileManager';
+import {generateId, saveJsonToFile} from '../utils/fileManager';
+import Parser from "rss-parser";
 
 export class NewsService {
     private readonly apiKey: string;
     private readonly apiUrl: string;
     private readonly itemsPerFetch: number;
+
+    // Centralized keyword collections for reuse
+    private readonly weirdKeywords = [
+        {word: 'unexplained', weight: 10},
+        {word: 'mysterious', weight: 9},
+        {word: 'bizarre', weight: 8},
+        {word: 'strange', weight: 7},
+        {word: 'unusual', weight: 6},
+        {word: 'weird', weight: 8},
+        {word: 'odd', weight: 5},
+        {word: 'peculiar', weight: 6},
+        {word: 'baffled', weight: 7},
+        {word: 'puzzle', weight: 6},
+        {word: 'mystery', weight: 9},
+        {word: 'phenomenon', weight: 8},
+        {word: 'cryptid', weight: 10},
+        {word: 'bigfoot', weight: 9},
+        {word: 'alien', weight: 7},
+        {word: 'ufo', weight: 8},
+        {word: 'ghost', weight: 7},
+        {word: 'paranormal', weight: 9},
+        {word: 'simulation', weight: 8},
+        {word: 'glitch', weight: 9},
+        {word: 'mandela effect', weight: 10},
+        {word: 'parallel universe', weight: 9},
+        {word: 'synchronicity', weight: 8},
+        {word: 'reality shift', weight: 9},
+        {word: 'quantum', weight: 6},
+        {word: 'multiverse', weight: 8}
+    ];
+
+    private readonly negativePatterns = [
+        'rape', 'assault', 'abuse',
+        'racist', 'racism', 'nazi',
+        'suicide', 'tragedy', 'tragic',
+        'terrorist', 'terrorism', 'heartbreaking',
+        'violent', 'miserable', 'mourning'
+    ];
+
+    private readonly contentCleanupRegexes = [
+        /subscribe to our newsletter/i,
+        /subscribe for more/i,
+        /sign up for our newsletter/i,
+        /read more at .+$/i,
+        /click here to read more/i,
+        /continue reading at/i,
+        /for more information, visit/i,
+        /\[\+\d+ chars\]/i,
+        /\[\+\d+ more characters\]/i,
+        /\.\.\. read more/i,
+        /advertisement/i,
+        /sponsored content/i,
+        /follow us on (twitter|facebook|instagram)/i,
+        /published: .+$/i,
+        /updated: .+$/i
+    ];
+
+    private readonly categories = [
+        {
+            name: 'mystery',
+            patterns: ['mystery', 'mysterious', 'unexplained', 'vanished', 'disappeared', 'unsolved', 'enigma']
+        },
+        {
+            name: 'weird-science',
+            patterns: ['scientists', 'research', 'discovery', 'quantum', 'physics', 'breakthrough', 'experiment']
+        },
+        {
+            name: 'cryptid',
+            patterns: ['cryptid', 'bigfoot', 'sasquatch', 'loch ness', 'creature', 'monster', 'sighting', 'yeti']
+        },
+        {
+            name: 'paranormal',
+            patterns: ['ghost', 'paranormal', 'supernatural', 'haunted', 'spirit', 'apparition', 'poltergeist']
+        },
+        {
+            name: 'archaeology',
+            patterns: ['ancient', 'archaeological', 'artifact', 'fossil', 'tomb', 'ruins', 'pyramid']
+        },
+        {
+            name: 'bizarre',
+            patterns: ['bizarre', 'strange', 'unusual', 'weird', 'odd', 'peculiar', 'outlandish']
+        },
+        {
+            name: 'simulation',
+            patterns: ['simulation', 'matrix', 'glitch', 'reality', 'mandela effect', 'parallel universe']
+        },
+        {
+            name: 'ufo',
+            patterns: ['ufo', 'alien', 'extraterrestrial', 'spacecraft', 'flying saucer', 'abduction', 'tic tac']
+        },
+        {
+            name: 'natural-mystery',
+            patterns: ['natural phenomenon', 'weather anomaly', 'atmospheric', 'unexplained natural']
+        }
+    ];
 
     constructor() {
         this.apiKey = config.apis.news.key || '';
@@ -16,310 +112,58 @@ export class NewsService {
     }
 
     /**
-     * Fetch weird/mysterious news stories with improved categorization
-     */
-    async fetchWeirdNews(): Promise<NewsItem[]> {
-        try {
-            logger.info('Fetching weird and mysterious news...');
-
-            // Structured keywords for better categorization
-            const queries = [
-                // Weird phenomena and discoveries
-                'unexplained OR mysterious phenomenon',
-                'bizarre OR strange discovery',
-                'unusual creature OR animal sighting',
-
-                // Mysteries
-                'unsolved mystery OR unexplained disappearance',
-                'archaeological discovery OR ancient mystery',
-                'cryptid OR bigfoot OR "loch ness"',
-
-                // Weird science
-                'scientists baffled OR puzzled',
-                'quantum physics strange OR weird',
-                'unexplained scientific finding',
-
-                // Cultural curiosities
-                'strange tradition OR ritual OR festival',
-                'bizarre law OR rule OR ordinance',
-                'unusual historical fact OR discovery',
-
-                // Added: Simulation Theory and Reality Glitches
-                'simulation theory OR matrix reality',
-                'glitch in reality OR matrix glitch',
-                'mandela effect OR parallel universe',
-                'time slip OR time anomaly',
-                'reality shift OR dimension jump'
-            ];
-
-            // Random selection of 3 queries to diversify results across runs
-            const shuffledQueries = this.shuffleArray([...queries]);
-            const selectedQueries = shuffledQueries.slice(0, 3);
-            const query = selectedQueries.join(' OR ');
-
-            logger.info(`Using query: ${query}`);
-
-            const endpoint = `${this.apiUrl}/everything`;
-            const params = {
-                apiKey: this.apiKey,
-                q: query,
-                language: 'en',
-                sortBy: 'relevancy', // Switch to relevancy for better results
-                pageSize: this.itemsPerFetch * 2 // Get more to filter down
-            };
-
-            const response = await axios.get(endpoint, {params});
-
-            if (!response.data.articles || !Array.isArray(response.data.articles)) {
-                throw new Error('Invalid response format from News API');
-            }
-
-            // Filter out articles with specific negative patterns
-            const filteredArticles = response.data.articles.filter((article: { title: any; description: any; content: any; }) => {
-                const title = (article.title || '').toLowerCase();
-                const description = (article.description || '').toLowerCase();
-                const content = (article.content || '').toLowerCase();
-                const fullText = `${title} ${description} ${content}`;
-
-                // Filter out common news items we don't want
-                const negativePatterns = [
-                    'rape', 'assault', 'abuse',
-                    'racist', 'racism', 'nazi',
-                    'suicide', 'tragedy', 'tragic',
-                    'terrorist', 'terrorism'
-                ];
-
-                // Basic sentiment analysis - filter out negative content
-                const negativeEmotionWords = [
-                    'awful', 'heartbreaking', 'distressing',
-                    'grim', 'gruesome', 'violent',
-                    'miserable', 'suffering', 'painful', 'mourning'
-                ];
-
-                // Check for negative patterns
-                if (negativePatterns.some(pattern => fullText.includes(pattern))) {
-                    return false;
-                }
-
-                // Check for negative emotion words (basic sentiment)
-                if (negativeEmotionWords.some(word => fullText.includes(word))) {
-                    return false;
-                }
-
-                return true;
-            });
-
-            // Quality check - prefer articles with actual content
-            const rankedArticles = filteredArticles
-                .filter((article: { content: any; description: any; }) => (article.content || article.description || '').length > 100)
-                .sort((a: any, b: any) => {
-                    // Rank articles by their weirdness score
-                    const scoreA = this.calculateWeirdnessScore(a);
-                    const scoreB = this.calculateWeirdnessScore(b);
-                    return scoreB - scoreA;
-                });
-
-            // Take top articles up to requested count
-            const topArticles = rankedArticles.slice(0, this.itemsPerFetch);
-
-            // Convert to NewsItem format and clean content
-            const newsItems: NewsItem[] = topArticles.map((article: any) => {
-                let cleanedContent = article.content || article.description || 'No content available';
-
-                // Clean publisher-specific phrases
-                cleanedContent = this.cleanContent(cleanedContent);
-
-                return {
-                    id: generateId(),
-                    title: article.title || 'No title available',
-                    source: article.source?.name || 'Unknown Source',
-                    category: this.determineCategory(article),
-                    content: cleanedContent,
-                    url: article.url || '',
-                    publishedAt: new Date(article.publishedAt || Date.now())
-                };
-            });
-
-            // Save each news item
-            newsItems.forEach(item => {
-                const filename = `news_${item.id}.json`;
-                saveJsonToFile(item, config.paths.news, filename);
-            });
-
-            logger.info(`Fetched ${newsItems.length} weird/mysterious news items`);
-            return newsItems;
-        } catch (error) {
-            logger.error(`Failed to fetch weird news: ${error}`);
-            throw new Error(`Failed to fetch weird news: ${error}`);
-        }
-    }
-
-    /**
-     * Clean content by removing publisher-specific phrases
-     */
-    private cleanContent(content: string): string {
-        if (!content) return content;
-
-        const phrasesToRemove = [
-            // Common subscription phrases
-            /subscribe to our newsletter/i,
-            /subscribe for more/i,
-            /sign up for our newsletter/i,
-
-            // Read more patterns
-            /read more at .+$/i,
-            /click here to read more/i,
-            /continue reading at/i,
-            /for more information, visit/i,
-
-            // Character limits
-            /\[\+\d+ chars\]/i,
-            /\[\+\d+ more characters\]/i,
-            /\.\.\. read more/i,
-
-            // Ads and promotions
-            /advertisement/i,
-            /sponsored content/i,
-            /follow us on (twitter|facebook|instagram)/i,
-
-            // Publication dates
-            /published: .+$/i,
-            /updated: .+$/i
-        ];
-
-        let cleanedContent = content;
-        phrasesToRemove.forEach(phrase => {
-            cleanedContent = cleanedContent.replace(phrase, '');
-        });
-
-        // Trim extra whitespace
-        cleanedContent = cleanedContent.trim().replace(/\s+/g, ' ');
-
-        return cleanedContent;
-    }
-
-    /**
-     * Backup method using category-based approach
-     */
-    async fetchCategoryBasedWeirdNews(): Promise<NewsItem[]> {
-        try {
-            logger.info('Fetching weird news by category...');
-
-            // Categories that might contain unusual stories
-            const categories = ['science', 'technology', 'entertainment', 'health'];
-            let allArticles: any[] = [];
-
-            // Fetch from multiple categories
-            for (const category of categories) {
-                const endpoint = `${this.apiUrl}/top-headlines`;
-                const params = {
-                    apiKey: this.apiKey,
-                    category: category,
-                    language: 'en',
-                    pageSize: Math.ceil(this.itemsPerFetch / categories.length) * 2
-                };
-
-                try {
-                    const response = await axios.get(endpoint, {params});
-                    if (response.data.articles && Array.isArray(response.data.articles)) {
-                        allArticles = allArticles.concat(response.data.articles);
-                    }
-                } catch (categoryError) {
-                    logger.warn(`Failed to fetch ${category} news: ${categoryError}`);
-                }
-            }
-
-            // Score and filter articles for weirdness
-            const scoredArticles = allArticles.map(article => ({
-                article,
-                score: this.calculateWeirdnessScore(article)
-            }));
-
-            // Sort by weirdness score and take top results
-            const topWeirdArticles = scoredArticles
-                .sort((a, b) => b.score - a.score)
-                .slice(0, this.itemsPerFetch)
-                .map(item => item.article);
-
-            // Convert to NewsItem format and clean content
-            const newsItems: NewsItem[] = topWeirdArticles.map((article: any) => {
-                let cleanedContent = article.content || article.description || 'No content available';
-
-                // Clean publisher-specific phrases
-                cleanedContent = this.cleanContent(cleanedContent);
-
-                return {
-                    id: generateId(),
-                    title: article.title || 'No title available',
-                    source: article.source?.name || 'Unknown Source',
-                    category: this.determineCategory(article),
-                    content: cleanedContent,
-                    url: article.url || '',
-                    publishedAt: new Date(article.publishedAt || Date.now())
-                };
-            });
-
-            // Filter out negative content
-            const positiveNewsItems = newsItems.filter(item => {
-                const fullText = `${item.title} ${item.content}`.toLowerCase();
-
-                // Basic negative content check
-                const negativeEmotionWords = [
-                    'awful', 'heartbreaking', 'distressing',
-                    'grim', 'gruesome', 'violent'
-                ];
-
-                return !negativeEmotionWords.some(word => fullText.includes(word));
-            });
-
-            // Save each news item
-            positiveNewsItems.forEach(item => {
-                const filename = `news_${item.id}.json`;
-                saveJsonToFile(item, config.paths.news, filename);
-            });
-
-            logger.info(`Fetched ${positiveNewsItems.length} category-based weird news items`);
-            return positiveNewsItems;
-        } catch (error) {
-            logger.error(`Failed to fetch category-based weird news: ${error}`);
-            throw new Error(`Failed to fetch category-based weird news: ${error}`);
-        }
-    }
-
-    /**
-     * Fetch news with fallback methods
+     * Main method to fetch news with fallback strategies
      */
     async fetchNews(): Promise<NewsItem[]> {
         try {
-            // Try primary method first
-            const weirdNews = await this.fetchWeirdNews();
+            let allNews: NewsItem[] = [];
+            let newsCount = 0;
 
-            // If we got enough items, return them
-            if (weirdNews.length >= this.itemsPerFetch / 2) {
-                return weirdNews;
+            // Strategy 1: Curated sources (RSS feeds)
+            try {
+                logger.info('Fetching from curated weird news sources');
+                const curatedNews = await this.fetchCuratedWeirdNews();
+                if (curatedNews.length > 0) {
+                    allNews = [...curatedNews];
+                    newsCount = curatedNews.length;
+                    logger.info(`Found ${newsCount} curated news items`);
+                }
+            } catch (error) {
+                logger.warn(`Curated news fetch failed: ${error}`);
             }
 
-            // Try backup method
-            logger.info('Not enough weird news found, trying backup method');
-            const backupNews = await this.fetchCategoryBasedWeirdNews();
-
-            // Combine unique results from both methods
-            const combinedNews = [...weirdNews];
-            const existingIds = new Set(weirdNews.map(item => item.url));
-
-            for (const item of backupNews) {
-                if (!existingIds.has(item.url)) {
-                    combinedNews.push(item);
-                    existingIds.add(item.url);
-
-                    // Stop once we have enough items
-                    if (combinedNews.length >= this.itemsPerFetch) {
-                        break;
-                    }
+            // Strategy 2: NewsAPI keyword search
+            if (newsCount < this.itemsPerFetch) {
+                try {
+                    logger.info('Fetching keyword-based weird news');
+                    const weirdNews = await this.fetchWeirdNews();
+                    allNews = [...allNews, ...weirdNews];
+                    logger.info(`Found ${weirdNews.length} keyword-based news items`);
+                } catch (error) {
+                    logger.warn(`Keyword-based news fetch failed: ${error}`);
                 }
             }
 
-            return combinedNews;
+            // Process results
+            const uniqueNews = this.deduplicateNews(allNews);
+
+            // Score and sort by weirdness/interest level
+            const scoredNews = uniqueNews.map(item => ({
+                item,
+                score: this.calculateWeirdnessScore(item)
+            }));
+
+            // Take highest scored items up to the limit
+            const finalNews = scoredNews
+                .sort((a, b) => b.score - a.score)
+                .slice(0, this.itemsPerFetch)
+                .map(scored => scored.item);
+
+            // Save items to file system
+            this.saveNewsItems(finalNews);
+
+            logger.info(`Returning ${finalNews.length} final news items`);
+            return finalNews;
         } catch (error) {
             logger.error(`All news fetching methods failed: ${error}`);
             throw new Error(`Failed to fetch news: ${error}`);
@@ -327,69 +171,218 @@ export class NewsService {
     }
 
     /**
-     * Calculate a "weirdness score" for an article
+     * Fetch news from curated RSS feeds
      */
-    private calculateWeirdnessScore(article: any): number {
-        const title = (article.title || '').toLowerCase();
-        const description = (article.description || '').toLowerCase();
-        const content = (article.content || '').toLowerCase();
-        const fullText = `${title} ${description} ${content}`;
+    async fetchCuratedWeirdNews(): Promise<NewsItem[]> {
+        const parser = new Parser();
 
-        let score = 0;
+        // Prioritize US sources
+        const curatedSources = [
+            // US sources
+            'https://www.livescience.com/feeds/all',
+            'https://futurism.com/feed',
+            'https://www.npr.org/rss/rss.php?id=1053',
+            'https://rss.nytimes.com/services/xml/rss/nyt/Science.xml',
+            'https://www.scientificamerican.com/rss/blog/60-second-science/',
+            'https://www.discovermagazine.com/rss/all',
+            'https://www.vice.com/en/rss',
+            'https://rss.csmonitor.com/feeds/science',
 
-        // Keywords that indicate potentially weird/mysterious content
-        const weirdKeywords = [
-            // Original keywords
-            { word: 'unexplained', weight: 10 },
-            { word: 'mysterious', weight: 9 },
-            { word: 'bizarre', weight: 8 },
-            { word: 'strange', weight: 7 },
-            { word: 'unusual', weight: 6 },
-            { word: 'weird', weight: 8 },
-            { word: 'odd', weight: 5 },
-            { word: 'peculiar', weight: 6 },
-            { word: 'baffled', weight: 7 },
-            { word: 'puzzled', weight: 6 },
-            { word: 'mystery', weight: 9 },
-            { word: 'phenomenon', weight: 8 },
-            { word: 'unexplainable', weight: 10 },
-            { word: 'cryptid', weight: 10 },
-            { word: 'bigfoot', weight: 9 },
-            { word: 'loch ness', weight: 9 },
-            { word: 'alien', weight: 7 },
-            { word: 'ufo', weight: 8 },
-            { word: 'ghost', weight: 7 },
-            { word: 'paranormal', weight: 9 },
-            { word: 'ancient', weight: 6 },
-            { word: 'discovery', weight: 5 },
-            { word: 'archaeological', weight: 6 },
-            { word: 'scientists', weight: 4 },
-            { word: 'researchers', weight: 3 },
-            { word: 'experts', weight: 3 },
-
-            // Added: Simulation theory and reality glitches
-            { word: 'simulation', weight: 8 },
-            { word: 'matrix', weight: 7 },
-            { word: 'glitch', weight: 9 },
-            { word: 'mandela effect', weight: 10 },
-            { word: 'parallel universe', weight: 9 },
-            { word: 'parallel world', weight: 9 },
-            { word: 'alternate reality', weight: 8 },
-            { word: 'dimension', weight: 7 },
-            { word: 'time slip', weight: 9 },
-            { word: 'deja vu', weight: 7 },
-            { word: 'coincidence', weight: 5 },
-            { word: 'synchronicity', weight: 8 },
-            { word: 'reality shift', weight: 9 },
-            { word: 'reality glitch', weight: 10 },
-            { word: 'quantum', weight: 6 },
-            { word: 'multiverse', weight: 8 },
-            { word: 'consciousness', weight: 5 },
-            { word: 'universe', weight: 4 }
+            // International sources
+            'https://www.sciencealert.com/feed',
+            'https://strangesounds.org/feed',
+            'https://www.odditycentral.com/feed',
+            'https://phys.org/rss-feed/space-astronomy-news/'
         ];
 
-        // Add to score based on keyword matches
-        weirdKeywords.forEach(keyword => {
+        let allArticles: any[] = [];
+
+        // Fetch from sources
+        for (const sourceUrl of curatedSources) {
+            try {
+                const feed = await parser.parseURL(sourceUrl);
+
+                if (feed.items && feed.items.length > 0) {
+                    logger.info(`Found ${feed.items.length} articles from ${sourceUrl}`);
+
+                    // Skip articles that don't seem weird/interesting
+                    const filteredItems = feed.items.filter(item => {
+                        const fullText = `${item.title || ''} ${item.content || item.contentSnippet || ''}`.toLowerCase();
+                        // Only keep if it contains at least one weird keyword
+                        return this.weirdKeywords.some(kw => fullText.includes(kw.word));
+                    });
+
+                    logger.info(`Kept ${filteredItems.length} weird articles from ${sourceUrl}`);
+                    allArticles = allArticles.concat(filteredItems);
+                }
+            } catch (error) {
+                logger.warn(`Failed to fetch from ${sourceUrl}: ${error}`);
+            }
+        }
+
+        // Try backup sources if needed
+        if (allArticles.length < this.itemsPerFetch) {
+            const backupSources = [
+                'https://news.google.com/rss/search?q=weird+OR+mysterious+OR+strange&hl=en-US&gl=US&ceid=US:en',
+                'https://rss.app/feeds/L9ieHAx70dKjQH22.xml', // Custom feed of weird news
+                'https://hnrss.org/newest?q=mysterious+OR+weird+OR+unexplained'
+            ];
+
+            for (const sourceUrl of backupSources) {
+                try {
+                    const feed = await parser.parseURL(sourceUrl);
+                    if (feed.items && feed.items.length > 0) {
+                        allArticles = allArticles.concat(feed.items);
+                    }
+                } catch (error) {
+                    logger.warn(`Failed to fetch from backup source ${sourceUrl}`);
+                }
+            }
+        }
+
+        // Filter out negative content
+        const filteredArticles = allArticles.filter(article => {
+            const fullText = `${article.title || ''} ${article.content || article.contentSnippet || ''}`.toLowerCase();
+            return !this.negativePatterns.some(pattern => fullText.includes(pattern));
+        });
+
+        // Convert to NewsItem format
+        return filteredArticles.map(article => ({
+            id: generateId(),
+            title: article.title || 'No title',
+            source: article.creator || article.author || article.source?.name || 'Unknown Source',
+            category: this.determineCategory(article),
+            content: this.cleanContent(article.content || article.contentSnippet || 'No content available'),
+            url: article.link || '',
+            publishedAt: new Date(article.pubDate || article.isoDate || Date.now())
+        }));
+    }
+
+    /**
+     * Fetch weird news using NewsAPI
+     */
+    async fetchWeirdNews(): Promise<NewsItem[]> {
+        try {
+            // Create a compact, focused query for weird content
+            const queries = [
+                'extraordinary phenomenon OR "defies explanation" OR "cannot be explained"',
+                'bizarre incident OR unexplained sighting OR strange occurrence',
+                '"mysterious disappearance" OR "vanished without trace" OR "no explanation"',
+                '"scientific breakthrough" AND (unusual OR unexpected OR revolutionary)',
+                '"strange coincidence" OR "impossible timing" OR "beyond chance"',
+                '"glitch in reality" OR "matrix malfunction" OR "reality shift"',
+                '"rare natural phenomenon" OR "weather anomaly" OR "atmospheric mystery"',
+                '"cosmic anomaly" OR "space mystery" OR "astronomical puzzle"'
+            ];
+
+            // Select 3 random queries for variety
+            const selectedQueries = this.shuffleArray(queries).slice(0, 3);
+            const query = selectedQueries.join(' OR ');
+
+            logger.info(`Using NewsAPI query: ${query}`);
+
+            // Fetch articles
+            const endpoint = `${this.apiUrl}/everything`;
+            const response = await axios.get(endpoint, {
+                params: {
+                    apiKey: this.apiKey,
+                    q: query,
+                    language: 'en',
+                    sortBy: 'relevancy',
+                    pageSize: this.itemsPerFetch * 2
+                }
+            });
+
+            if (!response.data.articles || !Array.isArray(response.data.articles)) {
+                throw new Error('Invalid response format from News API');
+            }
+
+            // Filter for positive content
+            const filteredArticles = response.data.articles.filter((article: {
+                title: any;
+                description: any;
+                content: any;
+            }) => {
+                const title = (article.title || '').toLowerCase();
+                const description = (article.description || '').toLowerCase();
+                const content = (article.content || '').toLowerCase();
+                const fullText = `${title} ${description} ${content}`;
+
+                return !this.negativePatterns.some(pattern => fullText.includes(pattern));
+            });
+
+            // Convert to NewsItem format
+            return filteredArticles.map((article: {
+                title: any;
+                source: { name: any; };
+                content: any;
+                description: any;
+                url: any;
+                publishedAt: any;
+            }) => ({
+                id: generateId(),
+                title: article.title || 'No title available',
+                source: article.source?.name || 'Unknown Source',
+                category: this.determineCategory(article),
+                content: this.cleanContent(article.content || article.description || 'No content available'),
+                url: article.url || '',
+                publishedAt: new Date(article.publishedAt || Date.now())
+            }));
+        } catch (error) {
+            logger.error(`Failed to fetch weird news: ${error}`);
+            throw error;
+        }
+    }
+
+    /**
+     * Save news items to file system
+     */
+    private saveNewsItems(items: NewsItem[]): void {
+        items.forEach(item => {
+            const filename = `news_${item.id}.json`;
+            saveJsonToFile(item, config.paths.news, filename);
+        });
+    }
+
+    /**
+     * Deduplicate news items by URL or title
+     */
+    private deduplicateNews(items: NewsItem[]): NewsItem[] {
+        const unique = new Map<string, NewsItem>();
+
+        for (const item of items) {
+            const key = item.url || item.title;
+            if (!unique.has(key)) {
+                unique.set(key, item);
+            }
+        }
+
+        return Array.from(unique.values());
+    }
+
+    /**
+     * Calculate a "weirdness score" for content
+     */
+    private calculateWeirdnessScore(item: NewsItem | any): number {
+        // For NewsItem objects
+        let title = '', content = '';
+
+        if ('title' in item && 'content' in item) {
+            // It's a NewsItem
+            title = (item.title || '').toLowerCase();
+            content = (item.content || '').toLowerCase();
+        } else {
+            // It's a raw article object
+            title = (item.title || '').toLowerCase();
+            const description = (item.description || '').toLowerCase();
+            content = (item.content || description || '').toLowerCase();
+        }
+
+        const fullText = `${title} ${content}`;
+        let score = 0;
+
+        // Score based on weird keywords
+        this.weirdKeywords.forEach(keyword => {
             const regex = new RegExp(`\\b${keyword.word}\\b`, 'gi');
             const matches = fullText.match(regex);
             if (matches) {
@@ -402,39 +395,61 @@ export class NewsService {
             score += 10;
         }
 
-        // Bonus for quotation marks (often indicates unusual claims)
-        const quotationMatches = fullText.match(/"/g);
-        if (quotationMatches) {
-            score += quotationMatches.length * 2;
+        // Bonus for titles with strong indicators of weirdness
+        if (/mind(-|\s)blowing|incredible|unbelievable|impossible|never(-|\s)before(-|\s)seen/i.test(title)) {
+            score += 15;
+        }
+
+        // Penalize titles that sound like regular news
+        if (/stock|market|profit|quarterly|politician|announce|stated|confirmed/i.test(title)) {
+            score -= 15;
+        }
+
+        // Boost for content with frequent mentions of unexplained events
+        const unexplainedCount = (fullText.match(/unexplained|mysterious|bizarre|strange|unusual/gi) || []).length;
+        score += unexplainedCount * 3;
+
+        // Check for clickbait patterns that often indicate interesting content
+        if (/scientists can't explain|experts baffled|defies conventional wisdom/i.test(fullText)) {
+            score += 12;
         }
 
         return score;
     }
 
     /**
-     * Determine the most appropriate category for an article
+     * Determine the most appropriate category for content
      */
-    private determineCategory(article: any): string {
-        const title = (article.title || '').toLowerCase();
-        const description = (article.description || '').toLowerCase();
-        const content = (article.content || '').toLowerCase();
-        const fullText = `${title} ${description} ${content}`;
+    private determineCategory(item: NewsItem | any): string {
+        // For NewsItem objects
+        let title: string, content = '';
 
-        // Category detection patterns
-        const categories = [
-            { name: 'mystery', patterns: ['mystery', 'mysterious', 'unexplained', 'vanished', 'disappeared', 'unsolved'] },
-            { name: 'weird-science', patterns: ['scientists', 'research', 'study', 'discovery', 'quantum', 'physics'] },
-            { name: 'cryptid', patterns: ['cryptid', 'bigfoot', 'sasquatch', 'loch ness', 'creature', 'monster', 'sighting'] },
-            { name: 'paranormal', patterns: ['ghost', 'paranormal', 'supernatural', 'haunted', 'spirit', 'apparition'] },
-            { name: 'archaeology', patterns: ['ancient', 'archaeological', 'artifact', 'fossil', 'tomb', 'ruins'] },
-            { name: 'bizarre', patterns: ['bizarre', 'strange', 'unusual', 'weird', 'odd', 'peculiar'] },
-            // Added: New categories
-            { name: 'simulation', patterns: ['simulation', 'matrix', 'glitch', 'reality', 'mandela effect', 'parallel universe'] },
-            { name: 'coincidence', patterns: ['coincidence', 'synchronicity', 'chance', 'probability', 'unlikely'] }
-        ];
+        if ('title' in item && 'content' in item) {
+            // It's a NewsItem
+            title = (item.title || '').toLowerCase();
+            content = (item.content || '').toLowerCase();
+        } else {
+            // It's a raw article object
+            title = (item.title || '').toLowerCase();
+            const description = (item.description || '').toLowerCase();
+            content = (item.content || description || '').toLowerCase();
+        }
 
-        // Check for category matches
-        for (const category of categories) {
+        const fullText = `${title} ${content}`;
+
+        // Check each category against the full text
+        for (const category of this.categories) {
+            // Calculate how many patterns match
+            const matchCount = category.patterns.filter(pattern => fullText.includes(pattern)).length;
+
+            // If more than 1 pattern matches, consider it a strong category match
+            if (matchCount >= 2) {
+                return category.name;
+            }
+        }
+
+        // Check for single pattern matches
+        for (const category of this.categories) {
             if (category.patterns.some(pattern => fullText.includes(pattern))) {
                 return category.name;
             }
@@ -442,6 +457,24 @@ export class NewsService {
 
         // Default category
         return 'weird-news';
+    }
+
+    /**
+     * Clean content by removing publisher-specific phrases
+     */
+    private cleanContent(content: string): string {
+        if (!content) return content;
+
+        let cleanedContent = content;
+
+        this.contentCleanupRegexes.forEach(regex => {
+            cleanedContent = cleanedContent.replace(regex, '');
+        });
+
+        // Trim extra whitespace
+        cleanedContent = cleanedContent.trim().replace(/\s+/g, ' ');
+
+        return cleanedContent;
     }
 
     /**
