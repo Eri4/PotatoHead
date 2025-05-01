@@ -6,6 +6,7 @@ export interface NewsItem {
     content: string;
     url: string;
     publishedAt: Date;
+    imageUrl?: string;
 }
 
 export interface GeneratedContent {

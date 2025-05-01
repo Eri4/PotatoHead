@@ -18,6 +18,8 @@ const config_1 = __importDefault(require("../config/config"));
 const logger_1 = __importDefault(require("../utils/logger"));
 const fileManager_1 = require("../utils/fileManager");
 const rss_parser_1 = __importDefault(require("rss-parser"));
+const path_1 = __importDefault(require("path"));
+const fs_extra_1 = __importDefault(require("fs-extra"));
 class NewsService {
     constructor() {
         // Centralized keyword collections for reuse
@@ -118,6 +120,9 @@ class NewsService {
     /**
      * Main method to fetch news with fallback strategies
      */
+    /**
+     * Main method to fetch news with fallback strategies
+     */
     fetchNews() {
         return __awaiter(this, void 0, void 0, function* () {
             try {
@@ -150,8 +155,15 @@ class NewsService {
                 }
                 // Process results
                 const uniqueNews = this.deduplicateNews(allNews);
+                // ADD THIS: Filter out previously processed news
+                const newNews = uniqueNews.filter(item => !this.hasBeenProcessed(item));
+                logger_1.default.info(`Filtered out ${uniqueNews.length - newNews.length} previously processed news items`);
+                // If we don't have enough new news, we might need more sources or queries
+                if (newNews.length < this.itemsPerFetch) {
+                    logger_1.default.warn(`Only found ${newNews.length} new news items after filtering`);
+                }
                 // Score and sort by weirdness/interest level
-                const scoredNews = uniqueNews.map(item => ({
+                const scoredNews = newNews.map(item => ({
                     item,
                     score: this.calculateWeirdnessScore(item)
                 }));
@@ -239,18 +251,70 @@ class NewsService {
                 const fullText = `${article.title || ''} ${article.content || article.contentSnippet || ''}`.toLowerCase();
                 return !this.negativePatterns.some(pattern => fullText.includes(pattern));
             });
-            // Convert to NewsItem format
             return filteredArticles.map(article => {
                 var _a;
-                return ({
+                // Extract image from RSS item
+                let imageUrl = '';
+                // Method 1: Media content
+                if (article.media && article.media.content && article.media.content.url) {
+                    imageUrl = article.media.content.url;
+                }
+                // Method 2: Enclosures (common in RSS)
+                else if (article.enclosures && article.enclosures.length > 0) {
+                    const imageEnclosure = article.enclosures.find((e) => e.type && e.type.startsWith('image/'));
+                    if (imageEnclosure && imageEnclosure.url) {
+                        imageUrl = imageEnclosure.url;
+                    }
+                }
+                // Method 3: Extract from HTML content
+                else if (article.content) {
+                    const imgMatch = article.content.match(/<img[^>]+src="([^">]+)"/);
+                    if (imgMatch && imgMatch[1]) {
+                        imageUrl = imgMatch[1];
+                    }
+                }
+                // Method 4: Check for RSS-specific image field
+                else if (article.image && article.image.url) {
+                    imageUrl = article.image.url;
+                }
+                // After extracting image URL, add this validation
+                if (imageUrl) {
+                    // Validate and fix URLs
+                    if (!imageUrl.startsWith('http')) {
+                        // Try to fix relative URLs
+                        if (imageUrl.startsWith('/')) {
+                            // Extract base URL from article.link
+                            try {
+                                const urlObj = new URL(article.link || '');
+                                imageUrl = `${urlObj.protocol}//${urlObj.host}${imageUrl}`;
+                                logger_1.default.info(`Fixed relative image URL: ${imageUrl}`);
+                            }
+                            catch (e) {
+                                imageUrl = ''; // Invalid URL
+                            }
+                        }
+                        else {
+                            imageUrl = ''; // Invalid URL format
+                        }
+                    }
+                }
+                // Add logging to track image extraction
+                if (imageUrl) {
+                    logger_1.default.info(`Extracted image URL for "${article.title}": ${imageUrl}`);
+                }
+                else {
+                    logger_1.default.debug(`No image found for "${article.title}"`);
+                }
+                return {
                     id: (0, fileManager_1.generateId)(),
                     title: article.title || 'No title',
                     source: article.creator || article.author || ((_a = article.source) === null || _a === void 0 ? void 0 : _a.name) || 'Unknown Source',
                     category: this.determineCategory(article),
                     content: this.cleanContent(article.content || article.contentSnippet || 'No content available'),
                     url: article.link || '',
-                    publishedAt: new Date(article.pubDate || article.isoDate || Date.now())
-                });
+                    publishedAt: new Date(article.pubDate || article.isoDate || Date.now()),
+                    imageUrl: imageUrl || '' // Add the extracted image URL
+                };
             });
         });
     }
@@ -307,7 +371,8 @@ class NewsService {
                         category: this.determineCategory(article),
                         content: this.cleanContent(article.content || article.description || 'No content available'),
                         url: article.url || '',
-                        publishedAt: new Date(article.publishedAt || Date.now())
+                        publishedAt: new Date(article.publishedAt || Date.now()),
+                        imageUrl: article.urlToImage || '' // NewsAPI provides 'urlToImage'
                     });
                 });
             }
@@ -321,10 +386,21 @@ class NewsService {
      * Save news items to file system
      */
     saveNewsItems(items) {
+        // Save each individual item
         items.forEach(item => {
             const filename = `news_${item.id}.json`;
             (0, fileManager_1.saveJsonToFile)(item, config_1.default.paths.news, filename);
         });
+        // Update the processed URLs index
+        const processedUrls = this.getProcessedUrls();
+        const newUrls = items.map(item => item.url).filter(url => !!url);
+        this.saveProcessedUrls([...processedUrls, ...newUrls]);
+    }
+    hasBeenProcessed(item) {
+        if (!item.url)
+            return false;
+        const processedUrls = this.getProcessedUrls();
+        return processedUrls.includes(item.url);
     }
     /**
      * Deduplicate news items by URL or title
@@ -436,6 +512,24 @@ class NewsService {
         // Trim extra whitespace
         cleanedContent = cleanedContent.trim().replace(/\s+/g, ' ');
         return cleanedContent;
+    }
+    getProcessedUrls() {
+        const indexPath = path_1.default.join(config_1.default.paths.news, 'processed_index.json');
+        if (!fs_extra_1.default.existsSync(indexPath)) {
+            return [];
+        }
+        try {
+            const indexContent = fs_extra_1.default.readFileSync(indexPath, 'utf8');
+            return JSON.parse(indexContent);
+        }
+        catch (error) {
+            logger_1.default.warn(`Failed to read processed index: ${error}`);
+            return [];
+        }
+    }
+    saveProcessedUrls(urls) {
+        const indexPath = path_1.default.join(config_1.default.paths.news, 'processed_index.json');
+        fs_extra_1.default.writeFileSync(indexPath, JSON.stringify(urls), 'utf8');
     }
     /**
      * Shuffle array using Fisher-Yates algorithm

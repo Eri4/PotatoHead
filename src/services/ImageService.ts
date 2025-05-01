@@ -49,8 +49,36 @@ export class ImageService {
             // Multi-stage approach for better results
             let imagePath: string | null = null;
 
+            // STAGE 0: Try to use the image URL directly from the news item
+            if (newsItem.imageUrl) {
+                logger.info(`STAGE 0: Trying image directly from news source: ${newsItem.imageUrl}`);
+
+                // Check if the URL is valid
+                if (!newsItem.imageUrl.startsWith('http')) {
+                    logger.warn(`Invalid image URL format: ${newsItem.imageUrl}`);
+                } else {
+                    try {
+                        const directImagePath = await this.downloadImage(newsItem.imageUrl, 'direct');
+                        logger.info(`Successfully downloaded image to: ${directImagePath}`);
+
+                        const processedDirectPath = await this.processImage(directImagePath);
+                        logger.info(`Processed image result: ${processedDirectPath || 'failed'}`);
+
+                        if (processedDirectPath) {
+                            logger.info(`Successfully used image from original news source`);
+                            imagePath = processedDirectPath;
+                        }
+                    } catch (error) {
+                        logger.warn(`Failed to use direct image from news source: ${error}`);
+                        // Continue to other stages if direct image fails
+                    }
+                }
+            } else {
+                logger.info(`No direct image URL available in news item`);
+            }
+
             // STAGE 1: Try with AI-generated search terms (highest quality)
-            if (generatedContent?.imageSearchTerms?.length > 0) {
+            if (!imagePath && generatedContent?.imageSearchTerms?.length > 0) {
                 logger.info(`STAGE 1: Trying AI-generated image search terms`);
                 const aiTerms = generatedContent.imageSearchTerms;
                 imagePath = await this.tryFetchImageWithTerms(aiTerms, newsItem.category, false);
@@ -483,6 +511,11 @@ export class ImageService {
      */
     private async downloadImage(url: string, source: string): Promise<string> {
         try {
+            // Validate URL
+            if (!url.startsWith('http')) {
+                throw new Error(`Invalid URL format: ${url}`);
+            }
+
             // Create a unique filename to prevent duplicates
             const urlHash = this.simpleHash(url);
             const filename = `${source}_${urlHash}.jpg`;
@@ -494,13 +527,16 @@ export class ImageService {
                 return imagePath;
             }
 
-            // Download with more robust settings
+            // Add more robust headers for better compatibility
             const response = await axios.get(url, {
                 responseType: 'arraybuffer',
                 timeout: 10000,  // Longer timeout
                 maxRedirects: 5, // Handle redirects
                 headers: {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                    'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.9',
+                    'Referer': url // Some sites check referer
                 },
                 // Less strict validation to handle more image sources
                 validateStatus: (status) => status < 500
@@ -509,6 +545,17 @@ export class ImageService {
             // Check if we got actual image data
             if (!response.data || response.data.length < 1000) {
                 throw new Error('Downloaded file too small or empty');
+            }
+
+            // Basic check for image format (first few bytes)
+            const firstBytes = Buffer.from(response.data).slice(0, 4).toString('hex');
+            const isImage =
+                firstBytes.startsWith('ffd8') || // JPEG
+                firstBytes.startsWith('89504e47') || // PNG
+                firstBytes.startsWith('47494638'); // GIF
+
+            if (!isImage) {
+                throw new Error('Downloaded data does not appear to be an image');
             }
 
             // Save the image

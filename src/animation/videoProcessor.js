@@ -179,7 +179,7 @@ class VideoProcessor {
                         characterImage.src = characterBuffer;
                         // Position character in the scene
                         const characterX = this.width / 2 - 200; // Center horizontally
-                        const characterY = this.height * 0.3; // Position vertically
+                        const characterY = this.height * 0.37; // Position vertically
                         // Draw character image
                         ctx.drawImage(characterImage, characterX, characterY, 400, // Width
                         500 // Height
@@ -364,13 +364,13 @@ class VideoProcessor {
         ctx.fillRect(20, 20, this.width - 40, 60);
         ctx.fillStyle = '#ffffff';
         ctx.font = 'bold 30px Arial';
-        ctx.fillText('POTATO NEWS NETWORK', 40, 60);
+        ctx.fillText('POTATO NEWS', 40, 60);
         // Headline banner
         ctx.fillStyle = '#e74c3c';
-        ctx.fillRect(0, this.height * 0.15, this.width, 40);
+        ctx.fillRect(0, this.height * 0.15, this.width, 50);
         // Headline text (truncate if needed)
         ctx.fillStyle = '#ffffff';
-        ctx.font = 'bold 22px Arial';
+        ctx.font = 'bold 24px Arial';
         // Truncate long headlines
         let displayTitle = title;
         if (ctx.measureText(displayTitle).width > this.width - 40) {
@@ -441,13 +441,14 @@ class VideoProcessor {
             ctx.fillText('RELATED CONTENT', this.width / 2, this.height * 0.8);
             ctx.textAlign = 'left';
         }
-        // Bottom banner for "BREAKING NEWS" like in screenshot
-        ctx.fillStyle = '#e74c3c'; // Bright red
-        ctx.fillRect(0, this.height - 40, this.width, 40);
-        // Banner text
-        ctx.fillStyle = '#ffffff';
-        ctx.font = 'bold 22px Arial';
-        ctx.fillText('BREAKING NEWS', 20, this.height - 15);
+        // // Bottom banner for "BREAKING NEWS" like in screenshot
+        // ctx.fillStyle = '#e74c3c'; // Bright red
+        // ctx.fillRect(0, this.height - 40, this.width, 40);
+        //
+        // // Banner text
+        // ctx.fillStyle = '#ffffff';
+        // ctx.font = 'bold 22px Arial';
+        // ctx.fillText('BREAKING NEWS', 20, this.height - 15);
     }
     /**
      * Analyze audio file to get amplitude data for better lip sync

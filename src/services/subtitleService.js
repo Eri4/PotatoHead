@@ -57,14 +57,14 @@ class SubtitleService {
     constructor() {
         // Constants for subtitle appearance and timing
         this.SUBTITLE_STYLES = {
-            // TikTok-optimized style with less intrusive display
+            // Updated default style - now placed between the lights
             default: {
                 fontName: 'Arial',
-                fontSize: 8, // Slightly smaller to take up less space
+                fontSize: 9, // Slightly larger for better readability
                 primaryColor: '&H00FFFFFF', // White text
                 bold: 1,
                 alignment: 2, // Bottom-center alignment
-                marginV: 16, // Smaller bottom margin - places subtitles higher
+                marginV: 200, // Adjust this value to position just below the desk
                 marginL: 20, // Left margin
                 spacing: 0.2, // Letter spacing
                 lineSpacing: 0.5 // Tighter line spacing
@@ -72,11 +72,11 @@ class SubtitleService {
             // Short video style - optimized for minimal intrusion
             short: {
                 fontName: 'Arial',
-                fontSize: 8, // Still readable but smaller
+                fontSize: 9,
                 primaryColor: '&H00FFFFFF',
                 bold: 1,
-                alignment: 2,
-                marginV: 14, // Even smaller margin
+                alignment: 2, // Bottom-center alignment
+                marginV: 200, // Adjust this value to position just below the desk
                 marginL: 20,
                 spacing: 0.2
             },
@@ -86,19 +86,19 @@ class SubtitleService {
                 fontSize: 10,
                 primaryColor: '&H00F0F0FF', // Slightly blue-tinted white for emphasis
                 bold: 1,
-                alignment: 2,
-                marginV: 16,
+                alignment: 2, // Bottom-center alignment
+                marginV: 200, // Adjust this value to position just below the desk
                 marginL: 20,
                 spacing: 0.5
             },
-            // Compact style for overlapping with other UI elements
+            // Compact style - keep as is for reference
             compact: {
                 fontName: 'Arial',
-                fontSize: 8, // Smaller text
+                fontSize: 8,
                 primaryColor: '&H00FFFFFF',
                 bold: 1,
-                alignment: 8, // Top-center alignment to avoid bottom UI
-                marginV: 5, // Minimal margin
+                alignment: 2, // Bottom-center alignment
+                marginV: 200, // Adjust this value to position just below the desk
                 marginL: 20,
                 spacing: 0.2
             }
@@ -151,10 +151,7 @@ class SubtitleService {
                     const normalizedSubtitlePath = subtitlePath.replace(/\\/g, '/');
                     // Select appropriate style based on video format and user preference
                     let styleKey = 'default';
-                    if (useCompactStyle) {
-                        styleKey = 'compact';
-                    }
-                    else if (isShortFormat) {
+                    if (isShortFormat) {
                         styleKey = 'short';
                     }
                     const style = this.SUBTITLE_STYLES[styleKey];

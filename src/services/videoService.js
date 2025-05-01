@@ -125,7 +125,7 @@ class VideoService {
                 // Create subtitles with smaller chunks for better timing
                 const subtitlePath = yield this.subtitleService.createSubtitles(content, audioResult, path.dirname(baseVideoResult.path), isShortFormat);
                 // Add subtitles to video
-                const subtitledVideoPath = yield this.subtitleService.addSubtitlesToVideo(baseVideoResult.path, subtitlePath, isShortFormat, false // Use default style (not compact) - change to true for more minimal subtitles
+                const subtitledVideoPath = yield this.subtitleService.addSubtitlesToVideo(baseVideoResult.path, subtitlePath, isShortFormat, true // Use default style (not compact) - change to true for more minimal subtitles
                 );
                 // Add sound effects
                 const finalVideoPath = yield this.soundEffectsService.addSoundEffectsToVideo(subtitledVideoPath, isShortFormat, content // Pass content for sentiment-based sound effects

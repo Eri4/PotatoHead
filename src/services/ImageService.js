@@ -84,8 +84,35 @@ class ImageService {
                 }
                 // Multi-stage approach for better results
                 let imagePath = null;
+                // STAGE 0: Try to use the image URL directly from the news item
+                if (newsItem.imageUrl) {
+                    logger_1.default.info(`STAGE 0: Trying image directly from news source: ${newsItem.imageUrl}`);
+                    // Check if the URL is valid
+                    if (!newsItem.imageUrl.startsWith('http')) {
+                        logger_1.default.warn(`Invalid image URL format: ${newsItem.imageUrl}`);
+                    }
+                    else {
+                        try {
+                            const directImagePath = yield this.downloadImage(newsItem.imageUrl, 'direct');
+                            logger_1.default.info(`Successfully downloaded image to: ${directImagePath}`);
+                            const processedDirectPath = yield this.processImage(directImagePath);
+                            logger_1.default.info(`Processed image result: ${processedDirectPath || 'failed'}`);
+                            if (processedDirectPath) {
+                                logger_1.default.info(`Successfully used image from original news source`);
+                                imagePath = processedDirectPath;
+                            }
+                        }
+                        catch (error) {
+                            logger_1.default.warn(`Failed to use direct image from news source: ${error}`);
+                            // Continue to other stages if direct image fails
+                        }
+                    }
+                }
+                else {
+                    logger_1.default.info(`No direct image URL available in news item`);
+                }
                 // STAGE 1: Try with AI-generated search terms (highest quality)
-                if (((_a = generatedContent === null || generatedContent === void 0 ? void 0 : generatedContent.imageSearchTerms) === null || _a === void 0 ? void 0 : _a.length) > 0) {
+                if (!imagePath && ((_a = generatedContent === null || generatedContent === void 0 ? void 0 : generatedContent.imageSearchTerms) === null || _a === void 0 ? void 0 : _a.length) > 0) {
                     logger_1.default.info(`STAGE 1: Trying AI-generated image search terms`);
                     const aiTerms = generatedContent.imageSearchTerms;
                     imagePath = yield this.tryFetchImageWithTerms(aiTerms, newsItem.category, false);
@@ -451,6 +478,10 @@ class ImageService {
     downloadImage(url, source) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
+                // Validate URL
+                if (!url.startsWith('http')) {
+                    throw new Error(`Invalid URL format: ${url}`);
+                }
                 // Create a unique filename to prevent duplicates
                 const urlHash = this.simpleHash(url);
                 const filename = `${source}_${urlHash}.jpg`;
@@ -460,13 +491,16 @@ class ImageService {
                     logger_1.default.info(`Using previously downloaded image: ${imagePath}`);
                     return imagePath;
                 }
-                // Download with more robust settings
+                // Add more robust headers for better compatibility
                 const response = yield axios_1.default.get(url, {
                     responseType: 'arraybuffer',
                     timeout: 10000, // Longer timeout
                     maxRedirects: 5, // Handle redirects
                     headers: {
                         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                        'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8',
+                        'Accept-Language': 'en-US,en;q=0.9',
+                        'Referer': url // Some sites check referer
                     },
                     // Less strict validation to handle more image sources
                     validateStatus: (status) => status < 500
@@ -474,6 +508,14 @@ class ImageService {
                 // Check if we got actual image data
                 if (!response.data || response.data.length < 1000) {
                     throw new Error('Downloaded file too small or empty');
+                }
+                // Basic check for image format (first few bytes)
+                const firstBytes = Buffer.from(response.data).slice(0, 4).toString('hex');
+                const isImage = firstBytes.startsWith('ffd8') || // JPEG
+                    firstBytes.startsWith('89504e47') || // PNG
+                    firstBytes.startsWith('47494638'); // GIF
+                if (!isImage) {
+                    throw new Error('Downloaded data does not appear to be an image');
                 }
                 // Save the image
                 fs.writeFileSync(imagePath, response.data);

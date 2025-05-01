@@ -71,9 +71,11 @@ function main() {
         // Process news immediately on startup
         yield processNewsItem();
         // Set up interval for regular processing
-        const interval = config_1.default.apis.news.fetchInterval;
-        logger_1.default.info(`Setting up news fetch interval: ${interval}ms`);
-        setInterval(processNewsItem, interval);
+        // const interval = config.apis.news.fetchInterval;
+        // logger.info(`Setting up news fetch interval: ${interval}ms`);
+        //For now no need to wait just close the server
+        // setInterval(processNewsItem, interval);
+        process.exit(1);
     });
 }
 // Start the application

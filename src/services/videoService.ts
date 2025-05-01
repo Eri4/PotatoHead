@@ -114,7 +114,7 @@ export class VideoService {
                 baseVideoResult.path,
                 subtitlePath,
                 isShortFormat,
-                false // Use default style (not compact) - change to true for more minimal subtitles
+                true // Use default style (not compact) - change to true for more minimal subtitles
             );
 
             // Add sound effects
