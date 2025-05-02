@@ -192,21 +192,59 @@ export class NewsService {
 
         // Prioritize US sources
         const curatedSources = [
-            // US sources
+            // Currently Working Sources (keep these)
             'https://www.livescience.com/feeds/all',
             'https://futurism.com/feed',
             'https://www.npr.org/rss/rss.php?id=1053',
             'https://rss.nytimes.com/services/xml/rss/nyt/Science.xml',
-            'https://www.scientificamerican.com/rss/blog/60-second-science/',
             'https://www.discovermagazine.com/rss/all',
             'https://www.vice.com/en/rss',
             'https://rss.csmonitor.com/feeds/science',
-
-            // International sources
+            'https://anomalien.com/feed/',
+            'https://www.unknowncountry.com/feed/',
+            'https://www.ancientpages.com/feed/',
             'https://www.sciencealert.com/feed',
             'https://strangesounds.org/feed',
             'https://www.odditycentral.com/feed',
-            'https://phys.org/rss-feed/space-astronomy-news/'
+            'https://phys.org/rss-feed/',
+
+            // Replacements for Scientific American (broken feed)
+            'https://www.scientificamerican.com/rss/all/', // Main feed instead of 60-second science
+
+            // Additional Weird/Mysterious/Paranormal Sources
+            'https://www.sightingsnetwork.com/feed/',
+            'https://theparanormal.ca/feed/',
+            'https://thedebrief.org/feed/',
+            'https://silvarecord.com/feed/',
+            'https://singularityhub.com/feed/',
+            'https://www.paranormalcatalog.net/feed/',
+
+            // More Science/Research Sources
+            'https://www.nature.com/nphys.rss',
+            'https://feeds.newscientist.com/science-news',
+            'https://gizmodo.com/rss',
+            'https://www.syfy.com/syfy-wire/rss.xml',
+            'https://www.extremetech.com/feed',
+
+            // Archaeology/Ancient Mysteries
+            'https://www.archaeology.org/feed',
+            'https://www.ancient-origins.net/rss-feeds',
+
+            // Unexplained/Weird News
+            'https://www.unexplained-mysteries.com/rss.php',
+            'https://www.atlasobscura.com/feeds/latest',
+            'https://www.iflscience.com/feed',
+            'https://www.newscientist.com/subject/weird-science/feed/',
+
+            // Space/Astronomy/UFOs
+            'https://www.space.com/feeds/all',
+            'https://www.universetoday.com/feed/',
+            'https://skyandtelescope.org/feed',
+
+            // Cryptids/Paranormal
+            'https://cryptidchronicles.tumblr.com/rss',
+            'https://www.cryptopia.us/feed/',
+            'https://cryptozoologynews.com/feed/'
         ];
 
         let allArticles: any[] = [];

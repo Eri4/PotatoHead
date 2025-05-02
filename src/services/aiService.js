@@ -98,26 +98,36 @@ Keep under 40-50 words total for maximum engagement. This should be ~15-20 secon
         });
     }
     buildPrompt(newsItem) {
-        return `Create a HIGHLY ADDICTIVE TikTok news announcement for PotatoHead News about this mysterious story:
+        return `Create a HIGHLY ADDICTIVE TikTok news announcement for PotatoHead News about this story:
     
 HEADLINE: ${newsItem.title}
 SOURCE: ${newsItem.source}
 CONTENT: ${newsItem.content}
     
-PROVIDE THREE OUTPUTS IN THIS FORMAT:
+First, determine if this story is FUNNY/LIGHTHEARTED or MYSTERY/UNEXPLAINED.
+
+PROVIDE THREE OUTPUTS IN EXACTLY THIS FORMAT:
 
 COMMENTARY: Your actual script for PotatoHead to read
 IMAGE_SEARCH_TERMS: 3-5 specific terms to search for a perfect image representing this story (be very specific)
 CONTENT_TYPE: one of the following: mystery, weird, unexplained, cryptid, paranormal, funny
 
 For the COMMENTARY:
-- VIRAL HOOK: Start with one of these proven TikTok attention-grabbers:
-  * "Wait until you hear WHAT just happened..."
+- VIRAL HOOK: Choose the appropriate style based on your content type determination:
+  
+  IF FUNNY/LIGHTHEARTED:
+  * "This might be the FUNNIEST thing you'll see today..."
+  * "Wait until you see what this person ACTUALLY did..."
+  * "I've never seen anything this RIDICULOUS..."
+  * "You won't BELIEVE what just happened..."
+  * Use a more playful, amused tone throughout
+
+  IF MYSTERY/UNEXPLAINED:
   * "Scientists can't explain THIS..."
   * "They tried to keep THIS hidden..."
   * "This discovery changes EVERYTHING..."
   * "No one is talking about THIS..."
-  * "I can't BELIEVE this is real..."
+  * Use a more dramatic, intrigued tone throughout
   
 - STRUCTURE FOR MAXIMUM VIEWER RETENTION:
   1. First 3 seconds: Most shocking claim phrased as a statement (NOT a question)
@@ -125,32 +135,14 @@ For the COMMENTARY:
   3. Twist element (5-10 seconds): The unexpected/bizarre aspect that creates intrigue
   4. Loop close (2-3 seconds): End with something that makes viewers want to rewatch or comment
 
-- PSYCHOLOGICAL ENGAGEMENT TECHNIQUES:
-  * Create a "curiosity gap" - reveal enough to hook but hold back key details
-  * Use "implied exclusivity" phrases like "What they don't want you to know" or "What most people miss"
-  * Include a pattern interrupt like "But wait..." or "Here's where it gets WEIRD..."
-  * End with a polarizing statement or question that prompts viewer response
-
 COMMENTARY REQUIREMENTS:
-- DO NOT include any section markers like [HOOK] or [CONTEXT] in your response
-- MUST start with the most bizarre/mysterious element immediately
+- Sound like a REAL HUMAN speaking naturally on TikTok
+- Use contractions (don't, can't, won't, etc.)
 - Include at least one word in ALL CAPS in each sentence for emphasis
 - Keep sentences extremely short (3-5 words is ideal)
 - Use "..." for strategic pauses, especially before revealing key information
 - Keep total word count under 45-55 words
-- Create a "knowledge gap" that makes viewers feel they'll miss out if they don't watch to the end
 - Use conversational, internet-savvy language that feels authentic
-- End with something that practically FORCES viewers to comment
-
-For the IMAGE_SEARCH_TERMS:
-- Include the most visually DRAMATIC elements from the story
-- Be very specific about what should be shown (e.g., "mysterious horseman in mountains at night")
-- Focus on elements that create emotional response (intrigue, fear, wonder, etc.)
-- Use the exact names of locations, creatures, or phenomena mentioned
-- Include at least one term that captures the weird/mysterious element
-
-For CONTENT_TYPE:
-- Choose the single most appropriate category based on the story content
 
 Respond AS PotatoHead. Include ALL THREE sections (COMMENTARY, IMAGE_SEARCH_TERMS, CONTENT_TYPE) in your response.`;
     }

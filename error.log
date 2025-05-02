@@ -453,3 +453,101 @@
 {"level":"error","message":"Failed to download image from https://www.tiktok.com/api/img/?itemId=7405341057510133035&location=0&aid=1988: Error: Downloaded file too small or empty","timestamp":"2025-05-01T17:59:49.292Z"}
 {"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T18:01:02.512Z"}
 {"level":"error","message":"Failed to download image from https://www.capradio.org/cdn-cgi/image/format=auto,width=780/media/12277134/dosriosedna.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:28:09.083Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:30:30.150Z"}
+{"level":"error","message":"Failed to download image from https://faroutmagazine.co.uk/static/uploads/1/2024/02/Serj-Tankian-System-of-a-Down-Singer-Musician-Far-Out-Magazine-1140x855.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:44.300Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3479690257005475108: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:46.936Z"}
+{"level":"error","message":"Failed to download image from https://www.vice.com/wp-content/uploads/sites/2/2025/04/Blue-Prince%E2%80%94-An-All-Time-Great-PuzzleMystery-Game-That-Sets-a-New-Standard-in-the-Genre.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:48.943Z"}
+{"level":"error","message":"Failed to download image from https://faroutmagazine.co.uk/static/uploads/1/2024/02/Serj-Tankian-System-of-a-Down-Singer-Musician-Far-Out-Magazine.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:49.190Z"}
+{"level":"error","message":"Failed to download image from https://www.vice.com/wp-content/uploads/sites/2/2021/09/1632833036956-gettyimages-1229234891.jpeg?w=1024: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:49.977Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3231226661637716759: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:51.984Z"}
+{"level":"error","message":"Failed to download image from https://www.vice.com/wp-content/uploads/sites/2/2025/04/Blue-Prince%E2%80%94-An-All-Time-Great-PuzzleMystery-Game-That-Sets-a-New-Standard-in-the-Genre.jpg?w=1024: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:52.390Z"}
+{"level":"error","message":"Failed to download image from https://preview.redd.it/hypnotize-and-self-titled-have-been-replaced-with-their-v0-i8dsuqnh01fe1.jpg?width=640&crop=smart&auto=webp&s=975d501e86deb84e701c373725660707ca44a432: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:53.330Z"}
+{"level":"error","message":"Failed to download image from https://www.vice.com/wp-content/uploads/sites/2/2025/04/Blue-Prince%E2%80%94-An-All-Time-Great-PuzzleMystery-Game-That-Sets-a-New-Standard-in-the-Genre.jpg?resize=2000,1028: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:53.956Z"}
+{"level":"error","message":"Failed to download image from https://townsquare.media/site/366/files/2025/04/attachment-toxicity_vanish_spotify_IG.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:30:55.258Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:33:33.368Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:35:18.781Z"}
+{"level":"error","message":"Failed to download image from https://images.newscientist.com/wp-content/uploads/2009/07/26172610/lead_gettyimages-84831348.jpg?crop=4:3,smart&width=1200&height=900&upscale=true: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:37:27.601Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:39:20.640Z"}
+{"level":"error","message":"Failed to download image from https://oceangeneration.org/wp-content/uploads/2024/04/why-marine-animals-emit-light-at-all-1024x604.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:39:32.264Z"}
+{"level":"error","message":"Failed to download image from https://www.tiktok.com/api/img/?itemId=7459096237531319595&location=0&aid=1988: Error: Downloaded file too small or empty","timestamp":"2025-05-01T20:39:33.040Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:41:47.732Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:44:05.264Z"}
+{"level":"error","message":"Failed to download image from https://wordpress-assets.futurism.com/2025/04/nasa-security-guards-tense-staff-event.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:44:15.349Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:46:10.722Z"}
+{"level":"error","message":"Failed to download image from https://www.popsci.com/wp-content/uploads/2025/05/Nut-Milky-Way-art.jpg?quality=85: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:46:22.795Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:48:57.671Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:51:11.822Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:53:19.838Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:55:07.409Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:57:05.866Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T20:58:29.979Z"}
+{"level":"error","message":"Failed to download image from https://www.odditycentral.com/wp-content/uploads/2025/04/humanoid-robot-marathon-750x422.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T20:58:39.694Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:00:35.903Z"}
+{"level":"error","message":"Failed to download image from https://www.aaas.org/sites/default/files/inline_images/hydnellum_peckii.png: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T21:00:48.789Z"}
+{"level":"error","message":"Failed to download image from https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2023/10/Psilocybin-mushrooms-growing-1296x728-header-1024x575.jpg?w=1155&h=1528: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T21:00:50.109Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:02:33.556Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:20:56.527Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:23:05.955Z"}
+{"level":"error","message":"Failed to download image from https://anomalien.com/wp-content/uploads/2025/04/vallee-300x243.jpg: Error: socket hang up","timestamp":"2025-05-01T21:34:59.655Z"}
+{"level":"error","message":"Failed to download image from https://www.hrw.org/sites/default/files/styles/16x9_large/public/media_2025/04/202504us_elsalvador_deportations_protest.jpg?h=7c20848e&itok=KN6sGto7: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T21:35:00.498Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:36:40.932Z"}
+{"level":"error","message":"Failed to download image from https://assets.vogue.com/photos/6359c9bcace561f572832997/master/w_2560%2Cc_limit/MCDSHIN_EC023.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T21:44:51.750Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:46:45.372Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:48:50.293Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///6116e4b5909ea27bc8ab284531efc23a5595cf2a60ae9f4ac29c2c1b284709a5: Error: Invalid URL format: x-raw-image:///6116e4b5909ea27bc8ab284531efc23a5595cf2a60ae9f4ac29c2c1b284709a5","timestamp":"2025-05-01T21:48:58.420Z"}
+{"level":"error","message":"Failed to download image from x-raw-image:///6116e4b5909ea27bc8ab284531efc23a5595cf2a60ae9f4ac29c2c1b284709a5: Error: Invalid URL format: x-raw-image:///6116e4b5909ea27bc8ab284531efc23a5595cf2a60ae9f4ac29c2c1b284709a5","timestamp":"2025-05-01T21:48:59.005Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:50:45.233Z"}
+{"level":"error","message":"Failed to download image from https://singularityhub.com/uploads/2025/04/nasa_spitzer_milky_way_core-1.jpeg?auto=webp&auto=webp&optimize=high&quality=70&width=1440: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T21:50:55.746Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:52:54.545Z"}
+{"level":"error","message":"Failed to download image from https://thedebrief.b-cdn.net/wp-content/uploads/2025/04/milky-seas-1-scaled.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T21:53:04.104Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:54:26.498Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:56:13.009Z"}
+{"level":"error","message":"Failed to download image from https://thedebrief.b-cdn.net/wp-content/uploads/2025/04/ISS.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-01T21:56:22.632Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:57:32.222Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T21:59:21.342Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T22:01:11.702Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-01T22:02:36.587Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:28:50.711Z"}
+{"level":"error","message":"Failed to download image from https://images.aeonmedia.co/images/cdd31d94-080b-4e96-99f6-e88eca45d280/essay-hi-res-1299129001.jpg?width=3840&quality=75&format=auto: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:29:01.562Z"}
+{"level":"error","message":"Failed to download image from http://media.newyorker.com/photos/5c2d4f4881ab3335f580f106/master/pass/190114_r33549.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:29:02.589Z"}
+{"level":"error","message":"Failed to download image from https://cdn.britannica.com/27/59027-050-A980859F/gods-Olympus-Athena-Zeus-Aphrodite-Dionysus-Hera.jpg?w=400&h=300&c=crop: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:29:03.576Z"}
+{"level":"error","message":"Failed to download image from https://images.aeonmedia.co/images/6424eb43-fd52-48da-bf7a-004eeabfff18/bw-test-gettyimages-599884719.jpg?width=3840&quality=75&format=auto: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:29:03.846Z"}
+{"level":"error","message":"Failed to download image from https://cdn.britannica.com/65/226765-138-BDEAEC84/Ancient-Greek-sports.jpg?w=800&h=450&c=crop: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:29:04.627Z"}
+{"level":"error","message":"Failed to download image from https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/ancient-elections-gettyimages-1425783906?_a=BAVAZGDX0: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:29:05.462Z"}
+{"level":"error","message":"Failed to download image from https://cdn.britannica.com/69/75569-050-7AB67C4B/herm-Socrates-half-original-Greek-Capitoline-Museums.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:29:06.481Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:31:18.544Z"}
+{"level":"error","message":"Failed to download image from https://www.universetoday.com/img/asset/YXNzZXRzL2dhaWFfc3BvdHNfb2RkX3N0YXJfZmFtaWx5X2FydGljbGUuanBn/gaia_spots_odd_star_family_article.jpg?w=1280&h=720&s=98d34abb52e850c65f8a52de3ca4b206: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:31:26.231Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:33:02.860Z"}
+{"level":"error","message":"Failed to download image from https://images.newscientist.com/wp-content/uploads/2025/04/22172206/SEI_247870880.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:33:11.864Z"}
+{"level":"error","message":"Failed to download image from https://bigthink.com/wp-content/uploads/2023/01/BT_thumb_template_mother-59.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:33:12.731Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:35:18.390Z"}
+{"level":"error","message":"Failed to download image from https://gizmodo.com/app/uploads/2025/04/Austrian-mummy.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:35:25.402Z"}
+{"level":"error","message":"Failed to download image from https://gizmodo.com/app/uploads/2025/04/full-body-mummy.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:35:26.651Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:37:00.217Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=450895994470468: Error: Downloaded file too small or empty","timestamp":"2025-05-02T13:37:12.225Z"}
+{"level":"error","message":"Failed to download image from https://preview.redd.it/wild-that-this-is-relatively-unexplored-could-this-be-v0-c7ei78egabud1.jpeg?width=640&crop=smart&auto=webp&s=b690784e2320179a4abb0f523008da3349107b53: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:37:12.953Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1065779605595148: Error: Downloaded file too small or empty","timestamp":"2025-05-02T13:37:13.169Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:39:25.946Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:40:48.999Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:43:01.179Z"}
+{"level":"error","message":"Failed to download image from https://wardblawg.com/wp-content/uploads/2024/12/Da-Vinci-Einstein-Multiverses-A-futuristic-scene-depicting-a-quantum-computing-lab-with-a-glowing-AI-chip-labeled-Willow-at-its-center-surrounded-by-holographic-projections.webp: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:43:12.064Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:45:16.773Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:46:43.648Z"}
+{"level":"error","message":"Failed to download image from https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3622267312603984516: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:52:58.099Z"}
+{"level":"error","message":"Failed to download image from https://thedebrief.b-cdn.net/wp-content/uploads/2025/04/Vesta-360x240.jpeg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:52:58.693Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:54:25.503Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:56:18.764Z"}
+{"level":"error","message":"Failed to download image from https://taschen.makaira.media/taschen/image/upload/f_webp,w_1200/v1737383582/products-live/7eb7060303304f7f7a5a9889a272d697.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:56:30.008Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:58:01.126Z"}
+{"level":"error","message":"Failed to download image from https://images.newscientist.com/wp-content/uploads/2023/07/05101215/SEI_162886126.jpg: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T13:58:10.999Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T13:59:59.187Z"}
+{"level":"error","message":"Failed to download image from https://i.cdn.newsbytesapp.com/images/l57620240924163502.png: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T14:00:08.624Z"}
+{"level":"error","message":"Failed to download image from https://science.nasa.gov/wp-content/uploads/2024/09/mars-perseverance-zl0-1268-0779507161-206eby-n0591914zcam03974-1100lmj-e1727109016576.png: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T14:00:11.737Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T14:01:55.674Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T14:03:25.625Z"}
+{"level":"error","message":"Failed to download image from https://preview.redd.it/wilds-seems-to-be-taking-a-very-grim-rugged-approach-to-its-v0-oz10p28wt85d1.png?width=640&crop=smart&auto=webp&s=bf47a4ed9801fc6e24a0356fa44b21509f26088e: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T14:03:35.085Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T14:05:32.595Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T14:07:26.893Z"}
+{"level":"error","message":"Failed to download image from https://www.quantamagazine.org/wp-content/uploads/2024/07/AphantasiaExplainer-crKristinaArmitage-Lede-scaled.webp: Error: Downloaded data does not appear to be an image","timestamp":"2025-05-02T14:07:35.732Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T14:09:28.727Z"}
+{"level":"error","message":"Error getting video duration: Error: Cannot find ffprobe","timestamp":"2025-05-02T14:11:31.732Z"}

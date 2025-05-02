@@ -104,10 +104,10 @@ class SubtitleService {
             }
         };
         // Timing parameters
-        this.MIN_SUBTITLE_DURATION = 1.2;
+        this.MIN_SUBTITLE_DURATION = 1.5;
         this.MAX_SUBTITLE_DURATION = 3.0;
-        this.INTER_SUBTITLE_PAUSE = 0.05;
-        this.BASE_READING_SPEED = 0.06;
+        this.INTER_SUBTITLE_PAUSE = 0.08;
+        this.BASE_READING_SPEED = 0.07;
         this.EMPHASIZED_WORD_PATTERN = /\b[A-Z]{2,}\b/g;
     }
     /**
@@ -337,7 +337,11 @@ class SubtitleService {
         // Scale to fit the total duration
         const scaleFactor = totalDuration / (totalRawDuration + (chunks.length - 1) * this.INTER_SUBTITLE_PAUSE);
         chunks.forEach((_, i) => {
-            distribution.push(rawDurations[i] * scaleFactor);
+            // Original calculation
+            let duration = rawDurations[i] * scaleFactor;
+            // Add a small delay factor (5-10% slower)
+            duration *= 1.08;
+            distribution.push(duration);
         });
         return distribution;
     }

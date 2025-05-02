@@ -60,10 +60,10 @@ export class SubtitleService {
     };
 
     // Timing parameters
-    private readonly MIN_SUBTITLE_DURATION = 1.2;
+    private readonly MIN_SUBTITLE_DURATION = 1.5;
     private readonly MAX_SUBTITLE_DURATION = 3.0;
-    private readonly INTER_SUBTITLE_PAUSE = 0.05;
-    private readonly BASE_READING_SPEED = 0.06;
+    private readonly INTER_SUBTITLE_PAUSE = 0.08;
+    private readonly BASE_READING_SPEED = 0.07;
     private readonly EMPHASIZED_WORD_PATTERN = /\b[A-Z]{2,}\b/g;
 
     /**
@@ -356,7 +356,13 @@ export class SubtitleService {
         const scaleFactor = totalDuration / (totalRawDuration + (chunks.length - 1) * this.INTER_SUBTITLE_PAUSE);
 
         chunks.forEach((_, i) => {
-            distribution.push(rawDurations[i] * scaleFactor);
+            // Original calculation
+            let duration = rawDurations[i] * scaleFactor;
+
+            // Add a small delay factor (5-10% slower)
+            duration *= 1.08;
+
+            distribution.push(duration);
         });
 
         return distribution;
