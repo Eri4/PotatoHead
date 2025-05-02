@@ -1,1 +1,1 @@
-Persoal project for generating at the moment news contet with animatiot and ai
+Persoal project for generating at the moment news content with animation and ai
