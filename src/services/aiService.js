@@ -52,18 +52,36 @@ ESSENTIAL STYLE ELEMENTS:
 - Use SHORT sentences (3-5 words is ideal)
 - Include at least one EMPHASIS word in ALL CAPS per sentence
 - Add occasional "dramatic pauses" with "..." for timing
-- Use subtle conversational transitions like:
-  * "And listen to this..." 
-  * "What's strange is..."
-  * "The part that doesn't add up..."
-  * "Then I learned..."
-  * "Now consider this..."
+- Instead of rigid transition phrases, use a DYNAMIC approach:
+  * Match transition style to content tone (mysterious/funny/shocking)
+  * Keep transitions ultra-brief (1-3 words)
+  * Vary your delivery pattern across videos
+  * Use natural speech patterns that feel conversational
+  
+  Examples by content type:
+  * MYSTERY: "But wait..." "The twist?" "Strangely..." "No explanation..."
+  * FUNNY: "Get this..." "Then suddenly..." "Plot twist..." "It gets worse..."
+  * SHOCKING: "Even weirder..." "Unbelievably..." "Here's proof..." "Scientists found..."
+  
+  IMPORTANT: Never use the same transition twice in one video, and try to use different transitions across videos to maintain freshness.
 - End with thought-provoking questions that feel genuine:
-  * "Does anyone else find this concerning?"
-  * "Is there something we're missing here?"
-  * "Could this actually be explained by [alternative theory]?"
-  * "Why would experts dismiss this so quickly?"
+    ENDING STRATEGY:
+    - Create an ULTRA-BRIEF 3-5 word engagement prompt that:
+      1. Uses the MINIMUM words needed to prompt a response
+      2. Contains ONE word in ALL CAPS for emphasis
+      3. Directly connects to the most UNUSUAL element of this specific story
+      4. Is impossible to reuse for other stories
+      5. Can be delivered in 1-2 seconds of speaking time
+    
+    Examples of ultra-brief endings:
+    - For UFO story: 'Seen anything SIMILAR?'
+    - For strange creature: 'WEIRDEST animal encountered?'
+    - For conspiracy: 'Sound SUSPICIOUS?'
+    - For unexplained event: 'EXPLAIN this?'
+    - For funny fail: 'Rate their SKILLS'
+    - For bizarre discovery: 'BELIEVE this?'
 
+The prompt should be the perfect conversation starter that feels natural to respond to in a comment.
 Keep under 40-50 words total for maximum engagement. This should be ~15-20 seconds when read aloud.`
                         },
                         {
@@ -104,7 +122,12 @@ HEADLINE: ${newsItem.title}
 SOURCE: ${newsItem.source}
 CONTENT: ${newsItem.content}
     
-First, determine if this story is FUNNY/LIGHTHEARTED or MYSTERY/UNEXPLAINED.
+First, determine which category this story MOST belongs to:
+- SCIENTIFIC DISCOVERY (if it describes something scientists have explained or discovered)
+- MYSTERY/UNEXPLAINED (if it describes something still unexplained or mysterious)
+- FUNNY/LIGHTHEARTED (if it's amusing, ridiculous, or light-hearted)
+
+IMPORTANT: Do NOT use "Scientists can't explain THIS..." for Scientific Discovery stories where scientists HAVE actually explained something!
 
 PROVIDE THREE OUTPUTS IN EXACTLY THIS FORMAT:
 
@@ -122,12 +145,21 @@ For the COMMENTARY:
   * "You won't BELIEVE what just happened..."
   * Use a more playful, amused tone throughout
 
+  IF SCIENTIFIC DISCOVERY:
+  * "Scientists just SOLVED a mystery..."
+  * "Researchers finally DISCOVERED..."
+  * "New study REVEALS something incredible..."
+  * "The science behind THIS is fascinating..."
+  * Use an excited, informative tone
+
   IF MYSTERY/UNEXPLAINED:
   * "Scientists can't explain THIS..."
-  * "They tried to keep THIS hidden..."
-  * "This discovery changes EVERYTHING..."
-  * "No one is talking about THIS..."
-  * Use a more dramatic, intrigued tone throughout
+  * "This phenomenon BAFFLES experts..."
+  * "No one understands HOW this happens..."
+  * "The mystery that science can't CRACK..."
+  * Use a mysterious, intrigued tone throughout
+  
+  IF YOU NEED A NEW HOOK: Create one that follows the same pattern (3-7 words with ONE emphasized word) but uses different phrasing than previous hooks. Focus on the main emotion of the story (surprise, discovery, mystery, humor, etc).
   
 - STRUCTURE FOR MAXIMUM VIEWER RETENTION:
   1. First 3 seconds: Most shocking claim phrased as a statement (NOT a question)

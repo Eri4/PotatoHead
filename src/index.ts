@@ -34,7 +34,7 @@ async function processNewsItem() {
                 // Convert to speech
                 const audioResult = await voiceService.generateSpeech(content);
 
-                // Create video with PotatoHead animation, subtitles, and sound effects
+                // Create video with PotatoHead animation, subtitles, and sound effects(this are not set for now)
                 // Pass the newsItem to use for filename formatting
                 const videoResult = await videoService.createVideoForContent(
                     content,

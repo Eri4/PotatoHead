@@ -304,6 +304,16 @@ export class SubtitleService {
     private isNaturalBreakpoint(currentWord: string, nextWord?: string): boolean {
         if (!nextWord) return true;
 
+        // Don't break after titles (Dr., Mr., Mrs., etc.)
+        if (/^(Dr|Mr|Mrs|Ms|Prof|Rev|Hon)\.$/.test(currentWord)) return false;
+
+        // Don't break after prepositions
+        const prepositions = ['in', 'on', 'at', 'by', 'for', 'with', 'to', 'from'];
+        if (prepositions.includes(currentWord.toLowerCase())) return false;
+
+        // Don't break inside quotations (simplified approach)
+        if (currentWord.includes('"') && !currentWord.endsWith('"')) return false;
+
         // End with punctuation
         if (/[,.;:!?]$/.test(currentWord)) return true;
 
